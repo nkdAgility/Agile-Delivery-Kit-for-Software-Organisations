@@ -3,8 +3,6 @@ title: Scrum Delivery Kit for Software Organisations
 layout: default
 ---
 
-# Scrum Delivery Kit for Software Organisations
-
 This content represents an SDK as a starting point with helpfull complimentary practices for building complex things.
 
 All of this content represents a baslines starting point for any Product delivery team or organisation. You can modify as needed within the bounds of your business context without breaking the core mindset.
@@ -19,7 +17,7 @@ All of this content represents a baslines starting point for any Product deliver
 - [Artifacts & Commitments](commitments.md)
 - [Metrics & Reports](metrics-reports.md)
 
-## [Practices](Practices/)
+## Practices
 
 - [Accountabilities of the Scrum Team](Practices/Accountabilities-for-the-Scrum-Team.md)
 - [Definition of Done (DOD)](Practices/Definition-of-Done-DoD.md)
@@ -27,9 +25,13 @@ All of this content represents a baslines starting point for any Product deliver
 - [Metrics & Reports](Practices/Metrics-&-Reports.md)
 - [Service Level Expectation (SLE)](Practices/Service-Level-Expectation-SLE.md)
 
-## [1 Engineering System](1ES/)
+## 1 Engineering System]
 
-## [Recipes](Recipes/)
+- TBA
+
+## Recipes
+
+- TBA
 
 ## Guides
 
@@ -43,12 +45,11 @@ All of this content represents a baslines starting point for any Product deliver
 
 ## [Complimentary Practices](ComplementaryPractices/)
 
+-TBA
 
 ## Contributing
 
 ?? TBA
 - 
-
-By [naked Agility with Martin Hinshelwood](https://nkdagility.com)
 
 
