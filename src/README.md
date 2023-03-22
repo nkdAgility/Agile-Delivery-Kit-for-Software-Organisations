@@ -44,5 +44,6 @@ All of this content represents a baslines starting point for any Product deliver
 ?? TBA
 - 
 
+By [naked Agility with Martin Hinshelwood](https://nkdagility.com)
 
 
