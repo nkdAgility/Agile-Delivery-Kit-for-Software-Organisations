@@ -15,10 +15,8 @@
         </nav>
     </div>
     <div class="container mt-5">
-        <section class="docs">
-            <div class="row">
                 <article>
-                    <div class="improve right hide-on-mobiles">
+                    <div class="text-end">
                         <a data-proofer-ignore href="https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/tree/main/src/{{ page.path }}">
                             <i class="fa fa-pencil"></i> &nbsp;Improve this page
                         </a>
@@ -26,14 +24,6 @@
                     <h1>{{ page.title }}</h1>
                     {{ content }}
                 </article>
-            </div>
-            <div class="row">
-                <div class="col">
-                    {% include docs_contents.html -%}
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </section>
     </div>
     <div class="container-fluid p-5 bg-secondary text-white text-center">
         {%- include footer.html -%}
