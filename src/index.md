@@ -19,11 +19,17 @@ All of this content represents a baslines starting point for any Product deliver
 
 ## Practices
 
-- [Accountabilities of the Scrum Team](Practices/Accountabilities-for-the-Scrum-Team.md)
-- [Definition of Done (DOD)](Practices/Definition-of-Done-DoD.md)
-- [Definition of Ready (DoR)](Practices/Definition-of-Ready-DoR.md)
-- [Metrics & Reports](Practices/Metrics-&-Reports.md)
-- [Service Level Expectation (SLE)](Practices/Service-Level-Expectation-SLE.md)
+### Core Practices
+
+- [Accountabilities of the Scrum Team](practices/core/Accountabilities-for-the-Scrum-Team.md)
+- [Definition of Done (DOD)](practices/core/Definition-of-Done-DoD.md)
+- [Definition of Ready (DoR)](practices/core/Definition-of-Ready-DoR.md)
+- [Metrics & Reports](practices/core/Metrics-Reports.md)
+- [Service Level Expectation (SLE)](practices/core/Service-Level-Expectation-SLE.md)
+
+### Complimentary Practices
+
+-TBA
 
 ## 1 Engineering System]
 
@@ -43,9 +49,6 @@ All of this content represents a baslines starting point for any Product deliver
 - [Kanban Guide](Guides/Kanban-Guide.md)
 - [Liberating Structures](Guides/Liberating-Structures.md)
 
-## Complimentary Practices
-
--TBA
 
 ## Contributing
 
