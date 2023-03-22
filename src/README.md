@@ -1,3 +1,8 @@
+---
+title: Scrum Delivery Kit for Software Organisations
+layout: default
+---
+
 # Scrum Delivery Kit for Software Organisations
 
 This content represents an SDK as a starting point with helpfull complimentary practices for building complex things.
