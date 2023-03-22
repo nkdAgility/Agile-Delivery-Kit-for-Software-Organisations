@@ -43,7 +43,7 @@ All of this content represents a baslines starting point for any Product deliver
 - [Kanban Guide](Guides/Kanban-Guide.md)
 - [Liberating Structures](Guides/Liberating-Structures.md)
 
-## [Complimentary Practices](ComplementaryPractices/)
+## Complimentary Practices
 
 -TBA
 

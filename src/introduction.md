@@ -1,13 +1,16 @@
-# Introduction to the [Company] SDK
+---
+title: Introduction to the [Company] SDK
+layout: default
+---
 
-**Courage | Focus | Commitment | Openness | Respect**
+** Courage | Focus | Commitment | Openness | Respect **
 
 Our best efforts have been made, rather than to dictate, to create a balance between autonomy required for self-management, and alignment required to maintain our business. [Always question the content here! Always!](#communities-%26-contributing) 
 
 
 The first decision that needs to be made is [Should we use Agile or Traditional Practices](/Should-we-use-Agile-or-Traditional-Practices?). To do that you need to decide what sort of work you are working on. If the work that you have is in Simple or Complicated environments, it is suitable to use traditional practices like PMI or Prince2. If your work is in a Complex or Chaotic environment then you should use an Empirical system like Scrum or Kanban.
 
-[[_TOC_]]
+{:toc}
 
 # Product Delivery
 
