@@ -6,7 +6,11 @@
 
 ### Purpose
 
-When designing a string, it is hugely important to be clear on the purpose. For the Sprint Review, the purpose is to inspect the increment that was created during the Sprint as well as to adapt the Product Backlog based on new insights, ideas, and changes that result from this inspection. The Sprint Review is about answering the question: “Based on what we learned this Sprint, what are the next steps?”. This provides valuable input for Sprint Planning.
+The purpose of the Sprint Review is to maintain transparency of the Product Backlog and the focus of the Product Goal by integrating 
+all of the changes that have happened in the product and the current business conditions since the last Sprint Review. 
+Any insights insights, ideas, and changes that result from this inspection should be immediately reflected in the Product Backlog. 
+
+The Sprint Review is about answering the question: “Based on what we learned this Sprint, what are the next steps?”. This provides valuable input for Sprint Planning.
 
 ### Overview of Flow
 

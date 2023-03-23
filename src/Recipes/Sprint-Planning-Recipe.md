@@ -9,7 +9,6 @@ Sprint Planning is about answering the question: “Based on the Product Goal an
 ![naked-Agility-Scrum-Framework-Sprint-Planning.jpg](/.attachments/naked-Agility-Scrum-Framework-Sprint-Planning-d4ad3a3b-3127-47e1-8abd-e64dd0cb248c.jpg =450x)
 
 
-
 [[_TOC_]]
 
 #Overview of Flow for Sprint Planning
