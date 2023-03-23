@@ -13,7 +13,8 @@ jobs:
 
     steps:
 
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
       
       - uses: igsekor/pyspelling-any@v1.0.4
         name: Spellcheck
