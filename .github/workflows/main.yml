@@ -1,0 +1,16 @@
+
+on:
+  push:
+    branches:
+    - main
+    
+jobs:
+  validate:
+    name: Check SDK
+    runs-on: ubuntu-18.04
+
+    steps:
+
+    - name: GitHub Spellcheck
+      uses: igsekor/pyspelling-any@v1.0.4
+
