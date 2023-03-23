@@ -11,4 +11,4 @@ Use these structures on their own, or string them together, to create engaging e
 - [15% Solution](/Guides/Liberating-Structures/15%-Solutions-\(20\).md) [15 mins]
 
 MORE
-http://www.liberatingstructures.com/
+http://liberatingstructures.com/

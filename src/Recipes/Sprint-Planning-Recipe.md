@@ -24,7 +24,7 @@ Once the Scrum Team has a Sprint Backlog they should ask themselves **"Do they f
 
 _Although Scrum Masters can certainly facilitate the Sprint Planning, there is nothing holding others back from facilitating. Since Sprint Planning is particularly important for the Developers, as they will be doing the work, it makes sense for them to also play a role;_
 
-## Sugested Flow Steps
+## Suggested Flow Steps
 
 ### Part 1: Product Owner Presents Product Vision, Product Goal, and possible Sprint Goals [~5 mins]
 
@@ -43,7 +43,7 @@ Use the Sprint Planning to make the Sprint Goal clear with “[Nine Whys](/Guide
 ![image.png](/.attachments/image-3e639903-856a-474d-a939-bbe53405a432.png =800x)
 - **Step 2: Review Team Capacity for this Sprint** - Take into account vacation, as well as known pre-booked events
 
-- **Step 3: Select Backlog Items for the current Sprint Goal** - Try “Min Specs” to help the team discover the essential work for this first day of the new Sprint. The Sprint Backlog, as defined during Sprint Planning, can be considered as the ‘Max Specs’: all the work, currently known, necessary to achieve the Sprint Goal. 
+- **Step 3: Select Backlog Items for the current Sprint Goal** - Try “Min Specs” to help the team discover the essential work for this first day of the new Sprint. The Sprint Backlog, as defined during Sprint Planning, can be considered as the ‘Max Specs': all the work, currently known, necessary to achieve the Sprint Goal. 
 
 #### Facilitation Options
 

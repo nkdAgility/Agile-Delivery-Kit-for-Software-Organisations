@@ -29,4 +29,4 @@ STEPS
 - (10 min) Invite the groups to share their most important conclusions and collect them somewhere (e.g. on a flip). Prevent this from turning into a large-group discussion by inviting everyone to focus on sharing and listening;
 
 MORE
-http://www.liberatingstructures.com/9-what-so-what-now-what-w/
+http://liberatingstructures.com/9-what-so-what-now-what-w/

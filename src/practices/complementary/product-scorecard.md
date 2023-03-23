@@ -1,5 +1,5 @@
-# Prioduct Scorecard
+# Product Scorecard
 
-The purpose of th
+The purpose of the
 
 

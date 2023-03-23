@@ -18,4 +18,4 @@ Based on the Sprint Goal, what questions, expectations, and considerations come 
 
 ## More
 
-http://www.liberatingstructures.com/2-impromptu-networking/
+http://liberatingstructures.com/2-impromptu-networking/

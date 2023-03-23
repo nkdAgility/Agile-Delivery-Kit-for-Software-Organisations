@@ -23,4 +23,4 @@ TIPS
 
 MORE
 
-http://www.liberatingstructures.com/7-15-solutions/
+http://liberatingstructures.com/7-15-solutions/

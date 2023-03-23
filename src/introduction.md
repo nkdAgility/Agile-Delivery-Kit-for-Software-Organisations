@@ -67,14 +67,14 @@ Answer: [Scaling Scrum](/Scaling-Scrum.md)
 
 This content is not and will never be perfect. We will always have to revisit, debate, and update this content based on our experiences and knowledge. 
 
-_You can join the [Lean-Agile Community](https://community.nkdagility.com) in Mighty Networks and collaborate with other like minded indeviduals.
+_You can join the [Lean-Agile Community](https://community.nkdagility.com) in Mighty Networks and collaborate with other like minded individuals.
 
-See a list of [Comminity Events](/Community-Events) to join!
+See a list of [Community Events](/Community-Events) to join!
 
 
 ## Current Stewardship 
 
-Name: [Martin Hinshelwood](https://www.linkedin.com/in/martinhinshelwood/)
+Name: [Martin Hinshelwood](https://linkedin.com/in/martinhinshelwood/)
 Email: [martin@nkdagility.com](mailto:martin@nkdagility.com)
 Chat : martin@nkdagility.com in teams.
 
