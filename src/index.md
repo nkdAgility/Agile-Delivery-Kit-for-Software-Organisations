@@ -3,7 +3,7 @@ title: Scrum Delivery Kit for Software Organisations
 layout: default
 ---
 
-This content represents an SDK as a starting point with helpfull complimentary practices for building complex things.
+This content represents an SDK as a starting point with helpful complimentary practices for building complex things.
 
 All of this content represents a baslines starting point for any Product delivery team or organisation. You can modify as needed within the bounds of your business context without breaking the core mindset.
 
