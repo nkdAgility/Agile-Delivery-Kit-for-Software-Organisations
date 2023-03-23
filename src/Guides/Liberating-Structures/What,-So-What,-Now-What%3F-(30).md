@@ -1,3 +1,8 @@
+---
+title: What, So What, Now What? (30m)
+layout: default
+---
+
 PURPOSE
 Together, Look Back on Progress to Date and Decide What Adjustments Are Needed
 

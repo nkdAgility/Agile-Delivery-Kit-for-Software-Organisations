@@ -1,3 +1,8 @@
+---
+title: 15% Solution (20m)
+layout: default
+---
+
 PURPOSE
 
 Discover and focus on what each person has the freedom and resources to Do now

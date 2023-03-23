@@ -1,4 +1,8 @@
-# Impromptu Networking (15m)
+---
+title: Impromptu Networking (15m)
+layout: default
+---
+
 ## Purpose
 Rapidly Share Challenges and Expectations, Build New Connections
 

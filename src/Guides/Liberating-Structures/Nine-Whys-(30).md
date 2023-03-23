@@ -1,10 +1,15 @@
-##PURPOSE
+---
+title: Nine Whys (30m)
+layout: default
+---
+
+## PURPOSE
 Make the Purpose of Your Work Together Clear
 
-##INVITATION
+## INVITATION
 Make a list of the activities that make up your work and/or the people that you work with
 
-##STEPS
+## STEPS
 - (5 min) Make a list of the things you do in your work and/or the people ;
 - (10 min) Form pairs and interview each other in turns. Ask:
   - Why are those things (or a specific thing) important to you, personally;

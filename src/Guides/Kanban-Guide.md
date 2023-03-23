@@ -1,3 +1,8 @@
+---
+title: Kanban Guide
+layout: default
+---
+
 This guide contains the minimum set of rules for Kanban. Any use of the word Kanban in this document specifically means the holistic set of concepts contained in this guide.
 
 By reducing Kanban to its essential components, the hope is that this guide will be a unifying reference for the community. By building upon Kanban fundamentals, the strategy presented here can accommodate the full spectrum of value delivery and organizational challenges.

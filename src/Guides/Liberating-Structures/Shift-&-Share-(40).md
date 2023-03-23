@@ -1,3 +1,8 @@
+---
+title: Shift & Share (40m)
+layout: default
+---
+
 PURPOSE
 Spread Good Ideas and Make Informal Connections with Innovators
 

@@ -1,5 +1,9 @@
-# The Scrum Guide
-NOTE: Extracted from https://www.scrumguides.org/
+---
+title: The Scrum Guide
+layout: default
+---
+
+NOTE: Extracted from https://scrumguides.org/
 
 - [The Scrum Guide](#the-scrum-guide)
   - [Purpose of the Scrum Guide](#purpose-of-the-scrum-guide)
