@@ -20,16 +20,7 @@ jobs:
       - uses: igsekor/pyspelling-any@v1.0.4
         id: spellcheck
         name: Spellcheck
-
-      - name: comment-pr
-        # You may pin to the exact commit or the version.
-        # uses: JoseThen/comment-pr@3c5fefaced3d2a8d0d9eb857b241d983386d581f
-        uses: JoseThen/comment-pr@v1.1.1
-        with:
-            # Comment you would like to post
-            comment: ${{ steps.spellcheck.outputs }}
-            # JSON Code Comment you would like to post
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
 
       - name: PR Comment
         # You may pin to the exact commit or the version.

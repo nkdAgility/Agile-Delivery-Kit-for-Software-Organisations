@@ -41,9 +41,9 @@ Use the Sprint Planning to make the Sprint Goal clear with “[Nine Whys](/Guide
 
 - **Step 1: Review the current Throughput Run Chart & Monte Carlo How Many** - This will give the team an indication of the number of items that they can expect to deliver during this Sprint.
 ![image.png](/.attachments/image-3e639903-856a-474d-a939-bbe53405a432.png =800x)
-- **Step 2: Review Team Capacity for this Sprint** - Take into account vacation, as well as known prebooked events
+- **Step 2: Review Team Capacity for this Sprint** - Take into account vacation, as well as known pre-booked events
 
-- **Step 3: Select Backlog Items for the current Sprint Goal** - Try “Min Specs” to help the team discover the essential work for this first day of the new Sprint. The Sprint Backlog, as defined during Sprint Planning, can be considered as the ‘Max Specs’: all the work, currently known, necessary to achieve the Sprint Goal. 
+- **Step 3: Select Backlog Items for the current Sprint Goal** - Try “Min Specs” to help the team discover the essential work for this first day of the new Sprint. The Sprint Backlog, as defined during Sprint Planning, can be considered as the ‘Max Specs': all the work, currently known, necessary to achieve the Sprint Goal. 
 
 #### Facilitation Options
 
