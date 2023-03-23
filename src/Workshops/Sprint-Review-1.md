@@ -10,7 +10,7 @@ When designing a string, it is hugely important to be clear on the purpose. For 
 
 ### Overview of Flow
 
-This workshop leverages [Liberating Structures](https://www.liberatingstructures.com/) and consists of the following string:
+This workshop leverages [Liberating Structures](https://liberatingstructures.com/) and consists of the following string:
 
 - After the opening, we’ll use [Impromptu Networking](/Project-Management/Agile-Ways-of-Working/Guides-&-WhitePapers/Liberating-Structures/Impromptu-Networking-\(15\)) to clarify what people are expecting and hoping for during this Sprint Review;
 - We then create an opportunity for inspection of the increment and other relevant topics, together with stakeholders, during a [Shift & Share](/Project-Management/Agile-Ways-of-Working/Guides-&-WhitePapers/Liberating-Structures/Shift-&-Share-\(40\))

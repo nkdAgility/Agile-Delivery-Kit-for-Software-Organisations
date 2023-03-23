@@ -10,7 +10,7 @@ Purpose of the Nexus Guide
 
 Product delivery is complex, and the integration of product development work into a valuable product requires coordinating many diverse activities. Nexus is a framework for developing and sustaining scaled product delivery initiatives. It builds upon Scrum, extending it only where absolutely necessary to minimize and manage dependencies between multiple Scrum Teams while promoting empiricism and the Scrum Values.
 
-The Nexus framework inherits the purpose and intent of the Scrum framework as documented in the Scrum Guide ([www.scrumguides.org](http://www.scrumguides.org).) Scaled Scrum is still Scrum. Nexus does not change the core design or ideas of Scrum, or leave out elements, or negate the rules of Scrum. Doing so covers up problems and limits the benefits of Scrum, potentially even rendering it useless.
+The Nexus framework inherits the purpose and intent of the Scrum framework as documented in the Scrum Guide ([scrumguides.org](http://scrumguides.org).) Scaled Scrum is still Scrum. Nexus does not change the core design or ideas of Scrum, or leave out elements, or negate the rules of Scrum. Doing so covers up problems and limits the benefits of Scrum, potentially even rendering it useless.
 
 This Guide contains the definition of Nexus. Each element of the framework serves a specific purpose that is essential to help teams and organizations scale the benefits of Scrum with multiple teams working together.
 
@@ -159,7 +159,7 @@ A Nexus Sprint Backlog is the composite of the Nexus Sprint Goal and Product Bac
 
 ### Commitment: Nexus Sprint Goal
 
-The _commitment_ for the Nexus Sprint Backlog isthe **Nexus Sprint Goal**. The Nexus Sprint Goal is a single objective for the Nexus. It is the sum of all the work and Sprint Goals of the Scrum Teams within the Nexus. It creates coherence and focus for the Nexus for the Sprint by encouraging the Scrum Teams to work together rather than on separate initiatives. The Nexus Sprint Goal is created at the Nexus Sprint Planning event and added to the Nexus Sprint Backlog. As Scrum Teams work during the Sprint, they keep the Nexus Sprint Goal in mind. The Nexus should demonstrate the valuable and useful functionality that is done to achieve the Nexus Sprint Goal at the Nexus Sprint Review in order to receive stakeholder feedback.
+The _commitment_ for the Nexus Sprint Backlog is the **Nexus Sprint Goal**. The Nexus Sprint Goal is a single objective for the Nexus. It is the sum of all the work and Sprint Goals of the Scrum Teams within the Nexus. It creates coherence and focus for the Nexus for the Sprint by encouraging the Scrum Teams to work together rather than on separate initiatives. The Nexus Sprint Goal is created at the Nexus Sprint Planning event and added to the Nexus Sprint Backlog. As Scrum Teams work during the Sprint, they keep the Nexus Sprint Goal in mind. The Nexus should demonstrate the valuable and useful functionality that is done to achieve the Nexus Sprint Goal at the Nexus Sprint Review in order to receive stakeholder feedback.
 
 Integrated Increment
 --------------------

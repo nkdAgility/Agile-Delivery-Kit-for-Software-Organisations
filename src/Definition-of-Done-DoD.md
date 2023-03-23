@@ -28,7 +28,7 @@ When the Product Backlog item or an Increment is described as Done, everyone mus
 
 An explicit and concrete Definition of Done may seem small, but it can be the most critical checkpoint of work in Scrum. Without a consistent meaning of Done, velocity cannot be estimated. Conversely, a common Definition of Done ensures that the Increment produced at the end of Sprint is of high quality, with minimal defects. The Definition of Done is the soul of Scrum, and mature Developers will resist demonstrating at the Sprint Review (let alone deploying) any increment that is not Done.
 
-Relesable
+Releasable
 ---------
 
 A releasable product is one that has been designed, developed and tested and is therefore ready for distribution to anyone in the organisation for review or even to any external stakeholder. This isn't a prototype or a demo-only release. This is ready for production. Adhering to a list of acceptance criteria ensures that the Increment is truly releasable, meaning:

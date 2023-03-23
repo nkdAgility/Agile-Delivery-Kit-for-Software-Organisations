@@ -1,6 +1,6 @@
 # Accountabilities
 
-For [Company] to be sucessfull there are a number of accountabilities that need to be fulfilled. These accountabilities can be shared, or fulfilled by a single person, but they must be distinct and be implemented.
+For [Company] to be successful there are a number of accountabilities that need to be fulfilled. These accountabilities can be shared, or fulfilled by a single person, but they must be distinct and be implemented.
 
 - [Accountabilities](#accountabilities)
   - [Organisational Services](#organisational-services)

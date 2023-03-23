@@ -25,7 +25,7 @@ Feel free to show your real data, this is a visualization of a typical scrum tea
 - Day 4: Everything started, nothing done
 - Day 6: Still everything started, nothing done
 - Day 8: Still everything started, nothing done
-- Day 10: Just in time! Majic
+- Day 10: Just in time! Magic
 - Burndown: Looks good, but was it...
 
 #### Part 2: Coin Game

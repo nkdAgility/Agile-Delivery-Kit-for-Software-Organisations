@@ -45,7 +45,7 @@ While the working agreement should be run as a workshop
   - Provide Goals – The customer commits to provide; a Product Vision as the Strategic goal, a Product Goal as an Intermediate Strategic Goal, and each sprint a Sprint Goal as an Intermediate Tactical Goal.
   - Attend a Sprint Review – The Customer agrees that they will provide the necessary attendees for the Sprint Review to allow a Review regarding What has been created and not, Progress towards the Product Goal, Likely release dates, Budget and Progress.
 
-Perhaps we need to look at an early conversation with customers around a working agreement to understand the tradeoffs and ramifications…
+Perhaps we need to look at an early conversation with customers around a working agreement to understand the trade-offs and ramifications…
 
 
 ### Working Agreement Workshop

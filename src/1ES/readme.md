@@ -13,7 +13,7 @@ Currently, as [Company] the primary tools for 1ES are:
 
 -   Azure Repos
 
--   Azure Pipelnes
+-   Azure Pipelines
 
 \#\#Other Tools
 
