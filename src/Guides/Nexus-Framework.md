@@ -10,7 +10,7 @@ Purpose of the Nexus Guide
 
 Product delivery is complex, and the integration of product development work into a valuable product requires coordinating many diverse activities. Nexus is a framework for developing and sustaining scaled product delivery initiatives. It builds upon Scrum, extending it only where absolutely necessary to minimize and manage dependencies between multiple Scrum Teams while promoting empiricism and the Scrum Values.
 
-The Nexus framework inherits the purpose and intent of the Scrum framework as documented in the Scrum Guide ([www.scrumguides.org](http://www.scrumguides.org).) Scaled Scrum is still Scrum. Nexus does not change the core design or ideas of Scrum, or leave out elements, or negate the rules of Scrum. Doing so covers up problems and limits the benefits of Scrum, potentially even rendering it useless.
+The Nexus framework inherits the purpose and intent of the Scrum framework as documented in the Scrum Guide ([scrumguides.org](http://scrumguides.org).) Scaled Scrum is still Scrum. Nexus does not change the core design or ideas of Scrum, or leave out elements, or negate the rules of Scrum. Doing so covers up problems and limits the benefits of Scrum, potentially even rendering it useless.
 
 This Guide contains the definition of Nexus. Each element of the framework serves a specific purpose that is essential to help teams and organizations scale the benefits of Scrum with multiple teams working together.
 
@@ -22,12 +22,12 @@ Nexus Definition
 
 A Nexus is a group of approximately three to nine Scrum Teams that work together to deliver a single product; it is a connection between people and things. A Nexus has a single Product Owner who manages a single Product Backlog from which the Scrum Teams work.
 
-The Nexus framework defines the accountabilities, events, and artifacts that bind and weave together the work of the Scrum Teams in a Nexus. Nexus builds upon Scrum’s foundation, and its parts will be familiar to those who have used Scrum. It minimally extends the Scrum framework only where absolutely necessary to enable multiple teams to work from a single Product Backlog to build an Integrated Increment that meets a goal. 
+The Nexus framework defines the accountabilities, events, and artifacts that bind and weave together the work of the Scrum Teams in a Nexus. Nexus builds upon Scrum's foundation, and its parts will be familiar to those who have used Scrum. It minimally extends the Scrum framework only where absolutely necessary to enable multiple teams to work from a single Product Backlog to build an Integrated Increment that meets a goal. 
 
 Nexus Theory 
 =============
 
-At its heart, Nexus seeks to preserve and enhance Scrum’s foundational bottom-up intelligence and empiricism while enabling a group of Scrum Teams to deliver more value than can be achieved by a single team. The goal of Nexus is to scale the value that a group of Scrum Teams, working on a single product, is able to deliver. It does this by reducing the complexity that those teams encounter as they collaborate to deliver an integrated, valuable, useful product Increment at least once every Sprint.
+At its heart, Nexus seeks to preserve and enhance Scrum's foundational bottom-up intelligence and empiricism while enabling a group of Scrum Teams to deliver more value than can be achieved by a single team. The goal of Nexus is to scale the value that a group of Scrum Teams, working on a single product, is able to deliver. It does this by reducing the complexity that those teams encounter as they collaborate to deliver an integrated, valuable, useful product Increment at least once every Sprint.
 
 The Nexus Framework helps teams solve common scaling challenges like reducing cross-team dependencies, preserving team self-management and transparency, and ensuring accountability. Nexus helps to make transparent dependencies. These dependencies are often caused by mismatches related to: 
 
@@ -61,7 +61,7 @@ Nexus Integration Team 
 
 The Nexus Integration Team is accountable for ensuring that a done Integrated Increment (the combined work completed by a Nexus) is produced at least once a Sprint. It provides the focus that makes possible the accountability of multiple Scrum Teams to come together to create valuable, useful Increments, as prescribed in Scrum.
 
-While Scrum Teams address integration issues within the Nexus, the Nexus Integration Team provides a focal point of integration for the Nexus. Integration includes addressing technical and non-technical cross-functional team constraints that may impede a Nexus’ ability to deliver a constantly Integrated Increment. It should use bottom-up intelligence from within the Nexus to achieve resolution.
+While Scrum Teams address integration issues within the Nexus, the Nexus Integration Team provides a focal point of integration for the Nexus. Integration includes addressing technical and non-technical cross-functional team constraints that may impede a Nexus' ability to deliver a constantly Integrated Increment. It should use bottom-up intelligence from within the Nexus to achieve resolution.
 
 The Product Owner, a Scrum Master, and the appropriate members from the Scrum Teams belong to the Nexus Integration Team. Appropriate members are the people with the necessary skills and knowledge to help resolve the issues the Nexus faces at any point in time. Composition of the Nexus Integration Team may change over time to reflect the current needs of a Nexus. Common activities the Nexus Integration Team might perform include coaching, consulting, and highlighting awareness of dependencies and cross-team issues.
 
@@ -69,7 +69,7 @@ The Nexus Integration Team consists of:
 
 *   **The Product Owner:** A Nexus works off a single Product Backlog, and as described in Scrum, a Product Backlog has a single Product Owner who has the final say on its contents. The Product Owner is accountable for maximizing the value of the product and the work performed and integrated by the Scrum Teams in a Nexus. The Product Owner is also accountable for effective Product Backlog management. How this is done may vary widely across organizations, Nexuses, Scrum Teams, and individuals. 
 *   **A Scrum Master:** The Scrum Master in the Nexus Integration Team is accountable for ensuring the Nexus framework is understood and enacted as described in the Nexus Guide. This Scrum Master may also be a Scrum Master in one or more of the Scrum Teams in the Nexus. 
-*   **One or more****Nexus Integration Team Members:** The Nexus Integration Team often consists of Scrum Team members who help the Scrum Teams to adopt tools and practices that contribute to the Scrum Teams’ ability to deliver a valuable and useful Integrated Increment that frequently meets the Definition of Done.
+*   **One or more****Nexus Integration Team Members:** The Nexus Integration Team often consists of Scrum Team members who help the Scrum Teams to adopt tools and practices that contribute to the Scrum Teams' ability to deliver a valuable and useful Integrated Increment that frequently meets the Definition of Done.
 
 The Nexus Integration Team is responsible for coaching and guiding the Scrum Teams to acquire, implement, and learn practices and tools that improve their ability to produce a valuable, useful Increment.
 
@@ -118,9 +118,9 @@ The result of Nexus Sprint Planning is:
 Nexus Daily Scrum
 -----------------
 
-The purpose of the Nexus Daily Scrum is to identify any integration issues and inspect progress toward the Nexus Sprint Goal. Appropriate representatives from the Scrum Teams attend the Nexus Daily Scrum, inspect the current state of the integrated Increment, and identify integration issues and newly discovered cross-team dependencies or impacts. Each Scrum Team’s Daily Scrum complements the Nexus Daily Scrum by creating plans for the day, focused primarily on addressing the integration issues raised during the Nexus Daily Scrum. 
+The purpose of the Nexus Daily Scrum is to identify any integration issues and inspect progress toward the Nexus Sprint Goal. Appropriate representatives from the Scrum Teams attend the Nexus Daily Scrum, inspect the current state of the integrated Increment, and identify integration issues and newly discovered cross-team dependencies or impacts. Each Scrum Team's Daily Scrum complements the Nexus Daily Scrum by creating plans for the day, focused primarily on addressing the integration issues raised during the Nexus Daily Scrum. 
 
-The Nexus Daily Scrum is not the only time Scrum Teams in the Nexus are allowed to adjust their plan. Cross-team communication can occur throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint’s work.
+The Nexus Daily Scrum is not the only time Scrum Teams in the Nexus are allowed to adjust their plan. Cross-team communication can occur throughout the day for more detailed discussions about adapting or re-planning the rest of the Sprint's work.
 
 Nexus Sprint Review
 -------------------
@@ -132,7 +132,7 @@ Since the entire Integrated Increment is the focus for capturing feedback from s
 Nexus Sprint Retrospective
 --------------------------
 
-The purpose of the Nexus Sprint Retrospective is to plan ways to increase quality and effectiveness across the whole Nexus. The Nexus inspects how the last Sprint went with regards to individuals, teams, interactions, processes, tools, and its Definition of Done. In addition to individual team improvements, the Scrum Teams’ Sprint Retrospectives complement the Nexus Sprint Retrospective by using bottom-up intelligence to focus on issues that affect the Nexus as a whole.
+The purpose of the Nexus Sprint Retrospective is to plan ways to increase quality and effectiveness across the whole Nexus. The Nexus inspects how the last Sprint went with regards to individuals, teams, interactions, processes, tools, and its Definition of Done. In addition to individual team improvements, the Scrum Teams' Sprint Retrospectives complement the Nexus Sprint Retrospective by using bottom-up intelligence to focus on issues that affect the Nexus as a whole.
 
 The Nexus Sprint Retrospective concludes the Sprint.
 
@@ -159,7 +159,7 @@ A Nexus Sprint Backlog is the composite of the Nexus Sprint Goal and Product Bac
 
 ### Commitment: Nexus Sprint Goal
 
-The _commitment_ for the Nexus Sprint Backlog isthe **Nexus Sprint Goal**. The Nexus Sprint Goal is a single objective for the Nexus. It is the sum of all the work and Sprint Goals of the Scrum Teams within the Nexus. It creates coherence and focus for the Nexus for the Sprint by encouraging the Scrum Teams to work together rather than on separate initiatives. The Nexus Sprint Goal is created at the Nexus Sprint Planning event and added to the Nexus Sprint Backlog. As Scrum Teams work during the Sprint, they keep the Nexus Sprint Goal in mind. The Nexus should demonstrate the valuable and useful functionality that is done to achieve the Nexus Sprint Goal at the Nexus Sprint Review in order to receive stakeholder feedback.
+The _commitment_ for the Nexus Sprint Backlog is the **Nexus Sprint Goal**. The Nexus Sprint Goal is a single objective for the Nexus. It is the sum of all the work and Sprint Goals of the Scrum Teams within the Nexus. It creates coherence and focus for the Nexus for the Sprint by encouraging the Scrum Teams to work together rather than on separate initiatives. The Nexus Sprint Goal is created at the Nexus Sprint Planning event and added to the Nexus Sprint Backlog. As Scrum Teams work during the Sprint, they keep the Nexus Sprint Goal in mind. The Nexus should demonstrate the valuable and useful functionality that is done to achieve the Nexus Sprint Goal at the Nexus Sprint Review in order to receive stakeholder feedback.
 
 Integrated Increment
 --------------------

@@ -65,7 +65,7 @@ Based on our historical data and our [Service Level Expectation (SLE)](/Project-
 
 ![image.png](/.attachments/image-611005a5-c612-4542-961b-10515af2c30b.png)
 
-Use a **Monte Carlo How Many** or **Monte Carlo When**n to answer Stakeholder questions like "What will I get by XX/XX/XXXX?" and "When will item x be completed?" As this is calculated using your team's historical data you will need to discuss the [Service Level Expectation](/Project-Management/Agile-Ways-of-Working/Core-Practices/Service-Level-Expectation-\(SLE\)) for the Team(s).
+Use a **Monte Carlo How Many** or **Monte Carlo When**n to answer Stakeholder questions like "What will I get by 23/01/2024?" and "When will item x be completed?" As this is calculated using your team's historical data you will need to discuss the [Service Level Expectation](/Project-Management/Agile-Ways-of-Working/Core-Practices/Service-Level-Expectation-\(SLE\)) for the Team(s).
 
 ### Part 7: Compliance Summery [10 mins]
 

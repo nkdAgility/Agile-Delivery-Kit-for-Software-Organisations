@@ -21,7 +21,8 @@ jobs:
         id: spellcheck
         name: Spellcheck
 
-      - name: PR Comment
+      - name: PR Comment on failure only
+        if: failure()
         # You may pin to the exact commit or the version.
         # uses: github-actions-up-and-running/pr-comment@f1f8ab2bf00dce6880a369ce08758a60c61d6c0b
         uses: github-actions-up-and-running/pr-comment@v1.0.1
@@ -29,4 +30,4 @@ jobs:
           # GITHUB_TOKEN secret
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           # Message to comment
-          message: ${{ jobs.validate.steps.spellcheck.outputs }}
+          message: "spell check failed check: https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/actions/workflows/main.yml" # ${{ steps.spellcheck.outputs }}

@@ -14,7 +14,7 @@ The Developers review their progress towards the Sprint Goal. They should active
 
 _Although Scrum Masters can certainly facilitate the Daily Scrum, it should be the Developers that own this event and facilitate it.;_
 
-##Sugested Flow Steps
+##Suggested Flow Steps
 
 ###Part 1: Review the Work in Process [~5 mins]
 

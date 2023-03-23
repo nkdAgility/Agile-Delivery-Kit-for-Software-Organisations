@@ -5,4 +5,4 @@ By measuring current conditions, setting performance goals, forming small experi
 
 This Guide defines EBM, its concepts, and its application.
 
-[Read The Evidence-Based Management Guide](https://www.scrum.org/resources/evidence-based-management-guide)
+[Read The Evidence-Based Management Guide](https://scrum.org/resources/evidence-based-management-guide)

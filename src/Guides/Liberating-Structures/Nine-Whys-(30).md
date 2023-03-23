@@ -22,4 +22,4 @@ Make a list of the activities that make up your work and/or the people that you 
 - When in your work might it be beneficial to generate those kinds of outputs?
 
 ## MORE
-http://www.liberatingstructures.com/3-nine-whys/
+http://liberatingstructures.com/3-nine-whys/

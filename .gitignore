@@ -332,7 +332,7 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-# OpenCover UI analysis results
+# OpenCover UX analysis results
 OpenCover/
 
 # Azure Stream Analytics local run output

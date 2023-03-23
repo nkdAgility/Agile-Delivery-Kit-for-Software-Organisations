@@ -13,7 +13,7 @@ Here are the key metrics that should be collected and made transparent for every
 
 - **Customer Satisfaction** - Some form of sentiment analysis to help gauge customer engagement and happiness with the product.
 - **Employee Satisfaction** - Some form of sentiment analysis to help gauge employee engagement, energy, and enthusiasm.
-- **Defect Trend** - Measurement of change in defects since the last measurement. A defect is anything that reduces the value of the product to a customer, user, or to the organization itself. Defects are generally things that don’t work as intended.
+- **Defect Trend** - Measurement of change in defects since the last measurement. A defect is anything that reduces the value of the product to a customer, user, or to the organization itself. Defects are generally things that don't work as intended.
 - **Mean Time to Repair** - The average amount of time it takes from when an error is detected and when it is fixed. This helps reveal the efficiency of an organization to fix an error.
 - **Release Stabilization** - The time spent correcting product problems between the point the developers say it is ready to release and the point where it is actually released to customers. This helps represent the impact of poor development practices and underlying design and codebase.
 - **Deployment / Release Frequency** - The number of releases per time period, e.g. continuously, daily, weekly, monthly, quarterly, etc. This helps reflect the time needed to satisfy the customer with new and competitive products.
