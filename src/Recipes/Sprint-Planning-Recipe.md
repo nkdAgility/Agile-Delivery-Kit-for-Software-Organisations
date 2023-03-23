@@ -24,7 +24,7 @@ Once the Scrum Team has a Sprint Backlog they should ask themselves **"Do they f
 
 _Although Scrum Masters can certainly facilitate the Sprint Planning, there is nothing holding others back from facilitating. Since Sprint Planning is particularly important for the Developers, as they will be doing the work, it makes sense for them to also play a role;_
 
-## Sugested Flow Steps
+## Suggested Flow Steps
 
 ### Part 1: Product Owner Presents Product Vision, Product Goal, and possible Sprint Goals [~5 mins]
 

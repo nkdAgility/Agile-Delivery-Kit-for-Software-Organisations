@@ -14,7 +14,7 @@ The first decision that needs to be made is [Should we use Agile or Traditional 
 
 # Product Delivery
 
-In the Product Delivery world, we operate in a complicated environment where we deliver many easily understood items to the customer; the outcome is known. This may be Support Tickets, a Software Factory, or another prebuilt system that we are deploying or configuring. For this type of work, we should follow [flow-based techniques](/Guides/Kanban-Guide) to model our current process, and then optimise for output; more stuff. 
+In the Product Delivery world, we operate in a complicated environment where we deliver many easily understood items to the customer; the outcome is known. This may be Support Tickets, a Software Factory, or another pre-built system that we are deploying or configuring. For this type of work, we should follow [flow-based techniques](/Guides/Kanban-Guide) to model our current process, and then optimise for output; more stuff. 
 
 **Risk Management:** Risk here is managed by more control; lists of risks and mitigating actions.
 
@@ -47,7 +47,7 @@ Answer: [Scaling Scrum](/Scaling-Scrum.md)
 
 # Overview of Content
 
-- [Engaging with Customers](/Engaging-with-Customers.md) - Including a presales agile mindset is imperative to enabling business agility.
+- [Engaging with Customers](/Engaging-with-Customers.md) - Including a pre-sales agile mindset is imperative to enabling business agility.
 - [One Engineering System](/One-Engineering-System-%2D-1ES-\(Tools\)) - We want our teams to focus on the business problem, and not on getting used to a new set of tools. 1ES provides a single recommended toolset that provides a DevOps orchestration layer that includes Work Items, Code Repositories, Build / Release.
 - [Learning & Development](/Learning-&-Development.md) - What should I focus on learning to increase my agile mindset.
 - [Core Practices](/Core-Practices) - These practices are key to our ways of working are part of the alignment across the organisation.

@@ -9,9 +9,12 @@ timeboxes
 timebox
 timeboxed
 PBI
+PBI's
 EBM
 Kanban
 UX
+UI
+TOC
 NORTHWIND
 CONTOSO
 DEV
@@ -39,3 +42,6 @@ inspectable
 impactful
 http
 liberatingstructures
+pre
+hoc
+scrumguides
