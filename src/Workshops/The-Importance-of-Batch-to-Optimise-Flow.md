@@ -35,7 +35,7 @@ Feel free to show your real data, this is a visualization of a typical scrum tea
    1. When the customer starts the timer, the first team member changes the colour of each coin individually to their colour. 
    2. Once all coins have changed to the relevant colour, then the first team member can move the whole batch to the second team member. The second team member changes the colour of each coin individually to their colour and once all coins have changed, move the coins over to the third team member, and so on. 
    3. When the last team member is done changing the colour of each coin, he/she passes the full batch back to the customer. 
-   4. The customer stops the time when he/ she has received the full batch and add the 'score' to the board on the right. 
+   4. The customer stops the time when he/she has received the full batch and add the 'score' to the board on the right. 
 
 Note: Before you start, estimate how long it will take to get the full batch of coins from the first team member all the way to the customer. Add your estimate to the board on the right
 
@@ -43,7 +43,7 @@ Note: Before you start, estimate how long it will take to get the full batch of 
  - **Round 2 Instructions - work in batches of 5**
 
    1.  When the customer starts the timer, the first team member changes the colour of each coin individually to their colour. 
-   2. Once 5 coins have been changed to the relevant colour, then the first team member can move those 5 coins to the second team member, and starts the next batch of 5 coins and so on. The 2nd team member changes the colour of each coin individually to their colour, and once they have a batch of 5 coins changed, they can move to the third team member, and so on.
+   2. Once 5 coins have been changed to the relevant colour, then the first team member can move those 5 coins to the second team member, and starts the next batch of 5 coins and so on. The second team member changes the colour of each coin individually to their colour, and once they have a batch of 5 coins changed, they can move to the third team member, and so on.
    3. When the last team member passes the first batch of 5 coins to the customer, the customer writes down the time of arrival of that first batch on the board. 
    4. When the last team member has passed all the coins to the customer, the customer writes down the time of arrival of the full batch on the board 
 
