@@ -59,7 +59,7 @@ jobs:
           # The SFTP password.
           password: ${{ secrets.SFTP_PASSWORD }}
           # The SFTP port.
-          port: ${{ secrets.SFTP_PORT }}true
+          port: ${{ secrets.SFTP_PORT }}
           # If true, outputs the results of the upload, without actually uploading.
           dry-run: true
           # A list of folders to upload in the format of `folder/ => upload_folder/`
