@@ -53,14 +53,14 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           # username
-          username: ${{ secrets.SFTP_USERNAME }}
+          username: nakedalmweb-githubSDK
           # your sftp server
-          server: ${{ secrets.SFTP_SERVER }}
+          server: nakedalmweb.sftp.wpengine.com
           # your sftp server port, default to 22
-          port: ${{ secrets.SFTP_PORT }}
+          port: 2222
           # will put all file under this path
           local_path: ./_site
           # files will copy to under remote_path
           remote_path: /test-deploy
           # SSH passsword，If a password is set, the secret key pair is ignored
-          password: ${{ secrets.SFTP_PASSWORD }}
+          password: l13Xz9i3TIgr
