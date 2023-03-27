@@ -1,2 +1,4 @@
 website: https://nkdagility.com/
 basewebsite: /scrum-delivery-kit
+source: ./src
+destenation: ./_site/
