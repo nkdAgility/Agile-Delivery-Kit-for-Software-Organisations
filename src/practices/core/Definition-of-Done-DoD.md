@@ -10,7 +10,7 @@ Every Team should have its own Definition of Done that builds on the minimum lev
 
 But what is Done? Done does not reflect the requirements, Value, or stories. It is a shared understanding of quality.
 
-[[_TOC_]]
+{:toc}
 
 What is Done?
 =============
