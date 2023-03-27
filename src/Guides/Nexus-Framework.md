@@ -1,5 +1,8 @@
-Nexus Guide
--------------
+---
+title: Nexus Guide
+layout: default
+---
+
 
 The Definitive Guide to Scaling Scrum with Nexus
 

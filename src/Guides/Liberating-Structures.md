@@ -1,3 +1,8 @@
+---
+title: Liberating Structures
+layout: default
+---
+
 Use these structures on their own, or string them together, to create engaging events for your your Teams and Customers.
 
 - [Impromptu Networking](/Guides/Liberating-Structures/Impromptu-Networking-\(15\).md) [15 min]

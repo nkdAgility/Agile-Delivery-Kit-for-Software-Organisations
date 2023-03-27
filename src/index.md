@@ -37,7 +37,11 @@ All of this content represents a baselines starting point for any Product delive
 
 ## Recipes
 
-- TBA
+Recipes are described as a way of getting started with the event and include a number of facilitation options that might be useful.
+
+- [Sprint Planning Recipe](recipes/Sprint-Planning-Recipe.md)
+- [Daily Scrum Recipe](recipes/Daily-Scrum-Recipe.md)
+- [Sprint Review Recipe](recipes/Sprint-Review-Recipe.md)
 
 ## Guides
 
