@@ -52,16 +52,12 @@ jobs:
         # uses: Dylan700/sftp-upload-action@f90db607d9fe1acdc0eefccee84d37c119b268fe
         uses: Dylan700/sftp-upload-action@v1.1.4
         with:
-          # The SFTP server (e.g. sftp.server.com).
           server: ${{ secrets.SFTP_SERVER }}
-          # The SFTP username.
           username: ${{ secrets.SFTP_USERNAME }}
-          # The SFTP password.
           password: ${{ secrets.SFTP_PASSWORD }}
-          # The SFTP port.
           port: ${{ secrets.SFTP_PORT }}
           # If true, outputs the results of the upload, without actually uploading.
-          dry-run: true
+          dry-run: false
           # A list of folders to upload in the format of `folder/ => upload_folder/`
           uploads: | 
               ./_site/ => ./test-deploy
