@@ -18,7 +18,7 @@ permissions:
   id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete. 
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -53,14 +53,14 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           # username
-          username: nakedalmweb-githubSDK
+          username: ${{ secrets.SFTP_USERNAME }}
           # your sftp server
-          server: nakedalmweb.sftp.wpengine.com
+          server: ${{ secrets.SFTP_SERVER }}
           # your sftp server port, default to 22
-          port: 2222
+          port: ${{ secrets.SFTP_PORT }}
           # will put all file under this path
           local_path: ./_site
           # files will copy to under remote_path
           remote_path: /test-deploy
           # SSH passsword，If a password is set, the secret key pair is ignored
-          password: l13Xz9i3TIgr
+          password: ${{ secrets.SFTP_PASSWORD }}
