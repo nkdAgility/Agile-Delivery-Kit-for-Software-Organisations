@@ -61,6 +61,6 @@ jobs:
           # will put all file under this path
           local_path: ./_site
           # files will copy to under remote_path
-          remote_path: /Scrum-Delivery-Kit
+          remote_path: /test-deploy
           # SSH passsword，If a password is set, the secret key pair is ignored
           password: ${{ secrets.SFTP_PASSWORD }}
