@@ -60,7 +60,7 @@ jobs:
           dry-run: false
           # A list of folders to upload in the format of `folder/ => upload_folder/`
           uploads: | 
-              ./_site/ => ./test-deploy
+              ./_site/ => ./test-deploy/
           # If true, any existing files in the remote upload directories are deleted.
           delete: false
 
