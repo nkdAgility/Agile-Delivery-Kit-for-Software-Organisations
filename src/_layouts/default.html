@@ -16,16 +16,11 @@
     </div>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
         <div class="container-fluid">
-            <a class="navbar-brand" href="https://nkdagility.com" title="naked Agility with Martin Hinshelwood">Return to naked Agility</a>
-            <a class="navbar-brand" href="https://nkdagility.com/scrum-delivery-kit" title="Scrum Delivery Kit for Software Organisations">SDK for Software</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
+            <a class="navbar-brand" href="https://nkdagility.com" title="naked Agility with Martin Hinshelwood"><i class="fa-solid fa-turn-down-left fa-rotate-90"></i> Return to naked Agility</a>
             <div class="collapse navbar-collapse" id="navbarsExample03">
                 <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link active" aria-current="page" title="Home | Scrum Delivery Kit for Software Organisations" href="https://nkdagility.com/scrum-delivery-kit"><i class="fa-sharp fa-solid fa-flag-checkered"></i> Home</a>
                     </li>
                 </ul>
             </div>
@@ -34,10 +29,13 @@
     <div class="container mt-5">
         <article>
             <div class="row">
-                <div class="col">
+                <div class="row">
+                    {% include breadcrumbs.html %}
+                </div>
+                <div class="col-10">
                     <h1>{{ page.title }}</h1>
                   </div>
-                  <div class="col">
+                  <div class="col-2">
                     <div class="text-end">
                         <a data-proofer-ignore href="https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/tree/main/src/{{ page.path }}">
                             <i class="fa-sharp fa-light fa-file-pen"></i> &nbsp;Improve this page
