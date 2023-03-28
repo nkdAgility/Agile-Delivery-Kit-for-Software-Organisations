@@ -1,6 +1,6 @@
 website: https://nkdagility.com/
 basewebsite: /scrum-delivery-kit
-baseurl: https://nkdagility.com/scrum-delivery-kit
+baseurl: /scrum-delivery-kit
 source: ./src
 destination: ./_site
 
