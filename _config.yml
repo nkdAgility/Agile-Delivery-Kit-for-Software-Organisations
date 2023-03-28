@@ -5,3 +5,15 @@ destination: ./_site
 
 include:
  - "**/*.md"
+ - "*.md"
+
+plugins:
+  - jekyll-relative-links
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+relative_links:
+  enabled:     true
+  collections: false

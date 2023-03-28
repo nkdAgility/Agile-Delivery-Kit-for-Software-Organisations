@@ -1,3 +1,8 @@
+---
+title: Sprint Planning Recipe
+layout: default
+---
+
 A recipe is an example flow with options for how to run different segments to get the value you should be getting from this event.
 
 # An example flow for a Sprint Planning

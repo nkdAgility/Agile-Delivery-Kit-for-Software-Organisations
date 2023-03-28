@@ -1,4 +1,7 @@
-
+---
+title: Definition of Ready (DoR)
+layout: default
+---
 **WARNING: Definition of Ready can result in significant anti-patterns in teams.** 
 
 _Developers should NEVER take Backlog Item into a Sprint that they do not fully understand and agree, as a team, that there is a reasonable likelihood of being successful._
