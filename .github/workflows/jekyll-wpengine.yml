@@ -33,11 +33,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./src
-          destination: ./_site
+      - name: Build Jekyll
+        uses: jerryjvl/jekyll-build-action@v1
       - name: SFTP Upload
         # You may pin to the exact commit or the version.
         # uses: Dylan700/sftp-upload-action@f90db607d9fe1acdc0eefccee84d37c119b268fe
