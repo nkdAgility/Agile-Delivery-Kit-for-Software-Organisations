@@ -4,60 +4,63 @@ layout: default
 canonical_url: https://nkdagility.com/scrum-delivery-kit/
 ---
 
-This content represents an SDK as a starting point with helpful complimentary practices for building complex things.
+This content represents a starting point, or SDK, to help organisations kickstart creating their own way-of-working based on emergent lean-agile practices.
 
-All of this content represents a baselines starting point for any Product delivery team or organisation. You can modify as needed within the bounds of your business context without breaking the core mindset.
+All of this content represents a baseline starting point for any Product delivery team or organisation. You can modify as needed within the bounds of your business context without breaking the core mindset.
 
-> Rules are for the guidance of wise people and the obedience of fools
-> -Adam Cogan
+>   Rules are for the guidance of wise people and the obedience of fools -Adam Cogan
 
-## Getting Started
+If you would like to create your own copy of this SDK we recommend that you [fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) on GitHub so that you can continue to pull new changes and updates to the content.
 
-- [Introduction](introduction.md)
-- [Accountabilities](accountabilities.md)
-- [Artifacts & Commitments](commitments.md)
-- [Metrics & Reports](metrics-reports.md)
+{:toc}
 
-## Practices
+## Introduction
 
-### Core Practices
+Our best efforts have been made, rather than to dictate, to create a balance between autonomy required for self-management, and alignment required to maintain our business. In service to that we try to uphold the following values in all aspects of our work:
 
-- [Accountabilities of the Scrum Team](practices/core/Accountabilities-for-the-Scrum-Team.md)
-- [Definition of Done (DOD)](practices/core/Definition-of-Done-DoD.md)
-- [Definition of Ready (DoR)](practices/core/Definition-of-Ready-DoR.md)
-- [Metrics & Reports](practices/core/Metrics-Reports.md)
-- [Service Level Expectation (SLE)](practices/core/Service-Level-Expectation-SLE.md)
+-   Courage
+-   Focus
+-   Commitment
+-   Openness
+-   Respect
 
-### Complimentary Practices
+We recommend that you always question the content here, and always ask if you can do something easier and simpler. If so, do that!
 
--TBA
+## Our Way-Of-Working
 
-## 1 Engineering System]
+Creating a collaborative, decentralised, and democratized way-of-working is an important part of developing a process and you should involve everyone that you expect to use it. People will not buy into your process unless its their process too.
 
-- TBA
+The first key understanding is that there are no companies left that are in low competition markets with few customer demands. Those complicated markets have not existed since the 70s and all companies today have to deal with highly competitive markets with high customer demand and churn.
 
-## Recipes
+>   **Reality Check:** There are 100 companies that do what you do.
 
-Recipes are described as a way of getting started with the event and include a number of facilitation options that might be useful.
+In order to support companies in these highly dynamic markets there are a number of [guides](guides/index.md) available that can help you. These [guides](guides/index.md) form the basis, or framework, that you can leverage to create an culture of emergent practices that allows your people to react to and roll with the surprises that these dynamic markets throw on a daily basis.
 
-- [Sprint Planning Recipe](recipes/Sprint-Planning-Recipe.md)
-- [Daily Scrum Recipe](recipes/Daily-Scrum-Recipe.md)
-- [Sprint Review Recipe](recipes/Sprint-Review-Recipe.md)
+To support understanding we have additionally created and collated a number of practices that can help you:
 
-## Guides
+-   [Guides](guides/index.md)
+-   Practices
+-   Recipes
+-   Workshops
 
-- [Detecting Agile BS](Guides/Detecting-Agile-BS.md)
-- [Scrum Guide](Guides/scrum-guide.md)
-- [Kanban Guide for Scrum Teams](Guides/Kanban-Guide-for-Scrum-Teams.md)
-- [Nexus Guide](Guides/Nexus-Framework.md)
-- [Evidence-based Management Guide](Guides/Evidence-based-Management-Guide.md)
-- [Kanban Guide](Guides/Kanban-Guide.md)
-- [Liberating Structures](Guides/Liberating-Structures.md)
+## Core Questions
 
+-   Where do we draw the line between autonomy and alignment?
+-   
+
+## Discussions
+
+You can [create or join a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions) on any topic.
+
+-   [Start a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions/new)
+-   [Join a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions)
 
 ## Contributing
 
-?? TBA
-- 
+We absolutely accept pull requests for changes, additions, and updates. We ask that you keep each PR to one idea or topic, with as few files affected as possible, to enable our moderators to review and accept the changes quickly.
 
+-   [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
+## Licence
+
+*© 2023 Martin Hinshelwood and naked Agility Ltd. This publication is offered for license under the Attribution Share-Alike license of Creative Commons, accessible at* [*https://creativecommons.org/licenses/by-sa/4.0/legalcode*](https://creativecommons.org/licenses/by-sa/4.0/legalcode) *and also described in summary form at* [*https://creativecommons.org/licenses/by-sa/4.0/*](https://creativecommons.org/licenses/by-sa/4.0/)*.*
