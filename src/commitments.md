@@ -1,4 +1,7 @@
-# Commitments & Artifacts
+---
+title: Commitments & Artifacts
+layout: default
+---
 
 These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their
 Stakeholders.

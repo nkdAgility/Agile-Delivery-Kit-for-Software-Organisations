@@ -1,6 +1,7 @@
 ---
 title: Introduction to the [Company] SDK
 layout: default
+canonical_url: https://nkdagility.com/scrum-delivery-kit/introduction.html
 ---
 
 ** Courage | Focus | Commitment | Openness | Respect **

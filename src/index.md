@@ -1,6 +1,7 @@
 ---
 title: Scrum Delivery Kit for Software Organisations
 layout: default
+canonical_url: https://nkdagility.com/scrum-delivery-kit/
 ---
 
 This content represents an SDK as a starting point with helpful complimentary practices for building complex things.

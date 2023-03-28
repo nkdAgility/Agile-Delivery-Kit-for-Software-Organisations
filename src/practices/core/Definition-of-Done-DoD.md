@@ -1,5 +1,8 @@
-Definition of Done (DoD)
-========================
+---
+title: Definition of Done (DoD)
+layout: default
+---
+
 
 Every Team should have its own Definition of Done that builds on the minimum level specified here that is designed to protect our brand. In general, as a Professional Services organisation, we have no direct control over the Value delivery to the customer; the customer controls that. We can educate the customer. However, we are in full control of the level of quality that we provide as an organisation. A clear shared Definition of Done allows us to:
 

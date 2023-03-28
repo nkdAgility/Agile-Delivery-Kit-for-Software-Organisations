@@ -1,4 +1,7 @@
-# Accountabilities
+---
+title: Accountabilities
+layout: default
+---
 
 For [Company] to be successful there are a number of accountabilities that need to be fulfilled. These accountabilities can be shared, or fulfilled by a single person, but they must be distinct and be implemented.
 
