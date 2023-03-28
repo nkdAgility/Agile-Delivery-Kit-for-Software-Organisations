@@ -12,10 +12,10 @@ All of this content represents a baselines starting point for any Product delive
 
 ## Getting Started
 
-- [Introduction](./introduction.md)
-- [Accountabilities](./accountabilities.md)
-- [Artifacts & Commitments](./commitments.md)
-- [Metrics & Reports](./metrics-reports.md)
+- [Introduction](introduction.md)
+- [Accountabilities](accountabilities.md)
+- [Artifacts & Commitments](commitments.md)
+- [Metrics & Reports](metrics-reports.md)
 
 ## Practices
 
