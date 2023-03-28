@@ -1,6 +1,7 @@
 ---
 title: Detecting Agile BS
 layout: default
+canonical_url: https://nkdagility.com/scrum-delivery-kit/guides/Detecting-Agile-BS.html
 ---
 
 Agile is a buzzword of software development, and so all DoD software development projects are, almost by default, now declared to be “agile.” The purpose of this document is to provide guidance to DoD program executives and acquisition professionals on how to detect software projects that are really using agile development versus those that are simply waterfall or spiral development in agile clothing (“agile-scrum-fall”). 
@@ -9,6 +10,7 @@ Read [Detecting Agile BS](https://media.defense.gov/2019/May/02/2002127286/-1/-1
 
 
 ## Questions for Program Leadership
+
 - Are teams delivering working software to at least some subset of real users every iteration (including the first) and gathering feedback? (alt: every two weeks) SWAP Study Final Release, 3 May 2019 S107
 - Is there a product charter that lays out the mission and strategic goals? Do all members of the team understand both, and are they able to see how their work contributes to both?
 - Is feedback from users turned into concrete work items for sprint teams on timelines shorter than one month?
