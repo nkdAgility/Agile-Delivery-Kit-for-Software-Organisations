@@ -1,3 +1,6 @@
+title: Scrum Delivery Kit for Software Organisations
+description: Scrum Delivery Kit for Software Organisations
+
 website: https://nkdagility.com/
 basewebsite: /scrum-delivery-kit
 baseurl: /scrum-delivery-kit
@@ -10,6 +13,8 @@ include:
 
 plugins:
   - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 kramdown:
   math_engine: mathjax
