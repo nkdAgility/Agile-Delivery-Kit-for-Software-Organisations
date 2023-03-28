@@ -33,6 +33,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Determine Version
+        uses: gittools/actions/gitversion/execute@v0
       - name: Build Jekyll
         uses: jerryjvl/jekyll-build-action@v1
       - name: SFTP Upload
