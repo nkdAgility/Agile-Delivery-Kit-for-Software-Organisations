@@ -1,6 +1,7 @@
 ---
 title: Nexus Guide
 layout: default
+pageType: guide
 ---
 
 

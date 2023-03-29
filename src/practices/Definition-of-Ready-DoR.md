@@ -1,6 +1,7 @@
 ---
 title: Definition of Ready (DoR)
 layout: default
+pageType: practice
 ---
 **WARNING: Definition of Ready can result in significant anti-patterns in teams.** 
 

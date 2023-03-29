@@ -1,6 +1,7 @@
 ---
 title: Liberating Structures
 layout: default
+pageType: guide
 ---
 
 Use these structures on their own, or string them together, to create engaging events for your your Teams and Customers.

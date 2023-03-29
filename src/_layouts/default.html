@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/3e6b2f4808.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 </head>
 <body>
     <div class="container-fluid p-5 bg-primary text-white text-center">
@@ -27,49 +27,62 @@
             </div>
         </div>
     </nav>
-    <div class="container-flow mt-5 m-5">
-            <div class="row">
-                <div class="col-2 d-flex justify-content-end">
-                    {%- include sidebar.html -%} 
-                </div>
-                <div class="col-8">
-                    <article>
-                        <div class="container-flow content">
-                            <div class="row">
-                                <div class="col-10">
-                                    {% include breadcrumbs.html %}
-                                </div>
-                                <div class="col-2 text-end">
-                                    <a title="Edit this document" data-proofer-ignore href="https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/edit/main/src/{{ page.path }}">
-                                        <i class="fa-sharp fa-light fa-file-pen"></i> 
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <h1>{{ page.title }}</h1>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    {{ content | inject_anchors }}
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-2">
-                    {% if page.toc == true %}
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="no_toc card-title">In this article</h5>
-                            {{ content | toc_only }}
-                        </div>
+
+    <div class="mainContainer">
+        <div class="container-flow mt-5 m-5">
+                <div class="row">
+                    <div class="col-2 d-flex justify-content-end">
+                        {%- include sidebar.html -%} 
                     </div>
-                    {% endif %}
-                </div>
-            </div>        
-            
+                    <div class="col-8">
+                        <article>
+                            <div class="container-flow content">
+                                <div class="row">
+                                    <div class="col-10">
+                                        {% include breadcrumbs.html %}
+                                    </div>
+                                    <div class="col-2 text-end">
+                                        <a title="Edit this document" data-proofer-ignore href="https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/edit/main/src/{{ page.path }}">
+                                            <i class="fa-sharp fa-light fa-file-pen"></i> 
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <h1>{{ page.title }}</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex">
+                                        <p>Article</p>
+                                        <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
+                                        <p>{{ content | reading_time_as_i }} to read</p>
+                                        <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
+                                        <p>{{ page.last_modified_at }}</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        {{ content | inject_anchors }}
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-2">
+                        {% if page.toc == true %}
+                        <div class="card">
+                            <h5 class="no_toc card-header">In this article</h5>
+                            <div class="card-body">
+                                {{ content | toc_only }}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>        
+        
+
+        </div>
     </div>
     <div class="container-fluid p-5 bg-secondary text-white text-center">
         {%- include footer.html -%}

@@ -1,54 +1,38 @@
 <div class="flex-shrink-0 p-3" style="width: 280px;">
-    <ul class="list-unstyled ps-0">
+    <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2">
       <li class="mb-1">
-        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-          Getting Started
-        </button>
-        <div class="collapse show" id="home-collapse">
+        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Getting Started</strong>
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li><a href="{{site.baseurl}}/" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Overview</a></li>
           </ul>
-        </div>
-      </li>
-      <!-- <li class="mb-1">
-        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-          Guides
-        </button>
-        <div class="collapse" id="dashboard-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">The Scrum Guide</a></li>
-            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">The Kanban Guide</a></li>
-            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Monthly</a></li>
-            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Annually</a></li>
-          </ul>
-        </div>
       </li>
       <li class="mb-1">
-        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-          Pratices
-        </button>
-        <div class="collapse" id="orders-collapse">
+        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Recipes</strong>
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">New</a></li>
-            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Processed</a></li>
-            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Shipped</a></li>
-            <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">Returned</a></li>
+            {% assign pages = site.pages | where: "pageType", "recipe" %}
+            {% for page in pages %}
+            <li><a href="{{ site.baseurl }}/{{ page.path | replace:'.md','/' }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
+            {% endfor %}
           </ul>
-        </div>
       </li>
-      <li class="border-top my-3"></li> -->
-      <!-- <li class="mb-1">
-        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-          Account
-        </button>
-        <div class="collapse" id="account-collapse">
+      <li class="mb-1">
+        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Guides</strong>
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">New...</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Profile</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Settings</a></li>
-            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Sign out</a></li>
+            {% assign pages = site.pages | where: "pageType", "guide" %}
+            {% for page in pages %}
+            <li><a href="{{ site.baseurl }}/{{ page.path | replace:'.md','/' }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
+            {% endfor %}
           </ul>
-        </div>
-      </li> -->
+      </li>
+      <li class="mb-1">
+        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Practices</strong>
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            {% assign pages = site.pages | where: "pageType", "practice" %}
+            {% for page in pages %}
+            <li><a href="{{ site.baseurl }}/{{ page.path | replace:'.md','/' }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
+            {% endfor %}
+          </ul>
+      </li>
+      <li class="border-top my-3"></li>
     </ul>
   </div>

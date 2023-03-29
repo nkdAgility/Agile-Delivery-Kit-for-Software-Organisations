@@ -1,6 +1,7 @@
 ---
 title: Daily Scrum Recipe
 layout: default
+pageType: recipe
 ---
 
 During the Daily Scrum, the Developers should be actively managing their work that is in progress. They should be discussing what they need to do next to be most effective at reaching the Sprint Goal.

@@ -1,8 +1,7 @@
 .mainContainer
 {
-    @include make-container();
-    max-width: calc(100% - 32px);
-    width: calc(100% - 320px);
+    max-width: 1768px;
+    width: 1768px;
     margin-left: auto;
     margin-right: auto;
 }

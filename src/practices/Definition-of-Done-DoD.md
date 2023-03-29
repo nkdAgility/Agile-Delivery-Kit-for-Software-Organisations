@@ -1,6 +1,7 @@
 ---
 title: Definition of Done (DoD)
 layout: default
+pageType: practice
 ---
 
 

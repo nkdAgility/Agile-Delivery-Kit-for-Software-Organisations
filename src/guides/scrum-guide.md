@@ -1,6 +1,7 @@
 ---
 title: The Scrum Guide
 layout: default
+pageType: guide
 toc: true
 ---
 
