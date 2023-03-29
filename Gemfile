@@ -6,3 +6,4 @@ source "https://rubygems.org"
 gem 'jekyll-relative-links'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
+gem 'jekyll-toc'

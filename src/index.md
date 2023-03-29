@@ -1,7 +1,7 @@
 ---
 title: Scrum Delivery Kit for Software Organisations
 layout: default
-canonical_url: https://nkdagility.com/scrum-delivery-kit/
+toc: true
 ---
 
 This content represents a starting point, or SDK, to help organisations kickstart creating their own way-of-working based on emergent lean-agile practices.
@@ -14,7 +14,7 @@ If you would like to create your own copy of this SDK we recommend that you [for
 
 {:toc}
 
-## Introduction
+# Introduction
 
 Our best efforts have been made, rather than to dictate, to create a balance between autonomy required for self-management, and alignment required to maintain our business. In service to that we try to uphold the following values in all aspects of our work:
 
@@ -26,7 +26,7 @@ Our best efforts have been made, rather than to dictate, to create a balance bet
 
 We recommend that you always question the content here, and always ask if you can do something easier and simpler. If so, do that!
 
-## Our Way-Of-Working
+# Our Way-Of-Working
 
 Creating a collaborative, decentralised, and democratized way-of-working is an important part of developing a process and you should involve everyone that you expect to use it. People will not buy into your process unless its their process too.
 
@@ -34,33 +34,33 @@ The first key understanding is that there are no companies left that are in low 
 
 >   **Reality Check:** There are 100 companies that do what you do.
 
-In order to support companies in these highly dynamic markets there are a number of [guides](guides/index.md) available that can help you. These [guides](guides/index.md) form the basis, or framework, that you can leverage to create an culture of emergent practices that allows your people to react to and roll with the surprises that these dynamic markets throw on a daily basis.
+In order to support companies in these highly dynamic markets there are a number of [guides](guides/index.md) available that can help you. These [guides](guides/index.md) form the basis, or framework, that you can leverage to create an culture of emergent [practices](practices/index.md) that allows your people to react to and roll with the surprises that these dynamic markets throw on a daily basis.
 
-To support understanding we have additionally created and collated a number of practices that can help you:
+To support understanding we have additionally created and collated a number of [practices](practices/index.md) that can help you:
 
 -   [Guides](guides/index.md)
--   Practices
+-   [Practices](./practices/index.md)
 -   Recipes
 -   Workshops
 
-## Core Questions
+# Core Questions
 
 -   Where do we draw the line between autonomy and alignment?
 -   
 
-## Discussions
+# Discussions
 
 You can [create or join a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions) on any topic.
 
 -   [Start a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions/new)
 -   [Join a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions)
 
-## Contributing
+# Contributing
 
 We absolutely accept pull requests for changes, additions, and updates. We ask that you keep each PR to one idea or topic, with as few files affected as possible, to enable our moderators to review and accept the changes quickly.
 
 -   [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
-## Licence
+# Licence
 
 *© 2023 Martin Hinshelwood and naked Agility Ltd. This publication is offered for license under the Attribution Share-Alike license of Creative Commons, accessible at* [*https://creativecommons.org/licenses/by-sa/4.0/legalcode*](https://creativecommons.org/licenses/by-sa/4.0/legalcode) *and also described in summary form at* [*https://creativecommons.org/licenses/by-sa/4.0/*](https://creativecommons.org/licenses/by-sa/4.0/)*.*
