@@ -1,6 +1,7 @@
 ---
 title: Detecting Agile BS
 layout: default
+pageType: guide
 canonical_url: https://nkdagility.com/scrum-delivery-kit/guides/Detecting-Agile-BS.html
 ---
 

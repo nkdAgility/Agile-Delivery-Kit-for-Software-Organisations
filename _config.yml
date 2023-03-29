@@ -16,6 +16,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-toc
+  - jekyll-time-to-read
+  # - jekyll-github-metadata
+  - jekyll-optional-front-matter
+  - jekyll-last-modified-at
 
 kramdown:
   math_engine: mathjax

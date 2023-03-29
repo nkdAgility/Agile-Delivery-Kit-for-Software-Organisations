@@ -1,6 +1,7 @@
 ---
 title: Kanban Guide for Scrum Teams
 layout: default
+pageType: guide
 ---
 
 ## Purpose

@@ -1,6 +1,7 @@
 ---
 title: Kanban Guide
 layout: default
+pageType: guide
 ---
 
 This guide contains the minimum set of rules for Kanban. Any use of the word Kanban in this document specifically means the holistic set of concepts contained in this guide.

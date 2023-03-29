@@ -1,6 +1,7 @@
 ---
 title: Sprint Review Recipe
 layout: default
+pageType: recipe
 ---
 
 

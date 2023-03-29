@@ -3,16 +3,22 @@ title: SDK Practices
 layout: default
 ---
 
-All of these practices are emergent and need to be chosen by the team.
+Additional practices, or strategies, are an important part this organizations DNA. The right practices will emerge over time, this means that while a practice may work today it may not work that well tomorrow. You will need to adapt, add, and create new strategies.
+
+Not all practices work for all teams and finding the most effective bundle for any given moment is an art form. These practices represent both core practices that we are all aligned on, and complementary practices that context driven.
+
+
 
 ### Core Practices
 
--   [Accountabilities for the Scrum Team](./core/Accountabilities-for-the-Scrum-Team.md)
--   [Definition of Done (DoD)](./core/Definition-of-Done-DoD.md)
--   [Definition of Ready (DoR)](./core/Definition-of-Ready-DoR.md)
--   [Metrics & Reports](./core/Metrics-Reports.md)
--   [Service Level Expectation SLE](./core/Service-Level-Expectation-SLE.md)
+-   [accountability's for the Scrum Team](Accountabilities-for-the-Scrum-Team.md)
+-   [Definition of Done (DoD)](Definition-of-Done-DoD.md)
+-   [Metrics & Reports](Metrics-Reports.md)
+-   [Service Level Expectation SLE](Service-Level-Expectation-SLE.md)
 
 ### Complementary Practices
 
--   [Product Scorecard](./complementary/product-scorecard.md)
+-   [Product Scorecard](product-scorecard.md)
+-   [Definition of Ready (DoR)](Definition-of-Ready-DoR.md)
+
+note: Move practices between core and complementary as needed to suit your company.

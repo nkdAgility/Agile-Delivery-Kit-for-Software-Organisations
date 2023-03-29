@@ -34,6 +34,11 @@ The first key understanding is that there are no companies left that are in low 
 
 >   **Reality Check:** There are 100 companies that do what you do.
 
+- [Introduction](introduction.md)
+- [Overview of Accountabilities](accountabilities.md)
+- [Overview of Metrics & Reports](metrics-reports.md)
+
+
 In order to support companies in these highly dynamic markets there are a number of [guides](guides/index.md) available that can help you. These [guides](guides/index.md) form the basis, or framework, that you can leverage to create an culture of emergent [practices](practices/index.md) that allows your people to react to and roll with the surprises that these dynamic markets throw on a daily basis.
 
 To support understanding we have additionally created and collated a number of [practices](practices/index.md) that can help you:
@@ -42,11 +47,6 @@ To support understanding we have additionally created and collated a number of [
 -   [Practices](./practices/index.md)
 -   Recipes
 -   Workshops
-
-# Core Questions
-
--   Where do we draw the line between autonomy and alignment?
--   
 
 # Discussions
 
