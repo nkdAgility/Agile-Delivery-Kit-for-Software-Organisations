@@ -1,7 +1,6 @@
 ---
 title: SDK Practices
 layout: default
-canonical_url: https://nkdagility.com/scrum-delivery-kit/practives/index.html
 ---
 
 All of these practices are emergent and need to be chosen by the team.

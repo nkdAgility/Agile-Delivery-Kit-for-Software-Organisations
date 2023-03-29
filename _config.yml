@@ -15,6 +15,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-toc
 
 kramdown:
   math_engine: mathjax
