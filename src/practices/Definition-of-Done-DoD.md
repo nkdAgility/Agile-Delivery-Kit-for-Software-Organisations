@@ -1,9 +1,19 @@
 ---
 title: Definition of Done (DoD)
 layout: default
+toc: true
 pageType: practice
+discussionId: 13 
 ---
 
+Every team should have a definition of done that implements and builds on the minimum quality level specified by the organization. If the organization has not provided a standard then the team should create one appropriate for the product. All value delivered should comply with this definition of done and if there are multiple teams working on one product then they must mutually define and comply with the same definition of done.
+{: .lead}
+
+> Live and in production, collecting telemetry supporting or diminishing the starting hypothesis.\\
+> --<cite>from Azure DevOps Product DOD</cite>
+{: .blockquote}
+
+The purpose of the definition of done is to provide transparency of what has been done! This provides the team with focus on whats needed and commitment to the minimum level of quality needed.
 
 Every Team should have its own Definition of Done that builds on the minimum level specified here that is designed to protect our brand. In general, as a Professional Services organisation, we have no direct control over the Value delivery to the customer; the customer controls that. We can educate the customer. However, we are in full control of the level of quality that we provide as an organisation. A clear shared Definition of Done allows us to:
 
@@ -86,8 +96,12 @@ These items are mandatory and are required by [Company] to protect our brand and
 5. **Clean / Readable Code** - Your code should meet agreed naming conventions & style guidelines.
 
 
-Example Definitions of Done
-===========================
+## References
+
+- [The Scrum Guide](/guides/scrum-guide.md#commitment-definition-of-done)
+
+## Example Definitions of Done
+
 
 Here are some examples of Done from various teams, real and fictitious.
 

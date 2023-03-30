@@ -11,7 +11,7 @@
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             {% assign pages = site.pages | where: "pageType", "recipe" %}
             {% for page in pages %}
-            <li><a href="{{ site.baseurl }}/{{ page.path | replace:'.md','.html' }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
             {% endfor %}
           </ul>
       </li>
@@ -20,7 +20,7 @@
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             {% assign pages = site.pages | where: "pageType", "guide" %}
             {% for page in pages %}
-            <li><a href="{{ site.baseurl }}/{{ page.path | replace:'.md','.html' }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
             {% endfor %}
           </ul>
       </li>
@@ -29,7 +29,7 @@
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             {% assign pages = site.pages | where: "pageType", "practice" %}
             {% for page in pages %}
-            <li><a href="{{ site.baseurl }}/{{ page.path | replace:'.md','.html' }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
             {% endfor %}
           </ul>
       </li>
