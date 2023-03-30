@@ -16,9 +16,9 @@
           </ul>
       </li>
       <li class="mb-1">
-        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Guides</strong>
+        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Technologies</strong>
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            {% assign pages = site.pages | where: "pageType", "guide" %}
+            {% assign pages = site.pages | where: "pageType", "technology" %}
             {% for page in pages %}
             <li><a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
             {% endfor %}
@@ -33,6 +33,15 @@
             {% endfor %}
           </ul>
       </li>
+      <li class="mb-1">
+        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Guides</strong>
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            {% assign pages = site.pages | where: "pageType", "guide" %}
+            {% for page in pages %}
+            <li><a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a></li>
+            {% endfor %}
+          </ul>
+      </li>      
       <li class="border-top my-3"></li>
     </ul>
   </div>
