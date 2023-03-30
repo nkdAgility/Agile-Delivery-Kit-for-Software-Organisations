@@ -1,8 +1,8 @@
 ---
-title: Scrum Delivery Kit for Software Organisations
+title: Agile Delivery Kit for Software Organisations
 layout: default
 toc: true
-pageStatus: Prod
+pageStatus: production
 discussionId: 12 
 ---
 
