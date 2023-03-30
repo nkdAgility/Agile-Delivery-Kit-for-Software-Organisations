@@ -35,13 +35,13 @@ If you were creating a definition of done for a bakery that would make a number 
 3. All items cooked to the appropriate temperature.
 4. Each batch taste tested
 
-This short measurable checklist that reflects quality should be true regardless of what the bakery is creating; baguets, donuts, or meat pies. All must meet this simple definition of done to be sellable and not risk the customers, its employees, or the business.
+This short measurable checklist that reflects quality should be true regardless of what the bakery is creating; baguettes, donuts, or meat pies. All must meet this simple definition of done to be sellable and not risk the customers, its employees, or the business.
 
 A simple definition of DOD from Scrum: "a shared understanding of expectations that the Increment must live up to in order to be releasable into production. Managed by the Scrum Team."  
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RzWFeLfSnP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-No mater what you are building you should have a clear and concise definition of done that can be understood and articulated by the whole Team, and idealy by your stakeholders.
+No mater what you are building you should have a clear and concise definition of done that can be understood and articulated by the whole Team, and ideally by your stakeholders.
 
 ## Done Means Releasable
 

@@ -50,5 +50,6 @@ url
 kickstart
 DIB
 pageType
+pageStatus
 discussionId
-blockquote
+sellable
