@@ -1,7 +1,9 @@
-title: Scrum Delivery Kit for Software Organisations
-description: Scrum Delivery Kit for Software Organisations
+title: Agile Delivery Kit for Software Organisations
+description: Agile Delivery Kit for Software Organisations
+parent_title: naked Agility with Martin Hinshelwood
+parent_url: https://nkdagility.com
 
-website: https://nkdagility.com/
+website: https://nkdagility.com
 basewebsite: /scrum-delivery-kit
 baseurl: /scrum-delivery-kit
 source: ./src

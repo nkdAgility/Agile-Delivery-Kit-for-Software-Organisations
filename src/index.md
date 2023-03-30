@@ -2,6 +2,7 @@
 title: Scrum Delivery Kit for Software Organisations
 layout: default
 toc: true
+discussionId: 12 
 ---
 
 This content represents a starting point, or SDK, to help organisations kickstart creating their own way-of-working based on emergent lean-agile practices.

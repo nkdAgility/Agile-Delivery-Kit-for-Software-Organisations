@@ -1,47 +1,58 @@
 ---
 title: Definition of Done (DoD)
 layout: default
+toc: true
 pageType: practice
+pageStatus: Preview
+discussionId: 13 
 ---
 
+Every team should have a definition of done that implements and builds on the minimum quality level specified by the organization. If the organization has not provided a standard then the team should create one appropriate for the product. All value delivered should comply with this definition of done and if there are multiple teams working on one product then they must mutually define and comply with the same definition of done.
+{: .lead}
 
-Every Team should have its own Definition of Done that builds on the minimum level specified here that is designed to protect our brand. In general, as a Professional Services organisation, we have no direct control over the Value delivery to the customer; the customer controls that. We can educate the customer. However, we are in full control of the level of quality that we provide as an organisation. A clear shared Definition of Done allows us to:
+> Live and in production, collecting telemetry supporting or diminishing the starting hypothesis.\\
+> --<cite>from Azure DevOps Product DOD</cite>
+{: .blockquote}
+
+**The purpose of the definition of done is to provide transparency of what has been done!** This provides the team with focus on whats needed and commitment to the minimum level of quality needed. Every team has full control over the level of quality that they provide. 
+
+A clear shared definition of done allows us to:
 
 1.  Maintain Transparency of what we have Done
 2.  Understand how much work is required to deliver an item
 3.  Create an agreement of what we show at the Sprint Review
 4.  Protect our Brand!
 
-But what is Done? Done does not reflect the requirements, Value, or stories. It is a shared understanding of quality.
 
-{:toc}
+## What is Done?
 
-What is Done?
-=============
+Done does not reflect the requirements, value, or stories. It is a shared understanding of quality.
 
-A simple definition of DOD:
+If you were creating a definition of done for a bakery that would make a number of products you would likely like the following to always be true:
 
->Definition of Done: a shared understanding of expectations that the Increment must live up to in order to be releasable into production. Managed by the Development Team.
+1. Kitchen is clean at time of preparation
+2. All ingredients are fresh
+3. All items cooked to the appropriate temperature.
+4. Each batch taste tested
 
-From the Scrum Guide:
+This short measurable checklist that reflects quality should be true regardless of what the bakery is creating; baguettes, donuts, or meat pies. All must meet this simple definition of done to be sellable and not risk the customers, its employees, or the business.
 
->**The Definition of Done is a formal description of the state of the Increment when it meets the quality measures required for the product.** The moment a Product Backlog item meets the Definition of Done, an Increment is born. The Definition of Done creates Transparency by providing everyone with a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of Done, it cannot be released or even presented at the Sprint Review. Instead, it returns to the Product Backlog for future consideration. If the Definition of Done for an increment is part of the standards of the organisation, all Scrum Teams must follow it as a minimum. If it is not an organisational standard, the Scrum Team must create a Definition of Done appropriately for the product. Developers are required to conform to the Definition of Done. If there are multiple Scrum Teams working together on a product, they must mutually define and comply with the same Definition of Done.
+A simple definition of DOD from Scrum: "a shared understanding of expectations that the Increment must live up to in order to be releasable into production. Managed by the Scrum Team."  
 
-::: video
-<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/91740af0-cec2-4011-be41-f2aa087ef423?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
-:::
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RzWFeLfSnP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Done Means Releasable
----------------------
+No mater what you are building you should have a clear and concise definition of done that can be understood and articulated by the whole Team, and ideally by your stakeholders.
 
-When the Product Backlog item or an Increment is described as Done, everyone must understand what that means. Although this varies significantly per Scrum Team, members must have a shared understanding of what it means for work to be complete to ensure Transparency. This is the Definition of Done for the Scrum Team and is used to assess when work is complete on the product Increment. The same definition guides the Developers in knowing how many Product Backlog items they can select during Sprint Planning. The purpose of each Sprint is to deliver Increments of releasable functionality that adhere to the Scrum Team's current Definition of Done.
+## Done Means Releasable
 
-An explicit and concrete Definition of Done may seem small, but it can be the most critical checkpoint of work in Scrum. Without a consistent meaning of Done, velocity cannot be estimated. Conversely, a common Definition of Done ensures that the Increment produced at the end of Sprint is of high quality, with minimal defects. The Definition of Done is the soul of Scrum, and mature Developers will resist demonstrating at the Sprint Review (let alone deploying) any increment that is not Done.
+When the [Product Backlog](product-backlog.md) item or an [Increment](product-increment.md) is described as Done, everyone must understand what that means. Although this varies significantly per team, members must have a shared understanding of what it means for work to be complete to ensure transparency, the foundation of any empirical system. This is the definition of done for the team and is used to assess when work is complete on the [product increment](product-increment.md). The same definition guides the developers in knowing how many [Product Backlog items](product-backlog.md#what-is-a-product-backlog-item) they can select during [Sprint Planning](/guides/scrum-guide.md#sprint-planning). The purpose of each [Sprint](../guides/scrum-guide.md#the-sprint) is to deliver [Increments](product-increment.md) of releasable functionality that adhere to the team's current definition of done.
 
-![Minimum Required DOD for Scrum](/.attachments/image-8b53e9ed-6e77-4d81-adc3-f632f48271d2.png =335x500)
+An explicit and concrete definition of done may seem small, but it can be the most critical checkpoint of work. Without a consistent meaning of "Done", we cant know what it takes to get something finished. Conversely, a common definition of done ensures that the increment produced at the end of iteration is of high quality, with minimal defects. The Definition of Done is the soul of Scrum, and mature Developers will resist demonstrating at the Sprint Review (let alone deploying) any increment that is not Done.
 
-Releasable
----------
+![Scrum Requires Done](../assets/images/Scrum-Requires-Done.png){: style="width:250px"}\\
+[Scrum Requires Done (PDF)](../assets/attachments/Scrum-Requires-Done.pdf)
+
+#### Releasable
 
 A releasable product is one that has been designed, developed and tested and is therefore ready for distribution to anyone in the organisation for review or even to any external stakeholder. This isn't a prototype or a demo-only release. This is ready for production. Adhering to a list of acceptance criteria ensures that the Increment is truly releasable, meaning:
 
@@ -52,30 +63,28 @@ A releasable product is one that has been designed, developed and tested and is 
 
 The Product Owner can accept the work at any time during the Sprint. The Sprint Review should not be an "acceptance meeting", but rather an opportunity to inspect the Increment and adapt the Product Backlog.
 
-Your Definition of Done
-=======================
+## Your Definition of Done
 
-Here is a list of things that you must consider for your DoD:
+Here is a list of things that you should consider for your DoD:
 
--   **Quality code base (clean, readable, naming conventions)** - Agree with Customer / Developers
--   **Architectural conventions respected** - Agree with Customer / Developers
--   **According to design/style guide** - Agree with Customer / Developers
--   **Documented** - Agree with Customer / Developers
--   **Service levels guaranteed (uptime, performance, response time)** - Agree with Customer / Developers
--   **Tested** - Agree with Customer / Developers on the amount of Testing with regard to Integration, Performance, Stability, & Regression
+-   **Quality code base (clean, readable, naming conventions)** - Agree with Stakeholder(s) / Developers
+-   **Architectural conventions respected** - Agree with Stakeholder(s) / Developers
+-   **According to design/style guide** - Agree with Stakeholder(s) / Developers
+-   **Documented** - Agree with Stakeholder(s) / Developers
+-   **Service levels guaranteed (uptime, performance, response time)** - Agree with Stakeholder(s) / Developers
+-   **Tested** - Agree with Stakeholder(s) / Developers on the amount of Testing with regard to Integration, Performance, Stability, & Regression
 
 Ultimately ask your self: *"Would you be happy to release this increment to production and support it? You are on call tonight!"*.
 
-A Starting Point for any Team
------------------------------
+## A Starting Point for any Team
 
-1.  **Meets organisational DOD** (see Organisational DOD)
+
+1.  **Meets organizational DOD** (see [Organizational DOD](#organisational-dod))
 2.  **+Meets Practice DOD** - Your practice may add additional elements to DONE based on the technical domain within which you are working. 
 3.  **+Meets Customer DOD** - Additional quality standards required by the customer.
 4.  +**[Your DOD]** - Run a DOD workshop to identify what you need from 1,2, & 3 as well as anything that your Scrum Team feels that they need to add.
 
-Organisational DOD
-------------------
+### Organisational DOD
 
 These items are mandatory and are required by [Company] to protect our brand and reputation.
 
@@ -86,10 +95,13 @@ These items are mandatory and are required by [Company] to protect our brand and
 5. **Clean / Readable Code** - Your code should meet agreed naming conventions & style guidelines.
 
 
-Example Definitions of Done
-===========================
+## References
 
-Here are some examples of Done from various teams, real and fictitious.
+- [The Scrum Guide](/guides/scrum-guide.md#commitment-definition-of-done)
+
+## Example Definitions of Done
+
+Here are some examples of Done from various teams, real and fictitious. 
 
 ### Azure DevOps
 
