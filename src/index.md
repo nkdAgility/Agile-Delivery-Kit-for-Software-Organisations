@@ -2,6 +2,7 @@
 title: Scrum Delivery Kit for Software Organisations
 layout: default
 toc: true
+pageStatus: Prod
 discussionId: 12 
 ---
 

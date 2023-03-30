@@ -1,4 +1,4 @@
-## Scrum Delivery Kit for Software Organisations
+## Agile Delivery Kit for Software Organisations
 
 This content represents a starting point, or SDK, to help organisations kickstart creating their own way-of-working based on emergent lean-agile practices.
 
@@ -6,17 +6,17 @@ All of this content represents a baseline starting point for any Product deliver
 
 >   Rules are for the guidance of wise people and the obedience of fools -Adam Cogan
 
--   [View the Generic SDK](https://nkdagility.com/scrum-delivery-kit/)
--   [Fork to create your own](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/fork)
+-   [View the Generic SDK](https://nkdagility.com/agile-delivery-kit/)
+-   [Fork to create your own](https://github.com/nkdAgility/Agile-Delivery-Kit-for-Software-Organisations/fork)
 
 If you would like to create your own copy of this SDK we recommend that you [fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) on GitHub so that you can continue to pull new changes and updates to the content.
 
 ## Discussions
 
-You can [create or join a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions) on any topic.
+You can [create or join a discussion](https://github.com/nkdAgility/Agile-Delivery-Kit-for-Software-Organisations/discussions) on any topic.
 
--   [Start a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions/new)
--   [Join a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions)
+-   [Start a discussion](https://github.com/nkdAgility/Agile-Delivery-Kit-for-Software-Organisations/discussions/new)
+-   [Join a discussion](https://github.com/nkdAgility/Agile-Delivery-Kit-for-Software-Organisations/discussions)
 
 ## Contributing
 
