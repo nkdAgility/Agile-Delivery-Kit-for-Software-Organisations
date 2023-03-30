@@ -1,4 +1,4 @@
-## Scrum Delivery Kit for Software Organisations
+## Agile Delivery Kit for Software Organisations
 
 This content represents a starting point, or SDK, to help organisations kickstart creating their own way-of-working based on emergent lean-agile practices.
 
