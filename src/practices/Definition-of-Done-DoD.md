@@ -7,7 +7,7 @@ pageStatus: Preview
 discussionId: 13 
 ---
 
-Every team should have a definition of done that implements and builds on the minimum quality level specified by the organization. If the organization has not provided a standard then the team should create one appropriate for the product. All value delivered should comply with this definition of done and if there are multiple teams working on one product then they must mutually define and comply with the same definition of done.
+Every team should define what is required, what criteria must be met, for a product increment to be considered releasable. A definition of done. If the organization has not articulated a specific standard, or set of criteria, then the team should create a definition of done that is appropriate for the product. The work produced must comply with the definition of done for it to be considered usable, and if there are multiple teams working on a single product, then those teams must agree on a definition of done and ensure that all teams honour that standard.
 {: .lead}
 
 > Live and in production, collecting telemetry supporting or diminishing the starting hypothesis.\\
