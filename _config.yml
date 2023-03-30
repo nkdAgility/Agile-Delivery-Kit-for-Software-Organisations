@@ -4,8 +4,7 @@ parent_title: naked Agility with Martin Hinshelwood
 parent_url: https://nkdagility.com
 
 website: https://nkdagility.com
-basewebsite: /agile-delivery-kit
-baseurl: /agile-delivery-kit
+baseurl: /learn/agile-delivery-kit
 url: "https://nkdagility.com"
 source: ./src
 destination: ./_site
