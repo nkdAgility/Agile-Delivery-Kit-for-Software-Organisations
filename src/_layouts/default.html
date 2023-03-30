@@ -11,12 +11,12 @@
 </head>
 <body>
     {%- include header.html -%} 
-    <div class="mainContainer">
-        <div class="container-flow mt-5 m-5 d-flex mb-3">
-            <div class="p-2 justify-content-end flex-shrink-1 d-none d-lg-block">
+    <div class="mainContainer border">
+        <div class="container-flow mt-5 m-5 d-flex mb-3 border">
+            <div class="p-2 justify-content-end d-none d-lg-block">
                 {%- include sidebar.html -%} 
             </div>
-            <div class="p-2 flex-grow-1">
+            <div class="p-2 flex-grow-1 border">
                 <article>
                     <div class="container-flow content">
                         <div class="d-flex justify-content-between">
@@ -49,7 +49,7 @@
                     </div>
                 </article>
             </div>
-            <div class="p-2 flex-shrink-1 d-none d-xl-block">
+            <div class="p-2 flex-fill d-none d-xl-block border" style="min-width: 15vw;">
                 {% if page.toc == true %}
                 <div class="card">
                     <h5 class="no_toc card-header">In this article</h5>
