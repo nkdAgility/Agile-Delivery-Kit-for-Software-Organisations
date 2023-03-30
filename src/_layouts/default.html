@@ -40,24 +40,32 @@
     </div>   
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{site.parent_url}}" title="naked Agility with Martin Hinshelwood"><i class="fa-solid fa-turn-down-left fa-rotate-90"></i> Return to naked Agility</a>
-            <div class="collapse navbar-collapse" id="navbarsExample03">
+            <a class="btn btn-outline-light d-flex" href="{{site.parent_url}}" title="naked Agility with Martin Hinshelwood"><i class="fa-solid fa-turn-down-left fa-rotate-90"></i><span class="d-none d-lg-block">&nbsp;Return to naked Agility</span></a>
+            <!-- <div class="collapse navbar-collapse" id="navbarsExample03">
                 <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" title="Start | {{site.title}}" href="{{site.baseurl}}/"><i class="fa-sharp fa-solid fa-flag-checkered"></i> Start</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
+            <a class="d-lg-none btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" title="Start | {{site.title}}" href="{{site.baseurl}}/"><i class="fa-solid fa-bars"></i></a>
         </div>
     </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Overview</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            {%- include sidebar.html -%}
+        </div>
+    </div>
     <div class="mainContainer">
-        
         <div class="container-flow mt-5 m-5 d-flex mb-3">
             <div class="p-2 justify-content-end flex-shrink-1 d-none d-lg-block">
                 {%- include sidebar.html -%} 
             </div>
             <div class="p-2 flex-grow-1">
-                
                 <article>
                     <div class="container-flow content">
                         <div class="d-flex justify-content-between">
