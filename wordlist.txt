@@ -50,3 +50,5 @@ url
 kickstart
 DIB
 pageType
+discussionId
+blockquote
