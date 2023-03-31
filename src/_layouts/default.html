@@ -14,7 +14,9 @@
     <div class="mainContainer">
         <div class="container-flow mt-5 m-5 d-flex mb-3">
             <div class="p-2 justify-content-end d-none d-lg-block">
+                <div class="">
                 {%- include sidebar.html -%} 
+                 </div>
             </div>
             <div class="p-2 flex-grow-1">
                 <article>
@@ -32,7 +34,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div>
+                        <div class=" ">
                             <h1>{{ page.title }}</h1>
                         </div>
                         <div class="d-flex">
@@ -42,7 +44,7 @@
                             <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
                             <p>{{ page.last_modified_at }}</p>
                         </div>
-                        <div class="">
+                        <div class="mainContent">
                             {% include article-alert.html %}
                             {{ content | inject_anchors }}
                         </div>
@@ -51,7 +53,7 @@
             </div>
             <div class="p-2 flex-fill d-none d-xl-block" style="min-width: 15vw;">
                 {% if page.toc == true %}
-                <div class="card">
+                <div class="card sticky-top">
                     <h5 class="no_toc card-header">In this article</h5>
                     <div class="card-body">
                         {{ content | toc_only }}

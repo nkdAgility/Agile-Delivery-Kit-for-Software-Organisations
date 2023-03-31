@@ -7,6 +7,15 @@
           </ul>
       </li>
       <li class="mb-1">
+        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Strategies</strong>
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            {% assign pages = site.pages | where: "pageType", "strategy" %}
+            {% for page in pages %}
+            <li class="align-items-center"><a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a>&nbsp;<small>{% if page.pageStatus != "production" %}<i class="fa-regular {% if page.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>{% endif %}</small></li>
+            {% endfor %}
+          </ul>
+      </li>
+      <li class="mb-1">
         <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Recipes</strong>
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             {% assign pages = site.pages | where: "pageType", "recipe" %}
