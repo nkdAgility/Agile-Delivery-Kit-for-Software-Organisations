@@ -2,6 +2,9 @@
 title: Nexus Guide
 layout: default
 pageType: guide
+toc: true
+pageStatus: production
+discussionId:  
 ---
 
 
