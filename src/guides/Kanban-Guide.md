@@ -7,12 +7,10 @@ pageStatus: production
 discussionId:  
 ---
 
-[Read the Kanban Guide](https://kanbanguides.org/){:target="_blank"}
-
-## Purpose of the Kanban Guide
 December 2020
 
 By reducing Kanban to its essential components, the hope is that this guide will be a unifying reference for the community. By building upon Kanban fundamentals, the strategy presented here can accommodate the full spectrum of value delivery and organizational challenges.
+{: .lead}
 
 Any use of the word Kanban in this document specifically means the holistic set of concepts in this guide.
 
@@ -113,6 +111,8 @@ Kanban’s practices and measures are immutable. Although implementing only part
 
 ## History of Kanban
 The present state of Kanban can trace its roots to the Toyota Production System (and its antecedents) and the work of people like Taiichi Ohno and W. Edwards Deming. The collective set of practices for knowledge work that is now commonly referred to as Kanban mostly originated on a team at Corbis in 2006. Those practices quickly spread to encompass a large and diverse international community that has continued to enhance and evolve the approach.
+
+Extracted from [Kanban Guide](https://kanbanguides.org/){:target="_blank"}
 
 This publication is offered for license under the Attribution ShareAlike license of Creative Commons, accessible at http://creativecommons.org/licenses/by-sa/4.0/legalcode and also described in summary form at http://creativecommons.org/licenses/by-sa/4.0/, By using this Kanban Guide, you acknowledge that you have read and agree to be bound by the terms of the Attribution ShareAlike license of Creative Commons. This work is licensed by Orderly Disruption Limited and Daniel S. Vacanti, Inc. under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 

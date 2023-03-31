@@ -1,5 +1,5 @@
 ---
-title: Investing for Business Agility: Using evidence-based portfolio management to achieve better business outcomes
+title: Investing for Business Agility - Using evidence-based portfolio management to achieve better business outcomes
 layout: default
 pageType: guide
 ---

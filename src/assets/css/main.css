@@ -14,3 +14,16 @@
 {
     background-color: #43464c;
 }
+
+.responsiveImage {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+
+.mainContent img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+

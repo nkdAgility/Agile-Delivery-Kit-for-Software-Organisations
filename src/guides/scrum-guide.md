@@ -7,6 +7,9 @@ pageStatus: production
 discussionId:  
 ---
 
+The Scrum Guide is the rule book, or timber frame, of Scrum and is immutable of definition but not of implementation. If you have already read the Scrum Guide and are looking more for a Strategy Guide then head over to the Scrum Strategy Guide.
+{: .lead}
+
 NOTE: Extracted from the [Scrum Guide 2020](https://scrumguides.org/){:target="_blank"}
 
 ## Purpose of the Scrum Guide
