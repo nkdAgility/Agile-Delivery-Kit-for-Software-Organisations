@@ -1,10 +1,12 @@
 ---
 title: Definition of Done (DoD)
+description: Every team should define what is required, what criteria must be met, for a product increment to be considered releasable.
 layout: default
 toc: true
 pageType: practice
 pageStatus: Preview
 discussionId: 13 
+includeInSidebar: true
 ---
 
 Every team should define what is required, what criteria must be met, for a product increment to be considered releasable. A definition of done. If the organization has not articulated a specific standard, or set of criteria, then the team should create a definition of done that is appropriate for the product. The work produced must comply with the definition of done for it to be considered usable, and if there are multiple teams working on a single product, then those teams must agree on a definition of done and ensure that all teams honour that standard.

@@ -1,6 +1,11 @@
 ---
 title: Nine Whys (30m)
 layout: default
+pageType: ls
+toc: true
+pageStatus: preview
+discussionId:  
+includeInSidebar: true
 ---
 
 ## PURPOSE
@@ -28,3 +33,4 @@ Make a list of the activities that make up your work and/or the people that you 
 
 ## MORE
 http://liberatingstructures.com/3-nine-whys/
+

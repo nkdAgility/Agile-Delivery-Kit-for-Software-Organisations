@@ -1,6 +1,11 @@
 ---
 title: 15% Solution (20m)
 layout: default
+pageType: ls
+toc: true
+pageStatus: preview
+discussionId:  
+includeInSidebar: true
 ---
 
 PURPOSE

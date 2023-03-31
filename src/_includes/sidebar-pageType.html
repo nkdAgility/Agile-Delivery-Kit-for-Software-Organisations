@@ -1,0 +1,28 @@
+{% assign pages = site.pages | where: "pageType", include.pageType | where: "includeInSidebar", true %}
+<li class="mb-1">
+<strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">{{ include.title | capitalize_all }}</strong>
+    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+    {% for page in pages %}
+    <li class="align-items-center">
+        <a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+            {{ page.title }}
+        </a>
+    </li>
+    {% endfor %}
+    {% assign pages = site.pages | where: "pageType", include.pageType | where: "includeInSidebar", null %}
+    {% if pages != empty %}
+    <li class="align-items-center">
+        <small>
+            <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" data-bs-toggle="collapse" data-bs-target="#{{include.pageType}}-collapse" aria-expanded="false">Preview Content</a>
+            <div class="collapse" id="{{include.pageType}}-collapse">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
+                {% for page in pages %}
+                <li class="align-items-center"><a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a>&nbsp;<small>{% if page.pageStatus != "production" %}<i class="fa-regular {% if page.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>{% endif %}</small></li>
+                {% endfor %}
+                </ul>
+            </div>
+        </small>
+    </li>
+    {% endif %}
+    </ul>
+</li>

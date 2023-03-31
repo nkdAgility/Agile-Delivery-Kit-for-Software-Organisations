@@ -14,7 +14,7 @@
     <div class="mainContainer">
         <div class="container-flow mt-5 m-5 d-flex mb-3">
             <div class="p-2 justify-content-end d-none d-lg-block">
-                <div class="">
+                <div class="sticky-top p-2">
                 {%- include sidebar.html -%} 
                  </div>
             </div>
@@ -47,16 +47,23 @@
                         <div class="mainContent">
                             {% include article-alert.html %}
                             {{ content | inject_anchors }}
+                            
+                            
+                        </div>
+                        <div class="">
+                            {% include recommended-content.html %}
                         </div>
                     </div>
                 </article>
             </div>
             <div class="p-2 flex-fill d-none d-xl-block" style="min-width: 15vw;">
                 {% if page.toc == true %}
-                <div class="card sticky-top">
-                    <h5 class="no_toc card-header">In this article</h5>
-                    <div class="card-body">
-                        {{ content | toc_only }}
+                <div class="sticky-top p-2">
+                    <div class="card">
+                        <h5 class="no_toc card-header">In this article</h5>
+                        <div class="card-body">
+                            {{ content | toc_only }}
+                        </div>
                     </div>
                 </div>
                 {% endif %}

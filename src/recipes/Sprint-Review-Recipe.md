@@ -1,29 +1,29 @@
 ---
 title: Sprint Review Recipe
+description: A starter recipe for a Sprint Planning event with suggested facilitation options.
 layout: default
 pageType: recipe
+image: ./../assets/images/naked-Agility-Scrum-Framework-Sprint-Review.jpg
+author: mrhinsh
+includeInSidebar: true
+toc: true
+pageStatus: preview
+discussionId:  
 ---
-
 
 When designing a flow for an event, it is hugely important to be clear on the purpose. For the Sprint Review, the purpose is to inspect the increment that was created during the Sprint as well as to adapt the Product Backlog based on new insights, ideas, and changes that result from this inspection. The Sprint Review is about answering the question: “Based on what we learned this Sprint, what are the next steps?”. This provides valuable input for Sprint Planning.
 
-This recipe is an example and starting point with a number of different facilitation examples provided.
+*This recipe is an example and starting point with a number of different facilitation examples provided. Please inherit from it and make it your own. If you have a great idea please submit a new recipe*
 
-![naked-Agility-Scrum-Framework-Sprint-Review.jpg](/src/.attachments/naked-Agility-Scrum-Framework-Sprint-Review-0156d492-ea34-4d59-b266-74bb5715a25e.jpg)
+![Scrum Framework Sprint Review](./../assets/images/naked-Agility-Scrum-Framework-Sprint-Review.jpg)
 
-[[_TOC_]]
-
-# An example flow for a Sprint Review
+## Flow Steps
 
 This workshop leverages a simple flow and consists of the following:
 
 The Product Owner presents the vision and goals, followed by a summary of what happened, and a review of the product increment. Update the product backlog and discuss likely release dates and budgeting. 
 
-![image.png](/src/.attachments/Sprint-Review-93ab285c-ae2e-4f8f-9c4a-1076d56285b0)
-
-_Although Scrum Masters can certainly facilitate the Sprint Review, there is nothing holding others back from facilitating. Since the Sprint Review is particularly important for the Product Owner, as he or she will be sharing the increment with stakeholders, it makes sense for him or her to also play a role;_
-
-## Flow Steps
+Although Scrum Masters can certainly facilitate the Sprint Review, there is nothing holding others back from facilitating. Since the Sprint Review is particularly important for the Product Owner, as he or she will be sharing the increment with stakeholders, it makes sense for him or her to also play a role;
 
 ### Part 1: Product Owner Presents Product Vision and Goal [5 mins]
 

@@ -1,7 +1,9 @@
 ---
 title: Introduction
 layout: default
-canonical_url: https://nkdagility.com/scrum-delivery-kit/introduction.html
+toc: true
+pageStatus: production
+discussionId: 
 ---
 
 \*\* Courage \| Focus \| Commitment \| Openness \| Respect \*\*

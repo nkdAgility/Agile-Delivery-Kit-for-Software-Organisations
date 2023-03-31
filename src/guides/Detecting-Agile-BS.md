@@ -2,7 +2,9 @@
 title: Detecting Agile BS
 layout: default
 pageType: guide
+toc: true
 pageStatus: production
+includeInSidebar: true
 discussionId:  
 ---
 

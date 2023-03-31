@@ -1,14 +1,12 @@
 ---
 title: Accountabilities
 layout: default
+toc: true
+pageStatus: preview
+discussionId: 
 ---
 
-For [Company] to be successful there are a number of accountabilities that need to be fulfilled. These accountabilities can be shared, or fulfilled by a single person, but they must be distinct and be implemented.
-
-- [Accountabilities](#accountabilities)
-  - [Organisational Services](#organisational-services)
-  - [Practice Leadership Team(s)](#practice-leadership-teams)
-  - [Delivery Team(s)](#delivery-teams)
+For your to be successful there are a number of accountability's that need to be fulfilled. These accountability's can be shared, or fulfilled by a single person, but they must be distinct and be implemented.
 
 ## Organisational Services
 

@@ -1,6 +1,13 @@
 ---
+title: Sprint Review Feedback Loop 1
+layout: default
+pageType: workshop
+includeInSidebar: true
+toc: true
+pageStatus: preview
+discussionId:  
+author: mrhinsh
 ---
-## Sprint Review Feedback Loop 1
 
 ### Duration
 

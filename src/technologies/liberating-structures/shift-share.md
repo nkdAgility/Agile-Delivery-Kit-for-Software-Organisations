@@ -1,6 +1,11 @@
 ---
 title: Shift & Share (40m)
 layout: default
+pageType: ls
+toc: true
+pageStatus: preview
+discussionId:  
+includeInSidebar: true
 ---
 
 PURPOSE

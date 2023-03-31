@@ -3,6 +3,7 @@ title: The Evidence-Based Management Guide
 layout: default
 pageType: guide
 toc: true
+includeInSidebar: true
 pageStatus: production
 discussionId:  
 ---
