@@ -4,6 +4,7 @@ layout: default
 pageType: practice
 pageStatus: Preview
 includeInSidebar: true
+discussionId: 23
 ---
 **WARNING: Definition of Ready can result in significant anti-patterns in teams.** 
 
