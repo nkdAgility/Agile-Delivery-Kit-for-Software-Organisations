@@ -1,6 +1,9 @@
 ---
 title: Commitments & Artifacts
 layout: default
+toc: true
+pageStatus: production
+discussionId: 
 ---
 
 These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their
