@@ -1,6 +1,12 @@
 ---
+title: The Importance of Batch to Optimise Flow
+layout: default
+pageType: workshop
+pageStatus: preview
+includeInSidebar: true
+discussionId:  
 ---
-## The Importance of Batch to Optimise Flow
+
 
 ### Duration
 

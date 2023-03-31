@@ -23,7 +23,22 @@
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             {% assign pages = site.pages | where: "pageType", "recipe" | where: "includeInSidebar", true %}
             {% for page in pages %}
-            <li class="align-items-center"><a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a>&nbsp;<small>{% if page.pageStatus != "production" %}<i class="fa-regular {% if page.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>{% endif %}</small></li>
+            <li class="align-items-center d-flex">
+              <a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a>
+              <small>{% if page.pageStatus != "production" %}<i class="fa-regular {% if page.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>{% endif %}</small>
+            </li>
+            {% endfor %}
+            {% if pages == empty %}
+            <li class="align-items-center">Working on it</li>
+            {% endif %}
+          </ul>
+      </li>
+      <li class="mb-1">
+        <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">Workshops</strong>
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            {% assign pages = site.pages | where: "pageType", "workshop" | where: "includeInSidebar", true %}
+            {% for page in pages %}
+            <li class="align-items-center"><a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a><small>{% if page.pageStatus != "production" %}<i class="fa-regular {% if page.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>{% endif %}</small></li>
             {% endfor %}
             {% if pages == empty %}
             <li class="align-items-center">Working on it</li>

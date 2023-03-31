@@ -2,6 +2,8 @@
 title: Definition of Ready (DoR)
 layout: default
 pageType: practice
+pageStatus: Preview
+includeInSidebar: true
 ---
 **WARNING: Definition of Ready can result in significant anti-patterns in teams.** 
 
