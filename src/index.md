@@ -14,8 +14,6 @@ All of this content represents a baseline starting point for any Product deliver
 
 If you would like to create your own copy of this SDK we recommend that you [fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) on GitHub so that you can continue to pull new changes and updates to the content.
 
-{:toc}
-
 # Introduction
 
 Our best efforts have been made, rather than to dictate, to create a balance between autonomy required for self-management, and alignment required to maintain our business. In service to that we try to uphold the following values in all aspects of our work:
@@ -36,19 +34,16 @@ The first key understanding is that there are no companies left that are in low 
 
 >   **Reality Check:** There are 100 companies that do what you do.
 
-- [Introduction](introduction.md)
-- [Overview of Accountabilities](accountabilities.md)
-- [Overview of Metrics & Reports](metrics-reports.md)
-
 
 In order to support companies in these highly dynamic markets there are a number of [guides](guides/index.md) available that can help you. These [guides](guides/index.md) form the basis, or framework, that you can leverage to create an culture of emergent [practices](practices/index.md) that allows your people to react to and roll with the surprises that these dynamic markets throw on a daily basis.
 
 To support understanding we have additionally created and collated a number of [practices](practices/index.md) that can help you:
 
--   [Guides](guides/index.md)
--   [Practices](./practices/index.md)
--   Recipes
--   Workshops
+-   Strategies - 
+-   Recipes - a set of instructions which are likely to lead to a particular outcome
+-   Technologies - the application of scientific knowledge for practical purposes
+-   Practices - the actual application or use of an idea, belief, or method, as opposed to theories relating to it
+-   Guides - These guides are published and recognised guides to a topic.
 
 # Discussions
 
