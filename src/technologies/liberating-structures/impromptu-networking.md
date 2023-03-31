@@ -1,6 +1,11 @@
 ---
 title: Impromptu Networking (15m)
 layout: default
+pageType: ls
+toc: true
+pageStatus: preview
+discussionId:  
+includeInSidebar: true
 ---
 
 ## Purpose

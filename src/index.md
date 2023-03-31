@@ -34,16 +34,15 @@ The first key understanding is that there are no companies left that are in low 
 
 >   **Reality Check:** There are 100 companies that do what you do.
 
-
 In order to support companies in these highly dynamic markets there are a number of [guides](guides/index.md) available that can help you. These [guides](guides/index.md) form the basis, or framework, that you can leverage to create an culture of emergent [practices](practices/index.md) that allows your people to react to and roll with the surprises that these dynamic markets throw on a daily basis.
 
 To support understanding we have additionally created and collated a number of [practices](practices/index.md) that can help you:
 
--   Strategies - 
--   Recipes - a set of instructions which are likely to lead to a particular outcome
--   Technologies - the application of scientific knowledge for practical purposes
--   Practices - the actual application or use of an idea, belief, or method, as opposed to theories relating to it
--   Guides - These guides are published and recognised guides to a topic.
+-   **Strategies** - a plan of action designed to achieve a long-term or overall aim
+-   **Recipes** - a set of instructions which are likely to lead to a particular outcome
+-   **Technologies** - the application of scientific knowledge for practical purposes
+-   **Practices** - the actual application or use of an idea, belief, or method, as opposed to theories relating to it
+-   **Guides** - These guides are published and recognized guides to a topic.
 
 # Discussions
 

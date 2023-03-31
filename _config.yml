@@ -1,5 +1,6 @@
 title: Agile Delivery Kit for Software Organisations
-description: Agile Delivery Kit for Software Organisations
+description: A starter agile delivery kit targeted at software organisations to help jump start creating a way or working that suits them.
+tagline: A starter agile delivery kit targeted at software organisations to help jump start creating a way or working that suits them.
 parent_title: naked Agility with Martin Hinshelwood
 parent_url: https://nkdagility.com
 
@@ -8,6 +9,15 @@ baseurl: /learn/agile-delivery-kit
 url: "https://nkdagility.com"
 source: ./src
 destination: ./_site
+logo: https://nkdagility.com/wp-content/uploads/2020/11/nkdagility-with-martin-hinshelwood-dark-200.png
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/naked-agility-Learn-Agile-Delivery-Kit-1600x900.jpg
+      
 
 include:
  - "**/*.md"
