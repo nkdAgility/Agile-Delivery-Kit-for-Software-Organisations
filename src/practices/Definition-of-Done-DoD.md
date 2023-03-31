@@ -1,5 +1,6 @@
 ---
 title: Definition of Done (DoD)
+description: Every team should define what is required, what criteria must be met, for a product increment to be considered releasable.
 layout: default
 toc: true
 pageType: practice
