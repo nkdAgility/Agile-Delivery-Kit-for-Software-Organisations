@@ -2,7 +2,9 @@
 title: Commitments & Artifacts
 layout: default
 toc: true
-pageStatus: production
+pageStatus: 
+pageType: overview
+includeInSidebar: 
 discussionId: 
 ---
 

@@ -1,0 +1,12 @@
+{% assign pages = site.pages | where: "pageType", include.pageType | where: "includeInSidebar", include.sidebar | sort: "importance" | reverse %}
+<ul class="btn-toggle-nav  fw-normal pb-1 small">
+{% for page in pages %}
+<li class="align-items-center">
+    <a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+        {{ page.title }}
+    </a>
+    <br />
+    {{ page.description }}
+</li>
+{% endfor %}
+</ul>

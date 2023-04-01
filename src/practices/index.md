@@ -7,18 +7,10 @@ Additional practices, or strategies, are an important part this organizations DN
 
 Not all practices work for all teams and finding the most effective bundle for any given moment is an art form. These practices represent both core practices that we are all aligned on, and complementary practices that context driven.
 
+## Practices
 
+{% include content-pageType.html pageType =  "practice" sidebar = true %}
 
-### Core Practices
+## Preview Practices
 
--   [accountability's for the Scrum Team](Accountabilities-for-the-Scrum-Team.md)
--   [Definition of Done (DoD)](Definition-of-Done-DoD.md)
--   [Metrics & Reports](Metrics-Reports.md)
--   [Service Level Expectation SLE](Service-Level-Expectation-SLE.md)
-
-### Complementary Practices
-
--   [Product Scorecard](product-scorecard.md)
--   [Definition of Ready (DoR)](Definition-of-Ready-DoR.md)
-
-note: Move practices between core and complementary as needed to suit your company.
+{% include content-pageType.html pageType =  "practice" %}

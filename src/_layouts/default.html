@@ -18,7 +18,7 @@
                 {%- include sidebar.html -%} 
                  </div>
             </div>
-            <div class="p-2 flex-grow-1">
+            <div class="p-2 flex-fill">
                 <article>
                     <div class="container-flow content">
                         <div class="d-flex justify-content-between">
@@ -47,8 +47,6 @@
                         <div class="mainContent">
                             {% include article-alert.html %}
                             {{ content | inject_anchors }}
-                            
-                            
                         </div>
                         <div class="">
                             {% include recommended-content.html %}
@@ -56,7 +54,18 @@
                     </div>
                 </article>
             </div>
-            <div class="p-2 flex-fill d-none d-xl-block" style="min-width: 15vw;">
+            <div class="p-2 d-none d-xl-block justify-content-start" style="max-width: 300px;">
+                <div class="p-2">
+                    <div class="card">
+                        <h5 class="no_toc card-header">Join the Community</h5>
+                        <div class="card-body">
+                            The league of extraordinary lean-agile practitioners is a group of peers and seasoned practitioners that continuously learn, share emergent practices, and discuss topics with courage, commitment, focus, respect, & openness!
+                            <ul class="bd-links-nav list-unstyled pb-1 small">
+                                <li><a href="https://community.nkdagility.com/spaces/10981835" target="_blank">Join the community</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 {% if page.toc == true %}
                 <div class="sticky-top p-2">
                     <div class="card">

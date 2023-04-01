@@ -7,17 +7,8 @@ All of these guides are available here and will be linked to their original onli
 
 ## Guides
 
--   [The Scrum Guide](./scrum-guide.md)
--   [The Kanban Guide](./Kanban-Guide.md)
--   [The Kanban Guide for Scrum Teams](./Kanban-Guide-for-Scrum-Teams.md)
--   [Evidence Based Management Guide](./Evidence-based-Management-Guide.md)
--   [Evidence Based Portfolio Guide](./Evidence-based-Portfolio-Management.md)
--   [The Nexus Framework](./Nexus-Framework.md)
--   [DIB: Detecting Agile BS](./Detecting-Agile-BS.md)
--   [Liberating Structures](./Liberating-Structures.md)
+{% include content-pageType.html pageType =  "guide" sidebar = true %}   
 
-## Additional Guidance
+## Preview Guides
 
--   Beyond Budgeting
--   Agile Procurement
--   Beta Codex
+{% include content-pageType.html pageType =  "guide" %}   

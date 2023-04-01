@@ -2,7 +2,10 @@
 title: Introduction
 layout: default
 toc: true
-pageStatus: production
+pageStatus: preview
+includeInSidebar: 
+pageType: overview
+importance: 400
 discussionId: 
 ---
 
@@ -64,14 +67,4 @@ Answer: [Scaling Scrum](/Scaling-Scrum.md)
     -   [Evidence-based Portfolio Management](/Guides/Evidence%2Dbased-Portfolio-Management.md)
 -   [Complimentary Practices](/Complementary-Practices.md) - These Practices are not Core Practices, however, they are suggestions and ideas for things that you can get your team to try.
 
-# Communities & Contributing
 
-This content is not and will never be perfect. We will always have to revisit, debate, and update this content based on our experiences and knowledge.
-
-\_You can join the [Lean-Agile Community](https://community.nkdagility.com) in Mighty Networks and collaborate with other like minded individuals.
-
-See a list of [Community Events](/Community-Events) to join!
-
-## Current Stewardship
-
-Name: [Martin Hinshelwood](https://linkedin.com/in/martinhinshelwood/) Email: [martin@nkdagility.com](mailto:martin@nkdagility.com) Chat : martin@nkdagility.com in teams.
