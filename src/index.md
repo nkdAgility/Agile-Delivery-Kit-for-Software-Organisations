@@ -22,7 +22,9 @@ This content represents a starting point, or SDK, to help organisations kickstar
 
 All of this content represents a baseline starting point for any Product delivery team or organisation. You can modify as needed within the bounds of your business context without breaking the core mindset.
 
->   Rules are for the guidance of wise people and the obedience of fools -Adam Cogan
+> Rules are for the guidance of wise people and the obedience of fools\\
+> --<cite>Adam Cogan</cite>
+{: .blockquote}
 
 If you would like to create your own copy of this SDK we recommend that you [fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) on GitHub so that you can continue to pull new changes and updates to the content.
 
@@ -48,7 +50,7 @@ These are the core first principals by which this document operates and they are
 - The work needed will emerge as we do the work and help others do it
 - Processes, practices and tools necessary will emerge as we do the work and help others do it
 
-Learn more about the [first pincipals](./first-principals.md).
+Learn more about the [first principals](./first-principals.md).
 
 ### How can you tell if you are agile?
 
@@ -61,7 +63,7 @@ There is no hard test that can determine your capacity for agility. Here are som
 - Are teams empowered to change their process based on what they learn?
 - Is the full ecosystem of your project agile? (Agile programming teams followed by linear, bureaucratic deployment is a failure.)
 
-More questions are in the [Detecting Agile BS](./guides/Detecting-Agile-BS.md) guide from the US DOD.
+More questions are in the [Detecting Agile BS](./guides/detecting-agile-bs.md) guide from the US DOD.
 
 ## Discussions, Communities, & Contributing
 

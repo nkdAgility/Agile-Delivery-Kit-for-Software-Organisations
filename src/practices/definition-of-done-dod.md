@@ -7,6 +7,7 @@ pageType: practice
 pageStatus: Preview
 discussionId: 13 
 includeInSidebar: true
+recommendedContent:
 ---
 
 Every team should define what is required, what criteria must be met, for a product increment to be considered releasable. A definition of done. If the organization has not articulated a specific standard, or set of criteria, then the team should create a definition of done that is appropriate for the product. The work produced must comply with the definition of done for it to be considered usable, and if there are multiple teams working on a single product, then those teams must agree on a definition of done and ensure that all teams honour that standard.
@@ -25,7 +26,6 @@ A clear shared definition of done allows us to:
 3.  Create an agreement of what we show at the Sprint Review
 4.  Protect our Brand!
 
-
 ## What is Done?
 
 Done does not reflect the requirements, value, or stories. It is a shared understanding of quality.
@@ -41,7 +41,9 @@ This short measurable checklist that reflects quality should be true regardless 
 
 A simple definition of DOD from Scrum: "a shared understanding of expectations that the Increment must live up to in order to be releasable into production. Managed by the Scrum Team."  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RzWFeLfSnP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/RzWFeLfSnP0" title="YouTube video" allowfullscreen></iframe>
+</div>
 
 No mater what you are building you should have a clear and concise definition of done that can be understood and articulated by the whole Team, and ideally by your stakeholders.
 
@@ -51,8 +53,8 @@ When the [Product Backlog](product-backlog.md) item or an [Increment](product-in
 
 An explicit and concrete definition of done may seem small, but it can be the most critical checkpoint of work. Without a consistent meaning of "Done", we cant know what it takes to get something finished. Conversely, a common definition of done ensures that the increment produced at the end of iteration is of high quality, with minimal defects. The Definition of Done is the soul of Scrum, and mature Developers will resist demonstrating at the Sprint Review (let alone deploying) any increment that is not Done.
 
-![Scrum Requires Done](../assets/images/Scrum-Requires-Done.png){: style="width:250px"}\\
-[Scrum Requires Done (PDF)](../assets/attachments/Scrum-Requires-Done.pdf)
+![Scrum Requires Done](../assets/images/scrum-requires-done.png){: style="width:250px"}\\
+[Scrum Requires Done (PDF)](../assets/attachments/scrum-requires-done.pdf)
 
 #### Releasable
 

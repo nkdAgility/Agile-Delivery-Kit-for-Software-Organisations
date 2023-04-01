@@ -1,5 +1,6 @@
 ---
 title: Detecting Agile BS
+description: The purpose of this document is to provide guidance to DoD program executives and acquisition professionals on how to detect software projects that are really using agile development versus those that are simply waterfall or spiral development in agile clothing.
 layout: default
 pageType: guide
 toc: true
@@ -8,11 +9,7 @@ includeInSidebar: true
 discussionId:  
 ---
 
-Agile is a buzzword of software development, and so all DoD software development projects
-are, almost by default, now declared to be “agile.” The purpose of this document is to provide
-guidance to DoD program executives and acquisition professionals on how to detect software
-projects that are really using agile development versus those that are simply waterfall or spiral
-development in agile clothing (“agile-scrum-fall”).
+Agile is a buzzword of software development, and so all DoD software development projects are, almost by default, now declared to be “agile.” The purpose of this document is to provide guidance to DoD program executives and acquisition professionals on how to detect software projects that are really using agile development versus those that are simply waterfall or spiral development in agile clothing (“agile-scrum-fall”).
 
 ![Detecting Agile BS](https://nkdagility.com/wp-content/uploads/2020/12/image-2.png){: .responsiveImage}
 

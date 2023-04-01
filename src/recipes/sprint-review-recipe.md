@@ -9,13 +9,20 @@ includeInSidebar: true
 toc: true
 pageStatus: preview
 discussionId:  
+recommendedContent:
+ - guides/manifesto-for-agile-software-development.md
+ - guides/scrum-guide.md
+ - practices/service-level-expectation-sle.md
+ - technologies/liberating-structures/shift-share.md
+ - technologies/liberating-structures/what-so-what-now-what.md
+ - workshops/sprint-review-1.md
 ---
 
 When designing a flow for an event, it is hugely important to be clear on the purpose. For the Sprint Review, the purpose is to inspect the increment that was created during the Sprint as well as to adapt the Product Backlog based on new insights, ideas, and changes that result from this inspection. The Sprint Review is about answering the question: “Based on what we learned this Sprint, what are the next steps?”. This provides valuable input for Sprint Planning.
 
 *This recipe is an example and starting point with a number of different facilitation examples provided. Please inherit from it and make it your own. If you have a great idea please submit a new recipe*
 
-![Scrum Framework Sprint Review](./../assets/images/naked-Agility-Scrum-Framework-Sprint-Review.jpg)
+![Scrum Framework Sprint Review](./../assets/images/naked-agility-scrum-framework-sprint-review.jpg)
 
 ## Flow Steps
 
@@ -33,19 +40,19 @@ The purpose here is for the Product Owner to set the tone and direction. Let's b
 
 There will always be Backlog Items that we were unable to complete during a Sprint. This is OK and just needs to be presented as here are the things that we did, and here are the things we did not get to. Did we meet the Sprint Goal?
 
-![image.png](/src/.attachments/image-19ca17e2-cc19-435f-bc0c-5fc71107e50f.png)
+![Cycle Time Scatter Plot](./../assets/images/naked-agility-kanban-cycle-time-scatter-plot.jpg)
 
 Review both the **Cycle Time Scatter Plot** and the **Throughput Run Chart** to understand what happened during this Sprint.
 
 ### Part 3: Sprint Demo - Show what was created [~15 mins]
 
-Depending on the scale there are many ways to facilitate this. The more engaging the better. If you have a lot of stakeholder participation then more advanced techniques involving [liberating structures](/Guides/Liberating-Structures) encourage the most engagement.
+Depending on the scale there are many ways to facilitate this. The more engaging the better. If you have a lot of stakeholder participation then more advanced techniques involving [liberating structures](./../technologies/liberating-structures.md) encourage the most engagement.
 
 #### Facilitation Options
 
 - Just Present your Features [15 mins]
 - Provide short videos of the features before the event. [0 min]
-- [Shift & Share](/Guides/Liberating-Structures/Shift-&-Share-\(40\)) [40 mins]
+- [Shift & Share](./../technologies/liberating-structures/shift-share.md) [40 mins]
 
 ### Part 4: Feedback - Gather feedback from Stakeholders [~30 min]
 
@@ -53,24 +60,24 @@ The main purpose of the Sprint Review is actionable feedback and updating the Pr
 
 #### Facilitation Options
 
-- [What, So What, Now What](/Guides/Liberating-Structures/What,-So-What,-Now-What?-\(30\)) [30 min]
-- [Sprint Review 1](/Project-Management/Agile-Ways-of-Working/Workshops/Sprint-Review-1) [240 Min]
+- [What, So What, Now What](./../technologies/liberating-structures/what-so-what-now-what.md) [30 min]
+- [Sprint Review 1](./../workshops/sprint-review-1.md) [240 Min]
 
 ### Part 5: What's Next? - Likely Sprint Goal and Forecast [10 mins]
 
-Share what is the rough draft plan for the next Sprint. Share your teams [Service Level Expectation (SLE)](/Project-Management/Agile-Ways-of-Working/Core-Practices/Service-Level-Expectation-\(SLE\)) and what the options are for Sprint Goals.
+Share what is the rough draft plan for the next Sprint. Share your teams [Service Level Expectation (SLE)](../practices/service-level-expectation-sle.md) and what the options are for Sprint Goals.
 
-![Throughput Run Chart.png](/src/.attachments/image-39d65958-2d54-4705-9763-79bd0665fb4d.png)
+![Throughput Run Chart.png](./../assets/images/naked-agility-kanban-throughput-run-chart.jpg)
 
 You can use a **Throughput Run Chart** to present predictions based on empirical data with your expected confidence levels._
 
 ### Part 6: Release Projections & Budgeting [10 mins]
 
-Based on our historical data and our [Service Level Expectation (SLE)](/Project-Management/Agile-Ways-of-Working/Core-Practices/Service-Level-Expectation-\(SLE\)) you should be able to answer any Stakeholder questions on "When will I get feature A?" or "When will Feature B ship?". Express all your predictions coupled with your confidence level of achieving it.
+Based on our historical data and our [Service Level Expectation (SLE)](./../practices/service-level-expectation-sle.md) you should be able to answer any Stakeholder questions on "When will I get feature A?" or "When will Feature B ship?". Express all your predictions coupled with your confidence level of achieving it.
 
-![image.png](/.attachments/image-611005a5-c612-4542-961b-10515af2c30b.png)
+![image.png](./../assets/images/naked-agility-kanban-cycle-time-scatter-plot.jpg)
 
-Use a **Monte Carlo How Many** or **Monte Carlo When**n to answer Stakeholder questions like "What will I get by 23/01/2024?" and "When will item x be completed?" As this is calculated using your team's historical data you will need to discuss the [Service Level Expectation](/Project-Management/Agile-Ways-of-Working/Core-Practices/Service-Level-Expectation-\(SLE\)) for the Team(s).
+Use a **Monte Carlo How Many** or **Monte Carlo When**n to answer Stakeholder questions like "What will I get by 23/01/2024?" and "When will item x be completed?" As this is calculated using your team's historical data you will need to discuss the [Service Level Expectation](./../practices/service-level-expectation-sle.md) for the Team(s).
 
 ### Part 7: Compliance Summery [10 mins]
 

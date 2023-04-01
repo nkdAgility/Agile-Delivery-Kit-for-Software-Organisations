@@ -11,8 +11,8 @@ discussionId:
 
 ## Workshops
 
-{% include content-pageType.html pageType =  "workshop" sidebar = true %}
+{% include content-pagetype.html pageType =  "workshop" sidebar = true %}
 
 ## Preview Workshops
 
-{% include content-pageType.html pageType =  "workshop" %}
+{% include content-pagetype.html pageType =  "workshop" %}

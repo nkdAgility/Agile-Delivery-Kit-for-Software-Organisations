@@ -1,5 +1,6 @@
 ---
 title: The Scrum Guide
+description: The Scrum Guide contains the definition of Scrum.
 layout: default
 pageType: guide
 toc: true
@@ -7,8 +8,8 @@ pageStatus: production
 discussionId:  
 includeInSidebar: true
 recommendedContent:
- - practices/Definition-of-Done-DoD.md
- - practices/Definition-of-Ready-DoR.md
+ - practices/definition-of-done-dod.md
+ - practices/definition-of-ready-dor.md
 ---
 
 The Scrum Guide is the rule book, or timber frame, of Scrum and is immutable of definition but not of implementation. If you have already read the Scrum Guide and are looking more for a Strategy Guide then head over to the Scrum Strategy Guide.
@@ -279,3 +280,7 @@ The Definition of Done creates transparency by providing everyone with a shared 
 If the Definition of Done for an increment is part of the standards of the organization, all Scrum Teams must follow it as a minimum. If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriately for the product.
 
 Developers are required to conform to the Definition of Done. If there are multiple Scrum Teams working together on a product, they must mutually define and comply with the same Definition of Done.
+
+## Reference
+
+- [The 2020 Scrum Guide](https://scrumguides.org/scrum-guide.html)

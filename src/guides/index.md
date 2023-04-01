@@ -7,8 +7,8 @@ All of these guides are available here and will be linked to their original onli
 
 ## Guides
 
-{% include content-pageType.html pageType =  "guide" sidebar = true %}   
+{% include content-pagetype.html pageType =  "guide" sidebar = true %}   
 
 ## Preview Guides
 
-{% include content-pageType.html pageType =  "guide" %}   
+{% include content-pagetype.html pageType =  "guide" %}   

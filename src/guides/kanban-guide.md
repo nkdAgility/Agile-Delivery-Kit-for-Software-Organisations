@@ -1,5 +1,6 @@
 ---
 title: Kanban Guide
+description: Kanban is a strategy for optimizing the flow of value through a process that uses a visual, pull-based system. 
 layout: default
 pageType: guide
 toc: true
@@ -16,6 +17,7 @@ By reducing Kanban to its essential components, the hope is that this guide will
 Any use of the word Kanban in this document specifically means the holistic set of concepts in this guide.
 
 ## Definition of Kanban
+
 Kanban is a strategy for optimizing the flow of value through a process that uses a visual, pull-based system. There may be various ways to define value, including consideration of the needs of the customer, the end-user, the organization, and the environment, for example.
 
 Kanban comprises the following three practices working in tandem:

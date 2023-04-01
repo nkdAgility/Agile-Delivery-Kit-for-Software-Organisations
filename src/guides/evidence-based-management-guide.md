@@ -1,5 +1,6 @@
 ---
 title: The Evidence-Based Management Guide
+description: Evidence-Based Management (EBM) is an empirical approach that helps organizations to continuously improve customer outcomes, organizational capabilities, and business results under conditions of uncertainty.
 layout: default
 pageType: guide
 toc: true

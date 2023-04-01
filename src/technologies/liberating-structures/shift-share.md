@@ -1,5 +1,6 @@
 ---
 title: Shift & Share (40m)
+description: Spread Good Ideas and Make Informal Connections with Innovators
 layout: default
 pageType: ls
 toc: true

@@ -11,6 +11,8 @@ gem 'jekyll-time-to-read'
 gem 'jekyll-github-metadata'
 gem 'jekyll-last-modified-at'
 gem 'jekyll-optional-front-matter'
+gem 'jekyll-target-blank'
+gem 'wdm'
 
 group :development do
     gem 'rails_real_favicon'

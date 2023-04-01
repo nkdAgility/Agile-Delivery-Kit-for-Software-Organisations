@@ -2,6 +2,11 @@
 title: Metrics and Reports
 layout: default
 pageType: practice
+toc: true
+pageStatus: 
+discussionId:  
+includeInSidebar: 
+recommendedContent:
 ---
 
 

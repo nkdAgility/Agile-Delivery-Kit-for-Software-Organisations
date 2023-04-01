@@ -2,6 +2,15 @@
 title: Sprint Planning Recipe
 layout: default
 pageType: recipe
+image: ./../assets/images/naked-Agility-Scrum-Framework-Sprint-Planning.jpg
+author: mrhinsh
+includeInSidebar: 
+toc: true
+pageStatus: preview
+discussionId:  
+recommendedContent:
+ - guides/manifesto-for-agile-software-development.md
+ - guides/scrum-guide.md
 ---
 
 A recipe is an example flow with options for how to run different segments to get the value you should be getting from this event.

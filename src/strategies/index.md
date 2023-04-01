@@ -17,4 +17,4 @@ A collection of plans of action designed to achieve a long-term or overall aim w
 -   Spotify Strategy
 -   Scrum.org Strategy
 
-{% include content-pageType.html pageType =  "strategy" title = "Strategies" %}
+{% include content-pagetype.html pageType =  "strategy" title = "Strategies" %}

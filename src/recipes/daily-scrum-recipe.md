@@ -2,6 +2,15 @@
 title: Daily Scrum Recipe
 layout: default
 pageType: recipe
+image: ./../assets/images/naked-Agility-Scrum-Framework-Daily-Scrum.jpg
+author: mrhinsh
+includeInSidebar: 
+toc: true
+pageStatus: preview
+discussionId:  
+recommendedContent:
+ - guides/manifesto-for-agile-software-development.md
+ - guides/scrum-guide.md
 ---
 
 During the Daily Scrum, the Developers should be actively managing their work that is in progress. They should be discussing what they need to do next to be most effective at reaching the Sprint Goal.
