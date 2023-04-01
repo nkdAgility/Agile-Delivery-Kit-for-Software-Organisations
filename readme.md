@@ -6,7 +6,7 @@ All of this content represents a baseline starting point for any Product deliver
 
 >   Rules are for the guidance of wise people and the obedience of fools -Adam Cogan
 
--   [View the Generic SDK](https://nkdagility.com/learn/agile-delivery-kit/)
+-   [View the Agile Delivery Kit](https://nkdagility.com/learn/agile-delivery-kit/)
 -   [Fork to create your own](https://github.com/nkdAgility/Agile-Delivery-Kit-for-Software-Organisations/fork)
 
 If you would like to create your own copy of this SDK we recommend that you [fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) on GitHub so that you can continue to pull new changes and updates to the content.
