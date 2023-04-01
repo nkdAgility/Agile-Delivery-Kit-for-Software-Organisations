@@ -4,27 +4,28 @@ layout: default
 pageType: workshop
 pageStatus: preview
 includeInSidebar: true
+toc: true
 discussionId:  
 ---
 
 
-### Duration
+## Duration
 
 60 Minutes
 
-### Purpose
+## Purpose
 
 This workshop is designed to help groups of people realise the effect of breaking down large Backlog Items into smaller pieces of value has on the ability to deliver. This is part of queuing theory!
 
-### Prepared Materials
+## Prepared Materials
 
 Read the instructions carefully in the Mural.
 
 - Mural Template: https://app.mural.co/template/19dff71c-2bba-4202-aae0-0662f6310329/ad063642-f4db-4b1f-a23a-c773b3d06083
 
-### Facilitation Steps
+## Facilitation Steps
 
-#### Part 1: A Scrum Team
+### Part 1: A Scrum Team
 
 Feel free to show your real data, this is a visualization of a typical scrum team. Walkthrough each day, asking people what they see, what stands out. 
 
@@ -36,7 +37,7 @@ Feel free to show your real data, this is a visualization of a typical scrum tea
 - Day 10: Just in time! Magic
 - Burndown: Looks good, but was it...
 
-#### Part 2: Coin Game
+### Part 2: Coin Game
 
  - **Round 1 Instructions**
 
@@ -64,20 +65,20 @@ Make one (and only one) change to the process to make it better (with some excep
 Coin colour can still only be changed one at a time
 Coins must still pass through each workstation and progress through all the colours
 
-#### Part 3: Flow Exercise Debrief & Explore Implications of Batch Size
+### Part 3: Flow Exercise Debrief & Explore Implications of Batch Size
 
 - Step 1: Debrief the groups.
 - Step 1: Explore Implications of Batch Size
 
-### Takeaways
+## Takeaways
 
 - Smaller Batches increase your flow which increases your predictability.
 
 
-### Facilitation Tips
+## Facilitation Tips
 
 - In-person use coins.
 
-### Useful Files
+## Useful Files
 
 n/a

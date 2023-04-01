@@ -3,6 +3,8 @@ title: Accountabilities
 layout: default
 toc: true
 pageStatus: preview
+pageType: overview
+includeInSidebar: true
 discussionId: 
 ---
 

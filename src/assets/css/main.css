@@ -28,3 +28,14 @@
   }
 
 
+blockquote {
+    
+    border-left: .25rem solid #f68e9d;
+    background-color: aliceblue;
+    padding: 4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 50%;
+}
