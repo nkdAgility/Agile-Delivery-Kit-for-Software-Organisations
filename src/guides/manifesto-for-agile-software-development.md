@@ -1,5 +1,6 @@
 ---
 title: Manifesto for Agile Software Development
+description: We are uncovering better ways of developing software by doing it and helping others do it. These are our values and principles.
 layout: default
 pageType: guide
 toc: true

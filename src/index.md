@@ -22,7 +22,9 @@ This content represents a starting point, or SDK, to help organisations kickstar
 
 All of this content represents a baseline starting point for any Product delivery team or organisation. You can modify as needed within the bounds of your business context without breaking the core mindset.
 
->   Rules are for the guidance of wise people and the obedience of fools -Adam Cogan
+> Rules are for the guidance of wise people and the obedience of fools\\
+> --<cite>Adam Cogan</cite>
+{: .blockquote}
 
 If you would like to create your own copy of this SDK we recommend that you [fork the repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) on GitHub so that you can continue to pull new changes and updates to the content.
 

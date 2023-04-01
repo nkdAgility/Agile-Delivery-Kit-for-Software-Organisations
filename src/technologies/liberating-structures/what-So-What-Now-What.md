@@ -1,5 +1,6 @@
 ---
 title: What, So What, Now What? (30m)
+description: Together, Look Back on Progress to Date and Decide What Adjustments Are Needed
 layout: default
 pageType: ls
 toc: true

@@ -1,5 +1,6 @@
 ---
 title: The Scrum Guide
+description: The Scrum Guide contains the definition of Scrum.
 layout: default
 pageType: guide
 toc: true
