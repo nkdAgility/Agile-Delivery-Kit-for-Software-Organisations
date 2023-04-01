@@ -14,8 +14,8 @@ Not all practices work for all teams and finding the most effective bundle for a
 
 ## Practices
 
-{% include content-pageType.html pageType =  "practice" sidebar = true %}
+{% include content-pagetype.html pageType =  "practice" sidebar = true %}
 
 ## Preview Practices
 
-{% include content-pageType.html pageType =  "practice" %}
+{% include content-pagetype.html pageType =  "practice" %}

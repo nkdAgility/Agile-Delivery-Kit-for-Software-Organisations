@@ -50,7 +50,7 @@ These are the core first principals by which this document operates and they are
 - The work needed will emerge as we do the work and help others do it
 - Processes, practices and tools necessary will emerge as we do the work and help others do it
 
-Learn more about the [first pincipals](./first-principals.md).
+Learn more about the [first principals](./first-principals.md).
 
 ### How can you tell if you are agile?
 
@@ -63,7 +63,7 @@ There is no hard test that can determine your capacity for agility. Here are som
 - Are teams empowered to change their process based on what they learn?
 - Is the full ecosystem of your project agile? (Agile programming teams followed by linear, bureaucratic deployment is a failure.)
 
-More questions are in the [Detecting Agile BS](./guides/Detecting-Agile-BS.md) guide from the US DOD.
+More questions are in the [Detecting Agile BS](./guides/detecting-agile-bs.md) guide from the US DOD.
 
 ## Discussions, Communities, & Contributing
 

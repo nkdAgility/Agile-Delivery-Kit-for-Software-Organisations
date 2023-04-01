@@ -53,8 +53,8 @@ When the [Product Backlog](product-backlog.md) item or an [Increment](product-in
 
 An explicit and concrete definition of done may seem small, but it can be the most critical checkpoint of work. Without a consistent meaning of "Done", we cant know what it takes to get something finished. Conversely, a common definition of done ensures that the increment produced at the end of iteration is of high quality, with minimal defects. The Definition of Done is the soul of Scrum, and mature Developers will resist demonstrating at the Sprint Review (let alone deploying) any increment that is not Done.
 
-![Scrum Requires Done](../assets/images/Scrum-Requires-Done.png){: style="width:250px"}\\
-[Scrum Requires Done (PDF)](../assets/attachments/Scrum-Requires-Done.pdf)
+![Scrum Requires Done](../assets/images/scrum-requires-done.png){: style="width:250px"}\\
+[Scrum Requires Done (PDF)](../assets/attachments/scrum-requires-done.pdf)
 
 #### Releasable
 

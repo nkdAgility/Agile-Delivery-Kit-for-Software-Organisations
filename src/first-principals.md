@@ -8,9 +8,9 @@ discussionId:
 recommendedContent:
  - guides/manifesto-for-agile-software-developmen.md
  - guides/scrum-guide.md
- - guides/Kanban-Guide.md
- - guides/Evidence-based-Management-Guide.md
- - guides/Detecting-Agile-BS.md
+ - guides/kanban-guide.md
+ - guides/evidence-based-management-guide.md
+ - guides/detecting-agile-bs.md
 ---
 
 These are the basic propositions or assumptions that the rest of the document is based on.
