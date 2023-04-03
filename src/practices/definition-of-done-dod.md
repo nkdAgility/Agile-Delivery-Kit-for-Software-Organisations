@@ -15,7 +15,7 @@ Every team should define what is required, what criteria must be met, for a prod
 {: .lead}
 
 > Live and in production, collecting telemetry supporting or diminishing the starting hypothesis.\\
-> --<cite>from Azure DevOps Product DOD</cite>
+> --<cite>from Definition of Done (DoD) for the Azure DevOps Product Teams</cite>
 {: .blockquote}
 
 **The purpose of the definition of done is to provide transparency of what has been done!** This provides the team with focus on whats needed and commitment to the minimum level of quality needed. Every team has full control over the level of quality that they provide. 
@@ -43,7 +43,7 @@ This short measurable checklist that reflects quality should be true regardless 
 A simple definition of DOD from Scrum: "a shared understanding of expectations that the Increment must live up to in order to be releasable into production. Managed by the Scrum Team."  
 
 <div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/RzWFeLfSnP0" title="YouTube video" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/RzWFeLfSnP0" title="Why is done so important in the Reporting & Data Space?" allowfullscreen></iframe>
 </div>
 
 No mater what you are building you should have a clear and concise definition of done that can be understood and articulated by the whole Team, and ideally by your stakeholders.
@@ -106,11 +106,15 @@ These items are mandatory and are required by [Company] to protect our brand and
 
 ## Example Definitions of Done
 
-Here are some examples of Done from various teams, real and fictitious. 
+Here are some examples of Done from various teams, real and fictitious.
 
 ### Azure DevOps
 
 -   Live in production, collecting telemetry supporting or diminishing the starting hypothesis.
+
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/QA2QdBG5uLE" title="Agile Evolution: An Enterprise transformation that shows that you can too - Martin Hinshelwood" allowfullscreen></iframe>
+</div>
 
 ### FABRIKAM TEAM
 
