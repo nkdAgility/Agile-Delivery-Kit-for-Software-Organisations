@@ -3,8 +3,9 @@ title: Professional Scrum
 layout: default
 toc: true
 pageType: technology
-pageStatus: 
+pageStatus: production
 discussionId: 
+includeInSidebar: true
 recommendedContent:
  - guides/manifesto-for-agile-software-development.md
  - guides/scrum-guide.md
@@ -21,7 +22,7 @@ While yes, Professional Scrum is the brand name of Scrum.org, there is a greater
 
 ## What is Professional Scrum?
 
-Many people talk about Scrum. Over 
+Professional Scrum is a version of Scrum implemented by professionals for professional companies, in a professional mannor. 
 
 ## First Principals of Scrum
 
