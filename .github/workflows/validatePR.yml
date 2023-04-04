@@ -21,6 +21,9 @@ jobs:
         id: spellcheck
         name: Spellcheck
 
+      - name: Build Jekyll
+        uses: jerryjvl/jekyll-build-action@v1
+
       - name: PR Comment on failure only
         if: failure()
         # You may pin to the exact commit or the version.

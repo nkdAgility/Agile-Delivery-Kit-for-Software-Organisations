@@ -33,14 +33,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Install GitVersion
-        uses: gittools/actions/gitversion/setup@v0
-        with:
-          versionSpec: '5.x'
-      - name: Determine Version
-        uses: gittools/actions/gitversion/execute@v0
-        with:
-          useConfigFile: false
       - name: Build Jekyll
         uses: jerryjvl/jekyll-build-action@v1
       - name: SFTP Upload
