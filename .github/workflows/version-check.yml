@@ -1,12 +1,12 @@
-﻿name: Deploy to WPEngine - Jekyll with dependencies preinstalled
+﻿name: Version Check (EX)
 
-# on:
-#   # Runs on pushes targeting the default branch
-#   push:
-#     branches: ["main"]
-#   #pull_request:
-#   #  branches:
-#   #  - main
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+  #pull_request:
+  #  branches:
+  #  - main
 
 
   # Allows you to run this workflow manually from the Actions tab

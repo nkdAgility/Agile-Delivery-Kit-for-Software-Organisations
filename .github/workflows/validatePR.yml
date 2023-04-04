@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Validate SDK
+name: Validate ADK
 
 on:
   pull_request:
