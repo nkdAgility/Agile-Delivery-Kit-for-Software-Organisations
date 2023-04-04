@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Validate SDK
+name: Validate ADK
 
 on:
   pull_request:
@@ -20,6 +20,9 @@ jobs:
       - uses: igsekor/pyspelling-any@v1.0.4
         id: spellcheck
         name: Spellcheck
+
+      - name: Build Jekyll
+        uses: jerryjvl/jekyll-build-action@v1
 
       - name: PR Comment on failure only
         if: failure()
