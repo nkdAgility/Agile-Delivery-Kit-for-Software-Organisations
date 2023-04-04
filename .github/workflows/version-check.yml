@@ -37,14 +37,8 @@ jobs:
           fetch-depth: 0
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0
-        with:
-          versionSpec: '6.x'
-          includePrerelease: true
       - name: Display GitVersion config
         uses: gittools/actions/gitversion/execute@v0
-        with:
-          useConfigFile: false
-          additionalArguments: '/showConfig'
       - name: Display GitVersion outputs (step output)
         run: |
           echo "Major: ${{ steps.gitversion.outputs.major }}"
