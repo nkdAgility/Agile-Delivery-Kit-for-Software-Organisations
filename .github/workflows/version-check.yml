@@ -76,6 +76,3 @@ jobs:
           echo "CommitsSinceVersionSourcePadded: ${{ steps.gitversion.outputs.commitsSinceVersionSourcePadded }}"
           echo "UncommittedChanges: ${{ steps.gitversion.outputs.uncommittedChanges }}"
           echo "CommitDate: ${{ steps.gitversion.outputs.commitDate }}"
-      - uses: ncipollo/release-action@v1
-        with:
-          tag: v${{ steps.gitversion.outputs.majorMinorPatch }}
