@@ -47,7 +47,6 @@ plugins:
   # - jekyll-github-metadata
   - jekyll-optional-front-matter
   - jekyll-last-modified-at
-  - jekyll-pdf
 
 kramdown:
   math_engine: mathjax
