@@ -3,6 +3,7 @@ title: Nine Whys (30m)
 layout: default
 pageType: ls
 toc: true
+pdf: true
 pageStatus: preview
 discussionId:  
 includeInSidebar: true

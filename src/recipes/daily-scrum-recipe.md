@@ -6,6 +6,7 @@ image: ./../assets/images/naked-Agility-Scrum-Framework-Daily-Scrum.jpg
 author: mrhinsh
 includeInSidebar: 
 toc: true
+pdf: true
 pageStatus: preview
 discussionId:  
 recommendedContent:

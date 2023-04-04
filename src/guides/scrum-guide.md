@@ -4,6 +4,7 @@ description: The Scrum Guide contains the definition of Scrum.
 layout: default
 pageType: guide
 toc: true
+pdf: true
 pageStatus: production
 discussionId:  
 includeInSidebar: true

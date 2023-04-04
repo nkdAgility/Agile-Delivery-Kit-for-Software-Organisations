@@ -5,6 +5,7 @@ layout: default
 pageType: workshop
 includeInSidebar: true
 toc: true
+pdf: true
 pageStatus: preview
 discussionId:  
 author: mrhinsh

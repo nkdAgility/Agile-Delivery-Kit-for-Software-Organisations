@@ -2,6 +2,7 @@
 title: Agile Delivery Kit for Software Organisations
 layout: default
 toc: true
+pdf: true
 pageStatus: production
 discussionId: 12 
 ---
@@ -63,7 +64,7 @@ There is no hard test that can determine your capacity for agility. Here are som
 - Are teams empowered to change their process based on what they learn?
 - Is the full ecosystem of your project agile? (Agile programming teams followed by linear, bureaucratic deployment is a failure.)
 
-More questions are in the [Detecting Agile BS](./guides/detecting-agile-bs.md) guide from the US DOD.
+More questions are in the [Detecting Agile BS](./guides/detecting-agile-bs.md) guide from the US Department of Defense.
 
 ## Discussions, Communities, & Contributing
 

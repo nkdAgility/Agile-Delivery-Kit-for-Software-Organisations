@@ -4,6 +4,7 @@ description: A service level expectation (SLE) forecasts how long it should take
 layout: default
 pageType: practice
 toc: true
+pdf: true
 pageStatus: 
 discussionId:  
 includeInSidebar: 

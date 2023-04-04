@@ -3,6 +3,7 @@ title: Accountabilities for the Scrum Team
 layout: default
 pageType: practice
 toc: true
+pdf: true
 pageStatus: 
 discussionId:  
 includeInSidebar: 

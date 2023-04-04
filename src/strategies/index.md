@@ -6,6 +6,7 @@ pageType: index
 pageStatus: construction
 includeInSidebar: true
 toc: true
+pdf: true
 discussionId:  
 ---
 

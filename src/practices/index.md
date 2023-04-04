@@ -2,6 +2,7 @@
 title: SDK Practices
 layout: default
 toc: true
+pdf: true
 pageStatus: 
 discussionId:  
 includeInSidebar: 

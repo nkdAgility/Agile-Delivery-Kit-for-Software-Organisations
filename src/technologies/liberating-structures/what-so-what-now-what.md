@@ -4,6 +4,7 @@ description: Together, Look Back on Progress to Date and Decide What Adjustments
 layout: default
 pageType: ls
 toc: true
+pdf: true
 pageStatus: preview
 discussionId:  
 includeInSidebar: true

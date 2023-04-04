@@ -3,6 +3,7 @@ title: Liberating Structures
 layout: default
 pageType: technology
 toc: true
+pdf: true
 pageStatus: preview
 discussionId:  
 includeInSidebar: true

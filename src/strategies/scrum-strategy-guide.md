@@ -3,6 +3,7 @@ title: The Scrum Strategy Guide
 layout: default
 pageType: strategy
 toc: true
+pdf: true
 pageStatus: 
 discussionId:  
 ---

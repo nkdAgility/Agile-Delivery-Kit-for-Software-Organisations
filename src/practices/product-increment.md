@@ -2,6 +2,7 @@
 title: Product Increment
 layout: default
 toc: true
+pdf: true
 pageType: practice
 pageStatus: 
 discussionId:  

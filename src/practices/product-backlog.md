@@ -2,6 +2,7 @@
 title: Product Backlog
 layout: default
 toc: true
+pdf: true
 pageType: practice
 pageStatus: 
 discussionId:  
