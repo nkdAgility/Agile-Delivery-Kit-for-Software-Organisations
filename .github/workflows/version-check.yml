@@ -78,5 +78,5 @@ jobs:
           echo "CommitDate: ${{ steps.gitversion.outputs.commitDate }}"
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: "./readme.md"
+          artifacts: "readme.md"
           tag: v${{ steps.gitversion.outputs.majorMinorPatch }}
