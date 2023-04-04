@@ -2,6 +2,7 @@
 title: Accountabilities
 layout: default
 toc: true
+pdf: true
 pageStatus: preview
 pageType: overview
 includeInSidebar: true

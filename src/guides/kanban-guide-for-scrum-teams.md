@@ -4,6 +4,7 @@ description: The flow-based perspective of Kanban can enhance and complement the
 layout: default
 pageType: guide
 toc: true
+pdf: true
 pageStatus: production
 discussionId:  
 includeInSidebar: true

@@ -4,6 +4,7 @@ description: The purpose of this document is to provide guidance to DoD program 
 layout: default
 pageType: guide
 toc: true
+pdf: true
 pageStatus: production
 includeInSidebar: true
 discussionId:  

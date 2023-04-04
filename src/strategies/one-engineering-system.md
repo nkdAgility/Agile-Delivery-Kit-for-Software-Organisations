@@ -3,6 +3,7 @@ title: One Engineering System (1ES)
 layout: default
 pageType: strategy
 toc: true
+pdf: true
 pageStatus: 
 discussionId:  
 includeInSidebar: 

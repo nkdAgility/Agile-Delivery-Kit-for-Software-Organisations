@@ -2,6 +2,7 @@
 title: Professional Scrum
 layout: default
 toc: true
+pdf: true
 pageType: technology
 pageStatus: production
 discussionId: 

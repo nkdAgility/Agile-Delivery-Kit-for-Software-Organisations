@@ -4,6 +4,7 @@ description: Spread Good Ideas and Make Informal Connections with Innovators
 layout: default
 pageType: ls
 toc: true
+pdf: true
 pageStatus: preview
 discussionId:  
 includeInSidebar: true

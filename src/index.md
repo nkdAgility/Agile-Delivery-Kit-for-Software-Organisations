@@ -2,6 +2,7 @@
 title: Agile Delivery Kit for Software Organisations
 layout: default
 toc: true
+pdf: true
 pageStatus: production
 discussionId: 12 
 ---

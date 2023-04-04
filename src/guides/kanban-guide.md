@@ -4,6 +4,7 @@ description: Kanban is a strategy for optimizing the flow of value through a pro
 layout: default
 pageType: guide
 toc: true
+pdf: true
 pageStatus: production
 discussionId:  
 includeInSidebar: true

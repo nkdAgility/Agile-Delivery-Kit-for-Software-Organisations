@@ -3,6 +3,7 @@ title: Impromptu Networking (15m)
 layout: default
 pageType: ls
 toc: true
+pdf: true
 pageStatus: preview
 discussionId:  
 includeInSidebar: true

@@ -3,6 +3,7 @@ title: Metrics and Reports
 layout: default
 pageType: practice
 toc: true
+pdf: true
 pageStatus: 
 discussionId:  
 includeInSidebar: 

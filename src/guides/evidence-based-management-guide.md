@@ -4,6 +4,7 @@ description: Evidence-Based Management (EBM) is an empirical approach that helps
 layout: default
 pageType: guide
 toc: true
+pdf: true
 includeInSidebar: true
 pageStatus: production
 discussionId:  

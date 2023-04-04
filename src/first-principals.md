@@ -3,6 +3,7 @@ title: First Principals
 layout: default
 pageType: overview
 toc: true
+pdf: true
 pageStatus: 
 discussionId:  
 recommendedContent:

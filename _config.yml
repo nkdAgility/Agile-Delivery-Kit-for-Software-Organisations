@@ -21,6 +21,7 @@ defaults:
     values:
       image: /assets/images/naked-agility-Learn-Agile-Delivery-Kit-1600x900.jpg
       toc: true
+pdf: true
       
 toc:
   min_level: 1
@@ -46,6 +47,7 @@ plugins:
   # - jekyll-github-metadata
   - jekyll-optional-front-matter
   - jekyll-last-modified-at
+  - jekyll-pdf
 
 kramdown:
   math_engine: mathjax

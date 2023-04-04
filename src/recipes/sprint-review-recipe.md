@@ -7,6 +7,7 @@ image: ./../assets/images/naked-Agility-Scrum-Framework-Sprint-Review.jpg
 author: mrhinsh
 includeInSidebar: true
 toc: true
+pdf: true
 pageStatus: preview
 discussionId:  
 recommendedContent:

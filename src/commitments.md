@@ -2,6 +2,7 @@
 title: Commitments & Artifacts
 layout: default
 toc: true
+pdf: true
 pageStatus: 
 pageType: overview
 includeInSidebar: 

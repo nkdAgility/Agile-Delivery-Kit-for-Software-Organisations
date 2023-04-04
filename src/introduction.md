@@ -2,6 +2,7 @@
 title: Introduction
 layout: default
 toc: true
+pdf: true
 pageStatus: preview
 includeInSidebar: 
 pageType: overview

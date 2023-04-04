@@ -5,6 +5,7 @@ pageType: workshop
 pageStatus: preview
 includeInSidebar: true
 toc: true
+pdf: true
 discussionId:  
 ---
 

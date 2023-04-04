@@ -4,6 +4,7 @@ description: We are uncovering better ways of developing software by doing it an
 layout: default
 pageType: guide
 toc: true
+pdf: true
 pageStatus: production
 discussionId:  
 includeInSidebar: true
