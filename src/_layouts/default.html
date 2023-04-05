@@ -43,6 +43,7 @@
                             <p>{{ content | reading_time_as_i }} to read</p>
                             <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
                             <p>{{ page.last_modified_at }}</p>
+                            <p>${GitVersion_SemVer}</p>
                         </div>
                         <div class="mainContent">
                             {% include article-alert.html %}
