@@ -42,6 +42,17 @@ jobs:
       - name: Display GitVersion config
         id:   gitversion # id to later be referenced
         uses: gittools/actions/gitversion/execute@v0
+      - uses: actions/checkout@v2
+      - uses: cschleiden/replace-tokens@v1
+        with:
+          files: "[**]"
+          tokenPrefix: "${"
+          tokenSuffix: "}"
+        env:
+          GITVERSION_FullSemVer: ${{ steps.gitversion.outputs.fullSemVer }}
+          GITVERSION_Major: ${{ steps.gitversion.outputs.Major }}
+          GITVERSION_Minor: ${{ steps.gitversion.outputs.Minor }}
+          GITVERSION_Patch: ${{ steps.gitversion.outputs.Patch }}
       - name: Display GitVersion outputs (step output)
         run: |
           echo "Major: ${{ steps.gitversion.outputs.major }}"
