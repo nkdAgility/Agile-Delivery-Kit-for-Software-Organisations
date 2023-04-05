@@ -40,10 +40,11 @@
                         <div class="d-flex">
                             <p>Article</p>
                             <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
-                            <p>{{ content | reading_time_as_i }} to read</p>
+                            <p>{{ page.last_modified_at | date: '%a %e %b %Y %H:%M' }}</p>
                             <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
-                            <p>{{ page.last_modified_at }}</p>
-                            <p>${GitVersion_SemVer}</p>
+                            <p>v${GitVersion_SemVer}</p>
+                            <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
+                            <p>{{ content | reading_time_as_i }} to read</p>
                         </div>
                         <div class="mainContent">
                             {% include article-alert.html %}
