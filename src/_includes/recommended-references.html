@@ -1,0 +1,13 @@
+{% assign references = page.references %}
+{% if references.size > 0 %}
+<hr />
+<h2>References</h2>
+<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+    {% for item in references %}
+    <li class="align-items-center"><a href="{{item.url}}" target="_blank">{{item.title}}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+  
+  

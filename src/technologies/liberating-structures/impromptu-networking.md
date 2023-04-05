@@ -1,5 +1,6 @@
 ---
 title: Impromptu Networking (15m)
+description: Rapidly Share Challenges and Expectations, Build New Connections
 layout: default
 pageType: ls
 toc: true
