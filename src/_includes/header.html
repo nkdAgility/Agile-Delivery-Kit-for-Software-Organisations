@@ -24,18 +24,18 @@
 </nav>
 <div class="container-fluid p-5 bg-brand-primary text-white text-center">
     <h1>{{site.title}}</h1>
+    <p>v${GitVersion_SemVer}</p>
     <p>{{site.description}}</p>
 </div>  
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
     <div class="container-fluid">
-        <a class="btn btn-outline-light d-flex" href="{{site.parent_url}}" title="naked Agility with Martin Hinshelwood"><i class="fa-solid fa-turn-down-left fa-rotate-90"></i><span class="d-none d-lg-block">&nbsp;Return to naked Agility</span></a>
-        <!-- <div class="collapse navbar-collapse" id="navbarsExample03">
+        <div class="collapse navbar-collapse" id="navbarsExample03">
             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" title="Start | {{site.title}}" href="{{site.baseurl}}/"><i class="fa-sharp fa-solid fa-flag-checkered"></i> Start</a>
+                    <a class="nav-link active" aria-current="page" title="Learn | naked Agility with Martin Hinshelwood" href="{{site.parent_url}}/learn"><i class="fa-solid fa-laptop-file"></i> Learn</a>
                 </li>
             </ul>
-        </div> -->
+        </div>
         <a class="d-lg-none btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" title="Start | {{site.title}}" href="{{site.baseurl}}/"><i class="fa-solid fa-bars"></i></a>
     </div>
 </nav>

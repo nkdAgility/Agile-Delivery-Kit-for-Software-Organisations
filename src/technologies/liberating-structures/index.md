@@ -1,5 +1,6 @@
 ---
 title: Liberating Structures
+description: Liberating Structures are a collection of 33 different structures that can be strung together to create engaging experiences for participants.
 layout: default
 pageType: technology
 toc: true

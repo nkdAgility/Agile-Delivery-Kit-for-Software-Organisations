@@ -37,19 +37,28 @@
                         <div class=" ">
                             <h1>{{ page.title }}</h1>
                         </div>
-                        <div class="d-flex">
-                            <p>Article</p>
-                            <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
-                            <p>{{ content | reading_time_as_i }} to read</p>
-                            <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
-                            <p>{{ page.last_modified_at }}</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="d-flex">
+                                <p><strong>{{ page.pageType | capitalize }}</strong></p>
+                                <span>&nbsp;<i class="fa-solid fa-pipe"></i>&nbsp;</span>
+                                <p>{{ content | reading_time_as_i }} to read</p>
+                            </div>
+                            <div class="">
+                                <p>Last Updated: {{ page.last_modified_at | date: '%a %e %b %Y %H:%M' }}</p>
+                            </div>
                         </div>
                         <div class="mainContent">
                             {% include article-alert.html %}
                             {{ content | inject_anchors }}
                         </div>
+                         <div class="">
+                            {% include recommended-references.html %}
+                        </div>
                         <div class="">
                             {% include recommended-content.html %}
+                        </div>
+                        <div class="">
+                            {% include recommended-videos.html %}
                         </div>
                     </div>
                 </article>
