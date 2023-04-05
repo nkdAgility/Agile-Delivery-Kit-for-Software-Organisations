@@ -52,7 +52,7 @@ jobs:
         uses: jerryjvl/jekyll-build-action@v1
       - uses: actions/upload-artifact@v3
         with:
-          name: JekyllSiteforLearn
+          name: _site
           path: ./_site/**/*
       - name: SFTP Upload
         # You may pin to the exact commit or the version.
@@ -70,6 +70,5 @@ jobs:
               ./_site/ => ./agile-delivery-kit
           # If true, any existing files in the remote upload directories are deleted.
           delete: true
-
 
 
