@@ -45,14 +45,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: cschleiden/replace-tokens@v1
         with:
-          files: "[**/*.*]"
+          files: '["**/*.*"]'
           tokenPrefix: "${"
           tokenSuffix: "}"
-        env:
-          GITVERSION_FullSemVer: ${{ steps.gitversion.outputs.fullSemVer }}
-          GITVERSION_Major: ${{ steps.gitversion.outputs.Major }}
-          GITVERSION_Minor: ${{ steps.gitversion.outputs.Minor }}
-          GITVERSION_Patch: ${{ steps.gitversion.outputs.Patch }}
       - name: Display GitVersion outputs (step output)
         run: |
           echo "Major: ${{ steps.gitversion.outputs.major }}"
