@@ -3,11 +3,21 @@ title: Detecting Agile BS
 description: The purpose of this document is to provide guidance to DoD program executives and acquisition professionals on how to detect software projects that are really using agile development versus those that are simply waterfall or spiral development in agile clothing.
 layout: default
 pageType: guide
+image: https://nkdagility.com/wp-content/uploads/2020/12/image-2.png
 toc: true
 pdf: true
 pageStatus: production
 includeInSidebar: true
 discussionId:  
+references:
+ - title: DIB Guide - Detecting Agile BS
+   url: https://media.defense.gov/2019/May/02/2002127286/-1/-1/0/DIBGUIDEDETECTINGAGILEBS.PDF
+ - title: Defense Innovation Board Ten Commandments of Software
+   url: https://media.defense.gov/2018/Apr/22/2001906836/-1/-1/0/DEFENSEINNOVATIONBOARD_TEN_COMMANDMENTS_OF_SOFTWARE_2018.04.20.PDF
+ - title: Defense Innovation Board Metrics for Software Development
+   url: https://media.defense.gov/2018/Jul/10/2001940937/-1/-1/0/DIB_METRICS_FOR_SOFTWARE_DEVELOPMENT_V0.9_2018.07.10.PDF
+ - title: Defense Innovation Board Do’s and Don’ts for Software
+   url: https://media.defense.gov/2018/Oct/09/2002049593/-1/-1/0/DIB_DOS_DONTS_SOFTWARE_2018.10.05.PDF
 ---
 
 Agile is a buzzword of software development, and so all DoD software development projects are, almost by default, now declared to be “agile.” The purpose of this document is to provide guidance to DoD program executives and acquisition professionals on how to detect software projects that are really using agile development versus those that are simply waterfall or spiral development in agile clothing (“agile-scrum-fall”).
@@ -74,7 +84,7 @@ Graphical version:
 - How do you communicate with the developers? Did they observe your relevant teams working and ask questions that indicated a deep understanding of your needs? When is the last time they sat with you and talked about features you would like to see implemented?
 - How do you send in suggestions for new features or report issues or bugs in the code? What type of feedback do you get to your requests/reports? Are you ever asked to try prototypes of new software features and observed using them?
 - What is the time it takes for a requested feature to show up in the application?
-- 
+
 ## Questions for Program Leadership
 
 - Are teams delivering working software to at least some subset of real users every iteration (including the first) and gathering feedback? (alt: every two weeks)
@@ -84,17 +94,5 @@ Graphical version:
 - Are teams empowered to change their process based on what they learn?
 - Is the full ecosystem of your project agile? (Agile programming teams followed by linear, bureaucratic deployment is a failure.)
 
-More information on some of the features of DoD software programs are included in Appendix A ([DIB Ten Commandments on Software][2]), Appendix B ([DIB Metrics for Software Development][3]),
-and Appendix C ([DIB Do’s and Don’ts of Software][4]).
-
-## References
-
-- [DIB Guide: Detecting Agile BS][1]
-- [Defense Innovation Board Ten Commandments of Software][2]
-- [Defense Innovation Board Metrics for Software Development][3]
-- [Defense Innovation Board Do’s and Don’ts for Software][4]
-
-[1]: https://media.defense.gov/2019/May/02/2002127286/-1/-1/0/DIBGUIDEDETECTINGAGILEBS.PDF "DIB Guide: Detecting Agile BS"
-[2]: https://media.defense.gov/2018/Apr/22/2001906836/-1/-1/0/DEFENSEINNOVATIONBOARD_TEN_COMMANDMENTS_OF_SOFTWARE_2018.04.20.PDF "Defense Innovation Board Ten Commandments of Software"
-[3]: https://media.defense.gov/2018/Jul/10/2001940937/-1/-1/0/DIB_METRICS_FOR_SOFTWARE_DEVELOPMENT_V0.9_2018.07.10.PDF "Defense Innovation Board Metrics for Software Development"
-[4]: https://media.defense.gov/2018/Oct/09/2002049593/-1/-1/0/DIB_DOS_DONTS_SOFTWARE_2018.10.05.PDF "Defense Innovation Board Do’s and Don’ts for Software"
+More information on some of the features of DoD software programs are included in Appendix A [DIB Ten Commandments on Software](https://media.defense.gov/2018/Apr/22/2001906836/-1/-1/0/DEFENSEINNOVATIONBOARD_TEN_COMMANDMENTS_OF_SOFTWARE_2018.04.20.PDF), Appendix B [DIB Metrics for Software Development](https://media.defense.gov/2018/Jul/10/2001940937/-1/-1/0/DIB_METRICS_FOR_SOFTWARE_DEVELOPMENT_V0.9_2018.07.10.PDF),
+and Appendix C [DIB Do’s and Don’ts of Software](https://media.defense.gov/2018/Oct/09/2002049593/-1/-1/0/DIB_DOS_DONTS_SOFTWARE_2018.10.05.PDF).

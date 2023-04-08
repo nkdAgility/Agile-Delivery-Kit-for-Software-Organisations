@@ -7,12 +7,20 @@ pageType: technology
 pageStatus: production
 discussionId: 
 includeInSidebar: true
+references:
+ - title: What is Professional Scrum?
+   url: https://www.scrum.org/what-professional-scrum
 recommendedContent:
  - guides/manifesto-for-agile-software-development.md
  - guides/scrum-guide.md
  - guides/kanban-guide-for-scrum-teams.md
  - guides/evidence-based-management-guide.md
  - practices/service-level-expectation-sle.md
+recommendedVideos:
+ - title: Overview of The Scrum Framework
+   embed: https://www.youtube.com/embed/Q2Fo3sM6BVo
+ - title: What is Professional Scrum?
+   embed: https://www.youtube.com/embed/BYlv7eP9zgg
 ---
 
 While yes, Professional Scrum is the brand name of Scrum.org, there is a greater purpose behind the choice of the word "professional".
@@ -83,7 +91,14 @@ This part of the Scrum Guide should not be taken to mean that if you don't follo
 
 ### What about things not mentioned?
 
+The Scrum Guide is only focused on the aspects of a teams work that enable empiricism and thus there are a lot of things that might be useful that it does not have an opinion on.
 
+- User Stories
+- Estimation
+- Story Points
+- etc..
+
+These are all not mentioned in the Scrum Guide. You can check out our list of [complimentary practices](./../practices/) and add your own.
 
 ## Overview of The Scrum Framework
 
