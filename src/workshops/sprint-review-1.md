@@ -11,11 +11,14 @@ discussionId:
 author: mrhinsh
 references:
 recommendedContent:
- - guides/scrum-guide.md
+ - collection: guides
+   path: _guides/scrum-guide.md
  - technologies/liberating-structures/index.md
  - technologies/liberating-structures/impromptu-networking.md
- - technologies/liberating-structures/shift-share.md
- - technologies/liberating-structures/what-so-what-now-what.md
+ - collection: guides
+   path: _technologies/liberating-structures/shift-share.md
+ - collection: guides
+   path: _technologies/liberating-structures/what-so-what-now-what.md
 recommendedVideos:
  - title: Overview of The Scrum Framework with Martin Hinshelwood
    embed: https://www.youtube.com/embed/Q2Fo3sM6BVo

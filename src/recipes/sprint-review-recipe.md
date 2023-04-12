@@ -11,12 +11,18 @@ pdf: true
 pageStatus: preview
 discussionId:  
 recommendedContent:
- - guides/manifesto-for-agile-software-development.md
- - guides/scrum-guide.md
- - practices/service-level-expectation-sle.md
- - technologies/liberating-structures/shift-share.md
- - technologies/liberating-structures/what-so-what-now-what.md
- - workshops/sprint-review-1.md
+ - collection: guides
+   path: _guides/manifesto-for-agile-software-development.md
+ - collection: guides
+   path: _guides/scrum-guide.md
+ - collection: guides
+   path: _practices/service-level-expectation-sle.md
+ - collection: technologies
+   path: _technologies/liberating-structures/shift-share.md
+ - collection: technologies
+   path: _technologies/liberating-structures/what-so-what-now-what.md
+ - collection: workshops
+   path: _workshops/sprint-review-1.md
 ---
 
 When designing a flow for an event, it is hugely important to be clear on the purpose. For the Sprint Review, the purpose is to inspect the increment that was created during the Sprint as well as to adapt the Product Backlog based on new insights, ideas, and changes that result from this inspection. The Sprint Review is about answering the question: “Based on what we learned this Sprint, what are the next steps?”. This provides valuable input for Sprint Planning.

@@ -12,10 +12,14 @@ references:
    url: https://www.scrum.org/what-professional-scrum
 recommendedContent:
  - guide/detecting-agile-bs.md
- - guides/manifesto-for-agile-software-development.md
- - guides/scrum-guide.md
- - guides/kanban-guide-for-scrum-teams.md
- - guides/evidence-based-management-guide.md
+ - collection: guides
+   path: _guides/manifesto-for-agile-software-development.md
+ - collection: guides
+   path: _guides/scrum-guide.md
+ - collection: guides
+   path: _guides/kanban-guide-for-scrum-teams.md
+ - collection: guides
+   path: _guides/evidence-based-management-guide.md
  - guides/kanban-guide.md
 recommendedVideos:
  - title: Overview of The Scrum Framework

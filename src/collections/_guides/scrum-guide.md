@@ -12,8 +12,10 @@ references:
  - title: The 2020 Scrum Guide
    url: https://scrumguides.org/scrum-guide.html
 recommendedContent:
- - practices/definition-of-done-dod.md
- - practices/definition-of-ready-dor.md
+ - collection: practices
+   path: _practices/definition-of-done-dod.md
+ - collection: practices
+   path: _practices/definition-of-ready-dor.md
 recommendedVideos:
  - title: Overview of The Scrum Framework with Martin Hinshelwood
    embed: https://www.youtube.com/embed/Q2Fo3sM6BVo

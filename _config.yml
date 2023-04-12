@@ -38,6 +38,7 @@ defaults:
       toc: true
       pageType: article
       pageStatus: draft
+      author: mrhinsh
 pdf: true
       
 toc:

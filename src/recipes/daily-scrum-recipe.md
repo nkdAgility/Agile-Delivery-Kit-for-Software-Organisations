@@ -10,8 +10,10 @@ pdf: true
 pageStatus: preview
 discussionId:  
 recommendedContent:
- - guides/manifesto-for-agile-software-development.md
- - guides/scrum-guide.md
+ - collection: guides
+   path: _guides/manifesto-for-agile-software-development.md
+ - collection: guides
+   path: _guides/scrum-guide.md
 ---
 
 During the Daily Scrum, the Developers should be actively managing their work that is in progress. They should be discussing what they need to do next to be most effective at reaching the Sprint Goal.

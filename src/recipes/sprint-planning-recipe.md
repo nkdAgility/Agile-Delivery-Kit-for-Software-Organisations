@@ -10,8 +10,10 @@ pdf: true
 pageStatus: preview
 discussionId:  
 recommendedContent:
- - guides/manifesto-for-agile-software-development.md
- - guides/scrum-guide.md
+ - collection: guides
+   path: _guides/manifesto-for-agile-software-development.md
+ - collection: guides
+   path: _guides/scrum-guide.md
 ---
 
 A recipe is an example flow with options for how to run different segments to get the value you should be getting from this event.

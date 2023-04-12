@@ -1,7 +1,9 @@
 ---
-title: Getting Started with the Definition of Done (DoD)
-description: Every team should define what is required, what criteria must be met, for a product increment to be considered releasable.
+title: Definition of Done (DoD)
+description: Getting Started with the Definition of Done (DoD). Every team should define what is required, what criteria must be met, for a product increment to be considered releasable.
+subtitle: Getting Started with the Definition of Done (DoD)
 layout: default
+author: mrhinsh
 toc: true
 pdf: true
 pageType: practice
@@ -15,7 +17,8 @@ references:
  - title: Scrum.org Learning Series - Definition of Done
    url: https://www.scrum.org/resources/what-definition-done
 recommendedContent:
- - guides/scrum-guide.md
+ - collection: guides
+   path: _guides/scrum-guide.md
 recommendedVideos:
  - title: Why is done so important in the Reporting & Data Space?
    embed: https://www.youtube.com/embed/RzWFeLfSnP0
