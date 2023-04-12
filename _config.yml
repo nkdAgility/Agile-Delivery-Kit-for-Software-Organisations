@@ -36,7 +36,8 @@ defaults:
     values:
       image: /assets/images/naked-agility-Learn-Agile-Delivery-Kit-1600x900.jpg
       toc: true
-      pageType: page
+      pageType: article
+      pageStatus: draft
 pdf: true
       
 toc:
