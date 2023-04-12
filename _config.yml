@@ -19,28 +19,20 @@ collections_dir: collections
 collections:
   anti-patterns:
     output: true
-    permalink: /:collection/:name
   guides:
     output: true
-    permalink: /:collection/:name
   faq:
     output: true
-    permalink: /:collection/:name
   practices:
     output: true
-    permalink: /:collection/:name
   technologies:
     output: true
-    permalink: /:collection/:name
   workshops:
     output: true
-    permalink: /:collection/:name
   recipes:
     output: true
-    permalink: /:collection/:name
   strategies:
     output: true
-    permalink: /:collection/:name
 
 defaults:
   - scope:
@@ -85,4 +77,4 @@ kramdown:
 
 relative_links:
   enabled:     true
-  collections: false
+  collections: true
