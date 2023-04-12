@@ -9,6 +9,8 @@ discussionId:
 includeInSidebar: true
 references:
  - title: What is Professional Scrum?
+   url: https://www.scrum.org/resources/blog/scrum-first-principles
+ - title: Scrum First Principles - Scrum.org
    url: https://www.scrum.org/what-professional-scrum
 recommendedContent:
  - guides/manifesto-for-agile-software-development.md
@@ -121,16 +123,11 @@ Scrum is a lightweight framework that helps people, teams, and organizations gen
 - [Sprint Review](./../guides/scrum-guide.md#sprint-review) - The purpose of the Sprint Review is to update the plan for the next few Sprints.
 - [Sprint Retrospective](./../guides/scrum-guide.md#sprint-retrospective) - The purpose of the Sprint Retrospective is to update our way of work to improve our effectiveness.
 
-## Behavior's of the People
+## Common failures or Anti-Patterns
 
-
-## Common failures
-
-- Lack of Commitment Buy In
+- Backlog Items are too Big
+- Dogmatic application of the mechanisms
+- No focus on Value
 - No sprint goals#
 - non-complex environment
 
-
-## References
-- [Scrum First Principles - Scrum.org](https://www.scrum.org/resources/blog/scrum-first-principles){: target="_blank"}
-- [What is Professional Scrum? - Scrum.org](https://www.scrum.org/what-professional-scrum){: target="_blank"}
