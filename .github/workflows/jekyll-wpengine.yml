@@ -76,9 +76,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: v${{env.GitVersion_SemVer}}
           release_name: v${{env.GitVersion_SemVer}}
-          body: TODO
+          generateReleaseNotes: true
           draft: true
           prerelease: false
 
