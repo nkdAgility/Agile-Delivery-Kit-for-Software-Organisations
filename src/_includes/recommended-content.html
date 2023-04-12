@@ -3,18 +3,18 @@
 <hr />
 <h2>Recommended Content</h2>
 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-    {% for recommendation in recommendations %}
-    {% assign foundPage = site.pages | where: "path", recommendation | first %}
-    {% if foundPage != null %}
+    {% for item in recommendations %}
+    {% assign collection = site.collections | where: "label", item.collection | first %}
+    {% assign foundDoc = collection.docs | where: "path", item.path | first %}
+    {% if foundDoc != null %}
     <li class="align-items-center">
         <div class="alert alert-info" role="alert">
-            <a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ foundPage.title }}</a>
-            <p>{{ foundPage.description }}</p>
+            <a href="{{ site.baseurl }}{{ foundDoc.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ foundDoc.title }}</a>
+            <p>{{ foundDoc.description }}</p>
         </div>
-        
     </li>
     {% else %}
-    notFound: {{recommendation}}
+    notFound: {{item.path}}
     {% endif %}
     {% endfor %}
 </ul>

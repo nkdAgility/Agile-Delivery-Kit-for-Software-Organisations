@@ -8,9 +8,11 @@ pageStatus:
 discussionId:  
 recommendedContent:
  - guides/manifesto-for-agile-software-developmen.md
- - guides/scrum-guide.md
+ - collection: guides
+   path: _guides/scrum-guide.md
  - guides/kanban-guide.md
- - guides/evidence-based-management-guide.md
+ - collection: guides
+   path: _guides/evidence-based-management-guide.md
  - guides/detecting-agile-bs.md
 ---
 
