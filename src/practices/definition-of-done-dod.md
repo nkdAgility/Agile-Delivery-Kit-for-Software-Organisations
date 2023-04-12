@@ -29,7 +29,7 @@ Every team should define what is required, what criteria must be met, for a prod
 
 [Developers](./../guides/scrum-guide.md#developers) needs to decide what Done means within the organisational context and the product domain. They need to sit down and create a list of things that must be true for every Increment of software that they deliver. Working Software is not specific to a PBI; it’s applied regardless of PBI to the entire delivery.
 
-![Definition of Done (DoD)](../assets/images/naked-agility-scrum-framework-definition-of-done.jpg)
+![Definition of Done (DoD)](./../assets/images/naked-agility-scrum-framework-definition-of-done.jpg)
 
 > “The Definition of Done creates transparency by providing everyone a shared understanding of what work was completed as part of the Increment. If a Product Backlog item does not meet the Definition of > > Done, it cannot be released or even presented at the Sprint Review. Instead, it returns to the Product Backlog for future consideration.”\\
 > --<cite>[The 2020 Scrum Guide](./../guides/scrum-guide.md)</cite>
