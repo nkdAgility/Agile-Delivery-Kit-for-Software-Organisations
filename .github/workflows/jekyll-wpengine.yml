@@ -75,6 +75,8 @@ jobs:
         with:
           # You can change the name of the tag with this input.
           # Default: 'latest'
-          tag-name: v${{env.semVer}}
+          ref: v${{env.GitVersion_SemVer}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
