@@ -26,6 +26,9 @@ collections:
   faq:
     output: true
     permalink: /:collection/:name
+  practices:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
