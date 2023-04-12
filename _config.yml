@@ -23,6 +23,9 @@ collections:
   guides:
     output: true
     permalink: /:collection/:name
+  faq:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
