@@ -4,7 +4,7 @@ layout: default
 toc: true
 pdf: true
 pageType: technology
-pageStatus: production
+pageStatus: publish
 discussionId: 
 includeInSidebar: true
 references:

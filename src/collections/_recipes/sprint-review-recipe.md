@@ -15,7 +15,7 @@ recommendedContent:
    path: _guides/manifesto-for-agile-software-development.md
  - collection: guides
    path: _guides/scrum-guide.md
- - collection: guides
+ - collection: practices
    path: _practices/service-level-expectation-sle.md
  - collection: technologies
    path: _technologies/liberating-structures/shift-share.md

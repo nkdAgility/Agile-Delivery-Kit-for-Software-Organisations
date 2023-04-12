@@ -3,22 +3,28 @@
   <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">{{ include.collection | capitalize_all }}</strong>
 
   {% if collection != null %}
-
-    {% assign items = collection.docs | where: "includeInSidebar", true | where: "subCollection", null | sort: "importance" | reverse %}
+    {% assign items = collection.docs | where: "category", null | except: "pageStatus", "draft" | sort: "importance" | reverse %}
 
     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
       {% for item in items %}
-        <li class="align-items-center">
-          <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
-            {{ item.title }}
-          </a>
-        </li>
+        {% if item.pageStatus != "draft" %}
+          <li class="align-items-center">
+            <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+              {{ item.title }}
+            </a>
+          </li>
+        {% endif %}
       {% endfor %}
-      {% assign items = collection.docs | where: "includeInSidebar", null | where: "subCollection", null | sort: "importance" | reverse %}
+      {% assign items = collection.docs | where: "pageStatus", "draft" | where: "category", null | sort: "importance" | reverse %}
       {% if items != empty %}
         <li class="align-items-center">
           <small>
-            <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" data-bs-toggle="collapse" data-bs-target="#{{include.collection}}-collapse"  aria-expanded="false">Preview Content</a>
+            <a
+              href="#"
+              class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+              data-bs-toggle="collapse"
+              data-bs-target="#{{include.collection}}-collapse"
+              aria-expanded="false">Preview Content</a>
             <div class="collapse" id="{{include.collection}}-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
                 {% for item in items %}

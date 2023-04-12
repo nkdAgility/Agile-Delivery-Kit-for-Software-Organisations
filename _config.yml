@@ -38,6 +38,9 @@ collections:
   recipes:
     output: true
     permalink: /:collection/:name
+  strategies:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
