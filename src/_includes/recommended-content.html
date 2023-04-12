@@ -9,7 +9,7 @@
     {% if foundDoc != null %}
     <li class="align-items-center">
         <div class="alert alert-info" role="alert">
-            <a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ foundDoc.title }}</a>
+            <a href="{{ site.baseurl }}{{ foundDoc.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ foundDoc.title }}</a>
             <p>{{ foundDoc.description }}</p>
         </div>
     </li>

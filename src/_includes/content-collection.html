@@ -1,12 +1,18 @@
-{% assign items = include.collection | where: "includeInSidebar", include.sidebar | sort: "importance" | reverse %}
-<ul class="btn-toggle-nav  fw-normal pb-1 small">
-{% for item in items %}
-<li class="align-items-center">
-    <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
-        {{ item.title }}
-    </a>
-    <br />
-    {{ item.description }}
-</li>
-{% endfor %}
-</ul>
+{% if include.collection != null %}
+  {% if include.pageStatus != null %}
+  {% assign items = include.collection | where: "subCollection", include.subcollection | where: "pageStatus", include.pageStatus | sort: "importance" | reverse %}
+  {% else %}
+  {% assign items = include.collection | where: "subCollection", include.subcollection | except: "pageStatus", "draft" | sort: "importance" | reverse %}
+  {% endif %}  
+  <ul class="btn-toggle-nav  fw-normal pb-1 small">
+    {% for item in items %}
+      <li class="align-items-center">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+          {{ item.title }}
+        </a>{% if item.description != null %} - {{ item.description }}{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No items in collection</p>
+{% endif %}

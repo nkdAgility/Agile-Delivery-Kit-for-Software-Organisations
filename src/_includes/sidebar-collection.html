@@ -1,28 +1,42 @@
-{% assign items = include.collection | where: "includeInSidebar", true | sort: "importance" | reverse %}
+{% assign collection = site.collections | where: "label", include.collection | first %}
 <li class="mb-1">
-<strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">{{ include.title | capitalize_all }}</strong>
+  <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">{{ include.collection | capitalize_all }}</strong>
+
+  {% if collection != null %}
+
+    {% assign items = collection.docs | where: "includeInSidebar", true | where: "subCollection", null | sort: "importance" | reverse %}
+
     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-    {% for item in items %}
-    <li class="align-items-center">
-        <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+      {% for item in items %}
+        <li class="align-items-center">
+          <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
             {{ item.title }}
-        </a>
-    </li>
-    {% endfor %}
-    {% assign items = include.collection | where: "includeInSidebar", null | sort: "importance" | reverse %}
-    {% if items != empty %}
-    <li class="align-items-center">
-        <small>
-            <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" data-bs-toggle="collapse" data-bs-target="#{{include.pageType}}-collapse" aria-expanded="false">Preview Content</a>
-            <div class="collapse" id="{{include.pageType}}-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
+          </a>
+        </li>
+      {% endfor %}
+      {% assign items = collection.docs | where: "includeInSidebar", null | where: "subCollection", null | sort: "importance" | reverse %}
+      {% if items != empty %}
+        <li class="align-items-center">
+          <small>
+            <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" data-bs-toggle="collapse" data-bs-target="#{{include.collection}}-collapse"  aria-expanded="false">Preview Content</a>
+            <div class="collapse" id="{{include.collection}}-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
                 {% for item in items %}
-                <li class="align-items-center"><a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ item.title }}</a>&nbsp;<small>{% if item.pageStatus != "production" %}<i class="fa-regular {% if item.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>{% endif %}</small></li>
+                  <li class="align-items-center">
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ item.title }}</a>&nbsp;<small>
+                      {% if item.pageStatus != "production" %}
+                        <i class="fa-regular {% if item.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>
+                      {% endif %}
+                    </small>
+                  </li>
                 {% endfor %}
-                </ul>
+              </ul>
             </div>
-        </small>
-    </li>
-    {% endif %}
+          </small>
+        </li>
+      {% endif %}
     </ul>
+  {% else %}
+    <p>No items in collection</p>
+  {% endif %}
 </li>

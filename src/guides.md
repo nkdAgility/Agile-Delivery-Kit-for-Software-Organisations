@@ -7,8 +7,8 @@ All of these guides are available here and will be linked to their original onli
 
 ## Guides
 
-{% include content-collection.html collection = site.guides sidebar = true %}   
+{% include content-collection.html collection = site.guides %}    
 
 ## Drafts
 
-{% include content-collection.html collection = site.guides %}   
+{% include content-collection.html collection = site.guides pageStatus = "draft" %}  

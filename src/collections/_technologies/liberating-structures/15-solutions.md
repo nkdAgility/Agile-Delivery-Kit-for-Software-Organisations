@@ -7,6 +7,8 @@ pdf: true
 pageStatus: preview
 discussionId:  
 includeInSidebar: true
+subCollection: liberating-structures
+permalink: /:collection/liberating-structures/:name
 ---
 
 PURPOSE

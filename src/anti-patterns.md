@@ -15,8 +15,8 @@ Documenting anti-patterns can be an effective way to analyze a problem space and
 
 ## Anti-Patterns
 
-{% include content-collection.html collection = site.anti-patterns sidebar = true %}   
+{% include content-collection.html collection = site.anti-patterns %}  
 
 ## Drafts
 
-{% include content-collection.html collection = site.anti-patterns %}   
+{% include content-collection.html collection = site.anti-patterns pageStatus = "draft"  %}  

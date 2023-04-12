@@ -15,8 +15,9 @@ Not all practices work for all teams and finding the most effective bundle for a
 
 ## Practices
 
-{% include content-collection.html collection = site.practices sidebar = true %}   
+{% include content-collection.html collection = site.practices  %}  
+
 
 ## Drafts
 
-{% include content-collection.html collection = site.practices %}   cd
+{% include content-collection.html collection = site.practices pageStatus = "draft"  %}  

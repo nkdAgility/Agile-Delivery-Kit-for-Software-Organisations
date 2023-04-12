@@ -12,6 +12,14 @@ includeInSidebar: true
 
 Use these structures on their own, or string them together, to create engaging events for your your Teams and Customers.
 
+## Liberating Structures
+
+{% include content-collection.html collection = site.technologies subcollection = "liberating-structures" %}   
+
+## Drafts
+
+{% include content-collection.html collection = site.technologies subcollection = "liberating-structures" pageStatus = "draft"  %}   
+
 - [Impromptu Networking](./liberating-structures/impromptu-networking.md) [15 min]
 - [Shift & Share](./liberating-structures/shift-share.md) [40 min]
 - [What, So What, now What](./liberating-structures/what-so-what-now-what.md) [30 mins]

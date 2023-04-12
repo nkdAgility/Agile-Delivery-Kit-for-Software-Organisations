@@ -29,6 +29,9 @@ collections:
   practices:
     output: true
     permalink: /:collection/:name
+  technologies:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:

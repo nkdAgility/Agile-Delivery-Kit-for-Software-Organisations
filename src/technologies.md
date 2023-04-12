@@ -10,8 +10,8 @@ Not all technologies work for all teams and finding the most effective bundle fo
 
 ## Technologies
 
-{% include content-pagetype.html pageType =  "technology" sidebar = true %}
+{% include content-collection.html collection = site.technologies  %}  
 
 ## Preview Technologies
 
-{% include content-pagetype.html pageType =  "technology" %}
+{% include content-collection.html collection = site.technologies pageStatus = "draft"  %}  
