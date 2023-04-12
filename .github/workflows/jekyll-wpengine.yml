@@ -70,7 +70,7 @@ jobs:
               ./_site/ => ./agile-delivery-kit
           # If true, any existing files in the remote upload directories are deleted.
           delete: true
-      - name: Display GitVersion variables (with prefix)
+      - name: Tag with v${{env.GitVersion_SemVer}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         run: |
