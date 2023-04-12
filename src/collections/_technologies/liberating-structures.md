@@ -14,11 +14,11 @@ Use these structures on their own, or string them together, to create engaging e
 
 ## Liberating Structures
 
-{% include content-collection.html collection = site.technologies subcollection = "liberating-structures" %}   
+{% include content-collection.html collection = site.technologies category = "liberating-structures" %}   
 
 ## Drafts
 
-{% include content-collection.html collection = site.technologies subcollection = "liberating-structures" pageStatus = "draft"  %}   
+{% include content-collection.html collection = site.technologies category = "liberating-structures" pageStatus = "draft"  %}   
 
 - [Impromptu Networking](./liberating-structures/impromptu-networking.md) [15 min]
 - [Shift & Share](./liberating-structures/shift-share.md) [40 min]

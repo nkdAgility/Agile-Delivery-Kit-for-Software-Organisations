@@ -32,6 +32,12 @@ collections:
   technologies:
     output: true
     permalink: /:collection/:name
+  workshops:
+    output: true
+    permalink: /:collection/:name
+  recipes:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:

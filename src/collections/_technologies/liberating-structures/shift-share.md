@@ -8,7 +8,7 @@ pdf: true
 pageStatus: preview
 discussionId:  
 includeInSidebar: true
-subCollection: liberating-structures
+category: liberating-structures
 permalink: /:collection/liberating-structures/:name
 ---
 
