@@ -20,6 +20,9 @@ collections:
   anti-patterns:
     output: true
     permalink: /:collection/:name
+  guides:
+    output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
