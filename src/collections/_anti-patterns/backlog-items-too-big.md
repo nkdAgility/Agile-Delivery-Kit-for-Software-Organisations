@@ -13,11 +13,16 @@ references:
  - title: Scrum First Principles - Scrum.org
    url: https://www.scrum.org/what-professional-scrum
 recommendedContent:
- - guides/manifesto-for-agile-software-development.md
- - guides/scrum-guide.md
- - guides/kanban-guide-for-scrum-teams.md
- - guides/evidence-based-management-guide.md
- - practices/service-level-expectation-sle.md
+ - collection: guides
+   path: _guides/manifesto-for-agile-software-development.md
+ - collection: guides
+   path: _guides/scrum-guide.md
+ - collection: guides
+   path: _guides/kanban-guide-for-scrum-teams.md
+ - collection: guides
+   path: _guides/evidence-based-management-guide.md
+ - collection: practices
+   path: _practices/service-level-expectation-sle.md
 recommendedVideos:
  - title: Overview of The Scrum Framework
    embed: https://www.youtube.com/embed/Q2Fo3sM6BVo
