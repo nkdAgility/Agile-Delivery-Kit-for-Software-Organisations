@@ -3,10 +3,8 @@ title: The Importance of Batch to Optimise Flow
 layout: default
 pageType: workshop
 pageStatus: preview
-includeInSidebar: true
 toc: true
 pdf: true
-discussionId:  
 ---
 
 

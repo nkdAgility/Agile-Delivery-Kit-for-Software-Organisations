@@ -6,8 +6,6 @@ pageType: guide
 toc: true
 pdf: true
 pageStatus: production
-discussionId:  
-includeInSidebar: true
 references:
  - title: The 2020 Scrum Guide
    url: https://scrumguides.org/scrum-guide.html

@@ -6,8 +6,6 @@ pageType: ls
 toc: true
 pdf: true
 pageStatus: preview
-discussionId:  
-includeInSidebar: true
 category: liberating-structures
 permalink: /:collection/liberating-structures/:name
 ---

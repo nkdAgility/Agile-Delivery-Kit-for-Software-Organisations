@@ -5,8 +5,9 @@ toc: true
 pdf: true
 pageType: technology
 pageStatus: publish
-discussionId: 
-includeInSidebar: true
+redirect_from:
+  - /technologies/professional-scrum/
+  - /strategies/scrum-strategy-guide/
 references:
  - title: What is Professional Scrum?
    url: https://www.scrum.org/resources/blog/scrum-first-principles

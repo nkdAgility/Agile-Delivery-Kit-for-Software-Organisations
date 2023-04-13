@@ -5,11 +5,9 @@ layout: default
 pageType: recipe
 image: ./../assets/images/naked-Agility-Scrum-Framework-Sprint-Review.jpg
 author: mrhinsh
-includeInSidebar: true
 toc: true
 pdf: true
 pageStatus: preview
-discussionId:  
 recommendedContent:
  - collection: guides
    path: _guides/manifesto-for-agile-software-development.md

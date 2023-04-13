@@ -5,7 +5,6 @@ toc: true
 pdf: true
 pageStatus: preview
 pageType: overview
-includeInSidebar: true
 discussionId: 
 ---
 

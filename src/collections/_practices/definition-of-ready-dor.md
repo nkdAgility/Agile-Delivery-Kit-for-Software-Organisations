@@ -4,7 +4,6 @@ description: Definition of Ready can result in significant anti-patterns in team
 layout: default
 pageType: practice
 pageStatus: Preview
-includeInSidebar: true
 discussionId: 23
 recommendedContent:
 ---

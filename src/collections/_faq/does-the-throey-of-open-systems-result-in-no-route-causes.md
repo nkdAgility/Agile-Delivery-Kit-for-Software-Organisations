@@ -6,7 +6,6 @@ pdf: true
 pageType: faq
 pageStatus: production
 discussionId: 
-includeInSidebar: 
 references:
  - title: Redesigning the Future - A Systems Approach to Societal Problems - Russell Ackoff
    url: https://en.wikipedia.org/wiki/Russell_L._Ackoff

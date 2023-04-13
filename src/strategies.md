@@ -4,10 +4,8 @@ description:
 layout: default
 pageType: index
 pageStatus: construction
-includeInSidebar: true
 toc: true
 pdf: true
-discussionId:  
 ---
 
 A collection of plans of action designed to achieve a long-term or overall aim within your organization and create business agility. Each of these strategies will help provide ideas and direction.
