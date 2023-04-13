@@ -6,7 +6,6 @@ pdf: true
 pageType: anti-pattern
 pageStatus: production
 discussionId: 
-includeInSidebar: 
 references:
  - title: What is Professional Scrum?
    url: https://www.scrum.org/resources/blog/scrum-first-principles

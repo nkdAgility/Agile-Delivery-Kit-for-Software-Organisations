@@ -6,8 +6,6 @@ pageType: technology
 toc: true
 pdf: true
 pageStatus: preview
-discussionId:  
-includeInSidebar: true
 ---
 
 Use these structures on their own, or string them together, to create engaging events for your your Teams and Customers.

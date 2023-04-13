@@ -3,11 +3,9 @@ title: Sprint Review Feedback Loop 1
 description: The purpose of the Sprint Review is to maintain transparency of the Product Backlog and the focus of the Product Goal by integrating all of the changes that have happened in the product and the current business conditions since the last Sprint Review. 
 layout: default
 pageType: workshop
-includeInSidebar: true
 toc: true
 pdf: true
 pageStatus: preview
-discussionId:  
 author: mrhinsh
 references:
 recommendedContent:

@@ -7,8 +7,6 @@ image: https://nkdagility.com/wp-content/uploads/2020/12/image-2.png
 toc: true
 pdf: true
 pageStatus: production
-includeInSidebar: true
-discussionId:  
 references:
  - title: DIB Guide - Detecting Agile BS
    url: https://media.defense.gov/2019/May/02/2002127286/-1/-1/0/DIBGUIDEDETECTINGAGILEBS.PDF

@@ -5,7 +5,6 @@ pageType: overview
 toc: true
 pdf: true
 pageStatus: 
-discussionId:  
 recommendedContent:
  - guides/manifesto-for-agile-software-developmen.md
  - collection: guides

@@ -4,11 +4,9 @@ layout: default
 pageType: recipe
 image: ./../assets/images/naked-Agility-Scrum-Framework-Sprint-Planning.jpg
 author: mrhinsh
-includeInSidebar: 
 toc: true
 pdf: true
 pageStatus: 
-discussionId:  
 recommendedContent:
  - collection: guides
    path: _guides/manifesto-for-agile-software-development.md
