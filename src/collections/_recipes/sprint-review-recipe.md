@@ -94,5 +94,4 @@ Do you have architectural reviews, technology overviews or legal compliance? Dis
 
 Just as it says!
 
-#Reference
 
