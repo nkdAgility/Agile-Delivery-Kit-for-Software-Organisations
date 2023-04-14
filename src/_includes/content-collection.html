@@ -5,7 +5,7 @@
   {% else %}  
   {% assign filterPageStatus = include.pageStatus %}  
   {% endif %}  
-  
+
   {% assign items = include.collection | where: "category", include.category | where: "pageStatus", filterPageStatus | sort: "importance" | reverse %}
   <ul class="btn-toggle-nav  fw-normal pb-1 small">
     {% for item in items %}

@@ -33,6 +33,8 @@ collections:
     output: true
   strategies:
     output: true
+  first-principals:
+    output: true
 
 defaults:
   - scope:

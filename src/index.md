@@ -66,6 +66,10 @@ There is no hard test that can determine your capacity for agility. Here are som
 
 More questions are in the [Detecting Agile BS](./guides/detecting-agile-bs.md) guide from the US Department of Defense.
 
+## Reasons why agile often fails
+
+{% include content-collection.html collection = site.anti-patterns %}  
+
 ## FAQ
 
 {% include content-collection.html collection = site.faq  %}  
