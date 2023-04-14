@@ -1,11 +1,12 @@
 ---
-title: Workshops
+title: Workshops Overview
 description: 
 layout: default
 pageType: index
 pageStatus: construction
 toc: true
-pdf: true
+pageType: index
+indexForCollection: workshops
 ---
 
 ## Workshops

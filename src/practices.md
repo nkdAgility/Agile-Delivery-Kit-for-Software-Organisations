@@ -1,8 +1,10 @@
 ---
-title: SDK Practices
+title: Practices Overview
 layout: default
 toc: true
 pdf: true
+pageType: index
+indexForCollection: practices
 pageStatus: 
 recommendedContent:
 ---
@@ -13,7 +15,7 @@ Not all practices work for all teams and finding the most effective bundle for a
 
 ## Practices
 
-{% include content-collection.html collection = site.practices  %}  
+{% include content-collection.html collection = site.practices pageStatus = "published"  %}  
 
 
 ## Drafts

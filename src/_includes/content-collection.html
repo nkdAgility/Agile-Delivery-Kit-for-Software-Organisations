@@ -1,9 +1,12 @@
 {% if include.collection != null %}
-  {% if include.pageStatus != null %}
-  {% assign items = include.collection | where: "category", include.category | where: "pageStatus", include.pageStatus | sort: "importance" | reverse %}
-  {% else %}
-  {% assign items = include.collection | where: "category", include.category | except: "pageStatus", "draft" | sort: "importance" | reverse %}
+  
+  {% if include.pageStatus == null %}
+  {% assign filterPageStatus = "published" %}  
+  {% else %}  
+  {% assign filterPageStatus = include.pageStatus %}  
   {% endif %}  
+
+  {% assign items = include.collection | where: "category", include.category | where: "pageStatus", filterPageStatus | sort: "importance" | reverse %}
   <ul class="btn-toggle-nav  fw-normal pb-1 small">
     {% for item in items %}
       <li class="align-items-center">
@@ -15,4 +18,4 @@
   </ul>
 {% else %}
   <p>No items in collection</p>
-{% endif %}
+{% endif %} 

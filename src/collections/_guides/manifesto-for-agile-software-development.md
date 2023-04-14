@@ -5,7 +5,10 @@ layout: default
 pageType: guide
 toc: true
 pdf: true
-pageStatus: production
+pageStatus: published
+references:
+ - title: Manifesto for Agile Software Development
+   url: https://agilemanifesto.org/
 recommendedContent: 
 ---
 

@@ -2,20 +2,22 @@
 {% if recommendations.size > 0 %}
 <hr />
 <h2>Recommended Content</h2>
-<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+<ul class="list-group list-unstyled pb-1 small">
     {% for item in recommendations %}
     {% assign collection = site.collections | where: "label", item.collection | first %}
     {% assign foundDoc = collection.docs | where: "path", item.path | first %}
     {% if foundDoc != null %}
-    <li class="align-items-center">
-        <div class="alert alert-info" role="alert">
-            <a href="{{ site.baseurl }}{{ foundDoc.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ foundDoc.title }}</a>
-            <p>{{ foundDoc.description }}</p>
-        </div>
+    <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold"><a href="{{ site.baseurl }}{{ foundDoc.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ foundDoc.title }}</a></div>
+        {{ foundDoc.description }}
+      </div>
+      
     </li>
     {% else %}
     notFound: {{item.path}}
     {% endif %}
     {% endfor %}
-</ul>
+  </ul>
+
 {% endif %}

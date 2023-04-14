@@ -1,61 +1,65 @@
 ---
-title: Sprint Review Feedback Loop 1
+title: "Sprint Review #1"
 description: The purpose of the Sprint Review is to maintain transparency of the Product Backlog and the focus of the Product Goal by integrating all of the changes that have happened in the product and the current business conditions since the last Sprint Review. 
 layout: default
 pageType: workshop
 toc: true
 pdf: true
-pageStatus: preview
+pageStatus: published
 author: mrhinsh
 references:
 recommendedContent:
  - collection: guides
    path: _guides/scrum-guide.md
- - technologies/liberating-structures/index.md
- - technologies/liberating-structures/impromptu-networking.md
- - collection: guides
+ - collection: technologies
+   path: _technologies/liberating-structures.md
+ - collection: technologies
+   path: _technologies/liberating-structures/impromptu-networking.md
+ - collection: technologies
    path: _technologies/liberating-structures/shift-share.md
- - collection: guides
+ - collection: technologies
    path: _technologies/liberating-structures/what-so-what-now-what.md
 recommendedVideos:
  - title: Overview of The Scrum Framework with Martin Hinshelwood
    embed: https://www.youtube.com/embed/Q2Fo3sM6BVo
+ - title: Free Workshop 4 Introduction to Sprint Review! [Audio-Fixed]
+   embed: https://www.youtube.com/embed/1-W64WdSbF4
 ---
 
-### Duration
+# Duration
 
 160 Minutes
 
-### Purpose
+# Purpose
 
 The purpose of the Sprint Review is to maintain transparency of the Product Backlog and the focus of the Product Goal by integrating all of the changes that have happened in the product and the current business conditions since the last Sprint Review. Any insights insights, ideas, and changes that result from this inspection should be immediately reflected in the Product Backlog. 
 
 The Sprint Review is about answering the question: “Based on what we learned this Sprint, and what happened in the business, what are the next steps?”. This provides valuable input for Sprint Planning.
 
-### Overview of Flow
+# Overview of Flow
 
-This workshop leverages [Liberating Structures](./../technologies/liberating-structures/) and consists of the following string:
+This workshop leverages [Liberating Structures](../_technologies/liberating-structures.md) and consists of the following string:
 
-- After the opening, we'll use [Impromptu Networking](./../technologies/liberating-structures/impromptu-networking.md) to clarify what people are expecting and hoping for during this Sprint Review;
-- We then create an opportunity for inspection of the increment and other relevant topics, together with stakeholders, during a [Shift & Share](./../technologies/liberating-structures/shift-share.md)
-- We use [What, So What, Now What](./../technologies/liberating-structures/what-so-what-now-what.md) to debrief insights from the inspection and identify important adjustments that need to be made;
+- After the opening, we'll use [Impromptu Networking](../_technologies/liberating-structures/impromptu-networking.md) to clarify what people are expecting and hoping for during this Sprint Review;
+- We then create an opportunity for inspection of the increment and other relevant topics, together with stakeholders, during a [Shift & Share](../_technologies/liberating-structures/shift-share.md)
+- We use [What, So What, Now What](../_technologies/liberating-structures/what-so-what-now-what.md) to debrief insights from the inspection and identify important adjustments that need to be made;
 - Based on the insights and adjustments resulting from the earlier steps, each person is given the opportunity to formulate personal next steps for how they will support the Scrum Team during the next Sprint as well as their work together;
 
 Although Scrum Masters can certainly facilitate the Sprint Review, there is nothing holding others back from facilitating. Since the Sprint Review is particularly important for the Product Owner, as he or she will be sharing the increment with stakeholders, it makes sense for him or her to also play a role;
 
-### Prepared Materials
+# Prepared Materials
 
 - [Sprint Review 1 Mural Template v0.9](https://app.mural.co/template/3f03d083-58f5-4516-8b1c-052e0fa9e5e1/7af3d399-b077-46c3-9469-0666b0143881)
 
 Create an instance of the Mural template above and add to it **Product Vision**, **Product Goal**, **Working Agreements**, **Definition of Done**, & the **Sprint Goal**.
 
-### Facilitation Steps
+# Facilitation Steps
 
-#### Part 1: Introduction & Working Agreement [20  min] _(Optional)_
+## Part 1: Introduction & Working Agreement [20  min] _(Optional)_
 
 Whenever you bring a group of people together, make sure to start by clarifying the purpose of your time together. While also making sure to announce this up front (in invitations and e-mails), start by reiterating the purpose of the Sprint Review (see above) as well as the purpose of this Sprint as captured in a Sprint Goal.
 
-#### Part 2: Impromptu Networking [15 min]
+## Part 2: Impromptu Networking [15 min]
 
 In order to maximize the opportunities for shared learning, we want to the Sprint Review to be a highly interactive and engaging event. That is why we're going to start with Impromptu Networking. This is an excellent Liberating Structure to get the thinking started and clearly signal that interaction is both encouraged and necessary.
 
@@ -65,10 +69,10 @@ In three rounds, participants partner up with someone else and take 2-minute tur
 
 As the rounds progress, invite participants to note patterns, similarities, and differences. After the three rounds are completed, ask the group to briefly share the most important patterns they noticed.
 
-The invitation for [Impromptu Networking](./../technologies/liberating-structures/impromptu-networking.md) specifically ties the conversation to the Sprint Goal. If you find yourself in a Scrum Team without Sprint Goals, you can also ask ‘Based on the Sprint'. But keep in mind that working without Sprint Goals makes it very hard to work empirically and effectively as a Scrum Team.
+The invitation for [Impromptu Networking](../_technologies/liberating-structures/impromptu-networking.md) specifically ties the conversation to the Sprint Goal. If you find yourself in a Scrum Team without Sprint Goals, you can also ask ‘Based on the Sprint'. But keep in mind that working without Sprint Goals makes it very hard to work empirically and effectively as a Scrum Team.
 
 
-#### Part 3: Shift & Share [40 min]
+## Part 3: Shift & Share [40 min]
 
 Now that everyone has had the opportunity to get their thinking started about what they are looking for in the Sprint Review, we can start the inspection. Instead of a presentation or a demo by the Development Team, we instead use a Liberating Structure called Shift & Share.
 
@@ -76,11 +80,11 @@ There are 3 to 7 stations — depending on the number of participants. Each stat
 
 The 7-minute timeboxes are based on our experience. You can increase the time-box if you have fewer stations or when the group agrees that this allows for better inspection, but we recommend against changing the timeboxes in between. A variation you can experiment with is to allow participants to pick a selection of the stations they'd like to visit in a limited number of rounds.
 
-[Shift & Share](./../technologies/liberating-structures/shift-share.md) is a good approach to shift from statically presenting a “Done”-increment to a more hands-on approach where stakeholders actually explore working software. We usually invite stakeholders to write feedback on special ‘feedback cards' that are available at each station — but this is just one idea on how to gather feedback.
+[Shift & Share](../_technologies/technologies/liberating-structures/shift-share.md) is a good approach to shift from statically presenting a “Done”-increment to a more hands-on approach where stakeholders actually explore working software. We usually invite stakeholders to write feedback on special ‘feedback cards' that are available at each station — but this is just one idea on how to gather feedback.
 
-#### Part 4: What, So What, Now What [30 min]
+## Part 4: What, So What, Now What [30 min]
 
-After inspecting the increment and other relevant topics during the [Shift & Share](./../technologies/liberating-structures/shift-share.md), now is a good time to make sense of the insights that emerged from this. Instead of a group conversation, we're structuring this interaction with a Liberating Structure that is tailored for debriefing a shared experience; [What, So What, Now What](./../technologies/liberating-structures/what-so-what-now-what.md).
+After inspecting the increment and other relevant topics during the [Shift & Share](../_technologies/technologies/liberating-structures/shift-share.md), now is a good time to make sense of the insights that emerged from this. Instead of a group conversation, we're structuring this interaction with a Liberating Structure that is tailored for debriefing a shared experience; [What, So What, Now What](../_technologies/liberating-structures/what-so-what-now-what.md).
 
 In small groups, ranging between 4 and 6, participants reflect on what they learned from the Shift & Share and what this means for the Product Backlog and the next Sprint. This is done during three consecutive rounds of sense-making, each starting with a moment of individual reflection followed by a brief 5-minute conversation in the small groups. The invitations for each round are:
 
@@ -92,9 +96,9 @@ The invitations for What, So What, Now What are structured so that they focus fi
 
 If big topics emerge, you can use 1–2–4-ALL to dig deeper. Or schedule a time during the coming Sprints to work on them if they are not urgent enough to impact the Sprint Review.
 
-#### Part 5: 15% Solutions [20 min]
+## Part 5: 15% Solutions [20 min]
 
-Now that we have identified important objectives for the next Sprint, as well as made necessary adjustments to the Product Backlog, it is time to close with what each participant can contribute individually to their work together. For this, we use a Liberating Structure called [15% Solutions](./../technologies/liberating-structures/15-solutions.md).
+Now that we have identified important objectives for the next Sprint, as well as made necessary adjustments to the Product Backlog, it is time to close with what each participant can contribute individually to their work together. For this, we use a Liberating Structure called [15% Solutions](../_technologies/liberating-structures/15-solutions.md).
 
 Individually, people take a couple of minutes to write down their action steps according to the following invitation:
 
@@ -102,6 +106,6 @@ Individually, people take a couple of minutes to write down their action steps a
 
 When everyone is done, give participants the opportunity to briefly share and refine their personal 15% Solutions in small groups of 2–4 participants. We have often found that, by actively engaging everyone with Liberating Structures like this, people are better able to formulate how they can contribute. Stakeholders may offer to invite other stakeholders, join a refinement workshop with developers or be available for feedback. Optionally, you can collect the 15% Solutions and make them transparent somewhere — for example, next to a Scrum Board.
 
-#### Part 6: Closing
+## Part 6: Closing
 
 Close the Sprint Review by reiterating the purpose as well as the highlights that emerged. This is also an excellent opportunity to thank everyone who participated in the inspection and encourage them to join again for the next Sprint Review. 

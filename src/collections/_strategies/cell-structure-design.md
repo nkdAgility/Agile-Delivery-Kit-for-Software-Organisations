@@ -1,7 +1,6 @@
 ---
 title: Cell Structure Design
 layout: default
-pageType: strategy
 toc: true
 pdf: true
 pageStatus: draft

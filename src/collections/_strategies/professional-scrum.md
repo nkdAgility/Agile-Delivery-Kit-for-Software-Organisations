@@ -4,7 +4,7 @@ layout: default
 toc: true
 pdf: true
 pageType: technology
-pageStatus: publish
+pageStatus: published
 redirect_from:
   - /technologies/professional-scrum/
   - /strategies/scrum-strategy-guide/

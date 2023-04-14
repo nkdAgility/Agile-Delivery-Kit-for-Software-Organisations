@@ -4,10 +4,16 @@
 <h2>Recommended Videos</h2>
 <div class="row">
     {% for item in videos %}
-    <div class="col-12 col-lg-6 col-xl-4  d-flex">
-        <div class="ratio ratio-16x9 m-2">
-            <iframe src="{{item.embed}}" title="{{item.title}}" allowfullscreen></iframe>
-        </div>
+    <div class="col-12 col-lg-6 col-xl-6  d-flex">
+        <div class="card">
+            <div class="card-img-top ratio ratio-16x9">
+                <iframe src="{{item.embed}}" title="{{item.title}}" allowfullscreen></iframe>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{item.title}}</h5>
+            </div>
+          </div>
+        
     </div>
     {% endfor %}
 </div>

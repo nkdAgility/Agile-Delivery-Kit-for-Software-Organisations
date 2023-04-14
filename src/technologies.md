@@ -1,6 +1,8 @@
 ---
-title: SDK Technologies
+title: Technologies Overview
 layout: default
+pageType: index
+indexForCollection: technologies
 ---
 
 These technologies are part of the common lexicon of many organizations and form useful and known ways of working that can be used to catalyst change.

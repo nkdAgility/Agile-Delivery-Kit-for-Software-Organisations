@@ -5,7 +5,10 @@ layout: default
 pageType: guide
 toc: true
 pdf: true
-pageStatus: production
+pageStatus: published
+references:
+ - title: The Evidence-Based Management Guide | Scrum.org
+   url: https://scrum.org/resources/evidence-based-management-guide
 ---
 
 Evidence-Based Management (EBM) is an empirical approach that helps organizations to continuously improve customer outcomes, organizational capabilities, and business results under conditions of uncertainty. It provides a framework for organizations to improve their ability to deliver value in an uncertain world, seeking a path toward strategic goals. Using intentional experimentation and evidence (measures), EBM enables organizations to systematically improve their performance over time and refine their goals based on better information
@@ -217,5 +220,3 @@ accessible at http://creativecommons.org/licenses/by-sa/4.0/legalcode and also d
 summary form at http://creativecommons.org/licenses/by-sa/4.0/. By utilizing this EBM Guide, you
 acknowledge and agree that you have read and agree to be bound by the terms of the Attribution
 Share-Alike license of Creative Commons.
-
-[Read The Evidence-Based Management Guide](https://scrum.org/resources/evidence-based-management-guide)

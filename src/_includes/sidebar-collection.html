@@ -1,9 +1,12 @@
 {% assign collection = site.collections | where: "label", include.collection | first %}
 <li class="mb-1">
   <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">{{ include.collection | capitalize_all }}</strong>
-
+  {% assign overview = site.pages | where: "pageType", "index" | where: "indexForCollection", include.collection   | first %}
+  {% if overview != null %}
+  <a href="{{ site.baseurl }}{{overview.url}}">Overview</a>
+  {% endif %}
   {% if collection != null %}
-    {% assign items = collection.docs | where: "category", null | except: "pageStatus", "draft" | sort: "importance" | reverse %}
+    {% assign items = collection.docs | where: "category", null | where: "pageStatus", "published" | sort: "importance" | reverse %}
 
     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
       {% for item in items %}
@@ -15,7 +18,7 @@
           </li>
         {% endif %}
       {% endfor %}
-      {% assign items = collection.docs | where: "pageStatus", "draft" | where: "category", null | sort: "importance" | reverse %}
+      {% assign items = collection.docs | except: "pageStatus", "published" | where: "category", null | sort: "importance" | reverse %}
       {% if items != empty %}
         <li class="align-items-center">
           <small>
