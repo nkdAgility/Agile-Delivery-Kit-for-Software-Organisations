@@ -3,8 +3,7 @@ title: Definition of Ready (DoR)
 description: Definition of Ready can result in significant anti-patterns in teams.
 layout: default
 pageType: practice
-pageStatus: Preview
-discussionId: 23
+pageStatus: published
 recommendedContent:
 ---
 **WARNING: Definition of Ready can result in significant anti-patterns in teams.** 

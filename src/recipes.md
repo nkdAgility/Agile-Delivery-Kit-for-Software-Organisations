@@ -1,9 +1,11 @@
 ---
-title: Recipes
+title: Recipes Overview
 layout: default
 toc: true
 pdf: true
 pageStatus: 
+pageType: index
+indexForCollection: recipes
 recommendedContent:
 ---
 

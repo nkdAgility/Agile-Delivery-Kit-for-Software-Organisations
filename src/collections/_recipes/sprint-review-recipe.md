@@ -7,7 +7,7 @@ image: ./../assets/images/naked-Agility-Scrum-Framework-Sprint-Review.jpg
 author: mrhinsh
 toc: true
 pdf: true
-pageStatus: preview
+pageStatus: published
 recommendedContent:
  - collection: guides
    path: _guides/manifesto-for-agile-software-development.md
@@ -51,13 +51,13 @@ Review both the **Cycle Time Scatter Plot** and the **Throughput Run Chart** to 
 
 ### Part 3: Sprint Demo - Show what was created [~15 mins]
 
-Depending on the scale there are many ways to facilitate this. The more engaging the better. If you have a lot of stakeholder participation then more advanced techniques involving [liberating structures](./../technologies/liberating-structures.md) encourage the most engagement.
+Depending on the scale there are many ways to facilitate this. The more engaging the better. If you have a lot of stakeholder participation then more advanced techniques involving [liberating structures](../_technologies/liberating-structures.md) encourage the most engagement.
 
 #### Facilitation Options
 
 - Just Present your Features [15 mins]
 - Provide short videos of the features before the event. [0 min]
-- [Shift & Share](./../technologies/liberating-structures/shift-share.md) [40 mins]
+- [Shift & Share](../_technologies/liberating-structures/shift-share.md) [40 mins]
 
 ### Part 4: Feedback - Gather feedback from Stakeholders [~30 min]
 
@@ -65,12 +65,12 @@ The main purpose of the Sprint Review is actionable feedback and updating the Pr
 
 #### Facilitation Options
 
-- [What, So What, Now What](./../technologies/liberating-structures/what-so-what-now-what.md) [30 min]
-- [Sprint Review 1](./../workshops/sprint-review-1.md) [240 Min]
+- [What, So What, Now What](../_technologies/liberating-structures/what-so-what-now-what.md) [30 min]
+- [Sprint Review 1](../_workshops/sprint-review-1.md) [240 Min]
 
 ### Part 5: What's Next? - Likely Sprint Goal and Forecast [10 mins]
 
-Share what is the rough draft plan for the next Sprint. Share your teams [Service Level Expectation (SLE)](../practices/service-level-expectation-sle.md) and what the options are for Sprint Goals.
+Share what is the rough draft plan for the next Sprint. Share your teams [Service Level Expectation (SLE)](../_practices/service-level-expectation-sle.md) and what the options are for Sprint Goals.
 
 ![Throughput Run Chart.png](./../assets/images/naked-agility-kanban-throughput-run-chart.jpg)
 
@@ -78,11 +78,12 @@ You can use a **Throughput Run Chart** to present predictions based on empirical
 
 ### Part 6: Release Projections & Budgeting [10 mins]
 
-Based on our historical data and our [Service Level Expectation (SLE)](./../practices/service-level-expectation-sle.md) you should be able to answer any Stakeholder questions on "When will I get feature A?" or "When will Feature B ship?". Express all your predictions coupled with your confidence level of achieving it.
+Based on our historical data and our [Service Level Expectation (SLE)](../_practices/service-level-expectation-sle.md) you should be able to answer any Stakeholder questions on "When will I get feature A?" or "When will Feature B ship?". Express all your predictions coupled with your confidence level of achieving it.
+
 
 ![image.png](./../assets/images/naked-agility-kanban-cycle-time-scatter-plot.jpg)
 
-Use a **Monte Carlo How Many** or **Monte Carlo When**n to answer Stakeholder questions like "What will I get by 23/01/2024?" and "When will item x be completed?" As this is calculated using your team's historical data you will need to discuss the [Service Level Expectation](./../practices/service-level-expectation-sle.md) for the Team(s).
+Use a **Monte Carlo How Many** or **Monte Carlo When**n to answer Stakeholder questions like "What will I get by 23/01/2024?" and "When will item x be completed?" As this is calculated using your team's historical data you will need to discuss the [Service Level Expectation](../_practices/service-level-expectation-sle.md) for the Team(s).
 
 ### Part 7: Compliance Summery [10 mins]
 

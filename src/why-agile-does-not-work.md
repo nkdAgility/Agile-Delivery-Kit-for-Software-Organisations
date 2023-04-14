@@ -4,7 +4,7 @@ layout: default
 toc: true
 pdf: true
 pageType: overview
-pageStatus: 
+pageStatus: published
 discussionId: 
 references:
  - title: What is Professional Scrum?

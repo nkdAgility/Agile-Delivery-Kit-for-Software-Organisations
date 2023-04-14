@@ -3,7 +3,7 @@ title: Debunked Practices
 layout: default
 toc: true
 pdf: true
-pageStatus: preview
+pageStatus: published
 pageType: overview
 importance: 
 discussionId: 

@@ -1,6 +1,8 @@
 ---
-title: Anti-Patterns
+title: Anti-Patterns Overview
 layout: default
+pageType: index
+indexForCollection: anti-patterns
 references:
  - title: Wikipedia - Anti-pattern
    url: https://en.wikipedia.org/wiki/Anti-pattern

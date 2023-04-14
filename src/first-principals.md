@@ -4,7 +4,7 @@ layout: default
 pageType: overview
 toc: true
 pdf: true
-pageStatus: 
+pageStatus: published
 recommendedContent:
  - guides/manifesto-for-agile-software-developmen.md
  - collection: guides

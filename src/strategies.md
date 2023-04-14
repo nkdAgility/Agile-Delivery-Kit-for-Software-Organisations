@@ -1,9 +1,11 @@
 ---
-title: Strategies
+title: Strategies Overview
 description: 
 layout: default
 pageType: index
 pageStatus: construction
+pageType: index
+indexForCollection: strategies
 toc: true
 pdf: true
 ---
