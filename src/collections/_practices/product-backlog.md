@@ -5,8 +5,6 @@ toc: true
 pdf: true
 pageType: practice
 pageStatus: 
-discussionId:  
-includeInSidebar: 
 recommendedContent:
 ---
 

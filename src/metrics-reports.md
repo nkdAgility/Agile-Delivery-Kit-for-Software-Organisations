@@ -4,7 +4,6 @@ layout: default
 toc: true
 pdf: true
 pageStatus: 
-includeInSidebar: 
 discussionId: 
 ---
 

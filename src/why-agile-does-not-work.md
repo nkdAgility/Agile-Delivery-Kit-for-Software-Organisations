@@ -6,7 +6,6 @@ pdf: true
 pageType: overview
 pageStatus: 
 discussionId: 
-includeInSidebar: true
 references:
  - title: What is Professional Scrum?
    url: https://www.scrum.org/what-professional-scrum
