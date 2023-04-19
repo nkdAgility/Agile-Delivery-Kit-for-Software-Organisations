@@ -8,6 +8,8 @@ pdf: true
 pageStatus: preview
 ---
 
+Liberating structures is a social technology.
+
 Use these structures on their own, or string them together, to create engaging events for your your Teams and Customers.
 
 ## Liberating Structures
