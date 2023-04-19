@@ -1,12 +1,12 @@
-﻿name: Deploy Jekyll to WPEngine
+﻿name: Build Docs
 
 on:
   # Runs on pushes targeting the default branch
-  #push:
-  #  branches: ["main"]
-  #pull_request:
-  #  branches:
-  #  - main
+  push:
+    branches: ["main"]
+  pull_request:
+    branches:
+    - main
 
 
   # Allows you to run this workflow manually from the Actions tab
@@ -14,7 +14,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -27,6 +27,8 @@ concurrency:
 jobs:
   # Build job
   build:
+    outputs:
+      version: ${{ steps.gitversion.outputs.semVer }}
     environment:
       name: nakedalmweb-githubSDK
     runs-on: ubuntu-latest
@@ -42,18 +44,33 @@ jobs:
       - name: Display GitVersion config
         id:   gitversion # id to later be referenced
         uses: gittools/actions/gitversion/execute@v0
-      - uses: actions/checkout@v2
       - uses: cschleiden/replace-tokens@v1
         with:
           files: '["**/*.html"]'
           tokenPrefix: "${"
           tokenSuffix: "}"
+      - uses: igsekor/pyspelling-any@v1.0.4
+        id: spellcheck
+        name: Spellcheck
       - name: Build Jekyll
         uses: jerryjvl/jekyll-build-action@v1
       - uses: actions/upload-artifact@v3
         with:
           name: _site
           path: ./_site/**/*
+
+  publish:
+    environment:
+      name: nakedalmweb-githubSDK
+    needs: [build]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: _site
+          path: ./_site
       - name: SFTP Upload
         # You may pin to the exact commit or the version.
         # uses: Dylan700/sftp-upload-action@f90db607d9fe1acdc0eefccee84d37c119b268fe
@@ -70,22 +87,23 @@ jobs:
               ./_site/ => ./agile-delivery-kit
           # If true, any existing files in the remote upload directories are deleted.
           delete: true
-      # - name: Tag with v${{env.GitVersion_SemVer}}
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      #   run: |
-      #     git tag v${{env.GitVersion_SemVer}}
-      #     git push origin --tags
-      # - name: Create release
-      #   id: create_release
-      #   uses: actions/create-release@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      #   with:
-      #     tag_name: v${{env.GitVersion_SemVer}}
-      #     release_name: v${{env.GitVersion_SemVer}}
-      #     generateReleaseNotes: true
-      #     draft: true
-      #     prerelease: false
 
 
+  release:
+    environment:
+      name: nakedalmweb-githubSDK
+    needs: [publish, build]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Tag with v${{needs.build.outputs.version}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        run: |
+          git tag v${{needs.build.outputs.version}}
+          git push origin --tags
+          gh release create v${{needs.build.outputs.version}} --generate-notes --latest
