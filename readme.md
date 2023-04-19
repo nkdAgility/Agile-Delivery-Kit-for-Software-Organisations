@@ -24,6 +24,16 @@ We absolutely accept pull requests for changes, additions, and updates. We ask t
 
 -   [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
+### To run locally
+
+To host a version of the site locally and valaidate a local build, or just to see how your new content fits then you need to run it in Jekyll. To do so:
+
+- [Install Jekyll](https://jekyllrb.com/docs/installation/)
+- Run `bundle install`
+- Run `Jekyll Serve`
+
+If you are just editing a markdown file then you likley dont need this step.
+
 ## Licence
 
 *© 2023 Martin Hinshelwood and naked Agility Ltd. This publication is offered for license under the Attribution Share-Alike license of Creative Commons, accessible at* [*https://creativecommons.org/licenses/by-sa/4.0/legalcode*](https://creativecommons.org/licenses/by-sa/4.0/legalcode) *and also described in summary form at* [*https://creativecommons.org/licenses/by-sa/4.0/*](https://creativecommons.org/licenses/by-sa/4.0/)*. By utilizing this Scrum Guide, you acknowledge and agree that you have read and agree to be bound by the terms of the Attribution Share-Alike license of Creative Commons.*
