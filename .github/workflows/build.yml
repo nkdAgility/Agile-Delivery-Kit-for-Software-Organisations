@@ -58,3 +58,10 @@ jobs:
           name: _site
           path: ./_site/**/*
 
+    publish:
+        needs: [build]
+        if: github.ref == 'refs/heads/main'
+        runs-on: ubuntu-latest
+        steps:
+          - name: publish
+            echo 'publishing'
