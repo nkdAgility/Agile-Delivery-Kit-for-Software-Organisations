@@ -6,7 +6,7 @@ pdf: true
 pageType: technology
 pageStatus: published
 redirect_from:
-  - /technologies/professional-scrum/
+  - /strategies/professional-scrum/
   - /strategies/scrum-strategy-guide/
 references:
  - title: What is Professional Scrum?
@@ -31,7 +31,8 @@ recommendedVideos:
    embed: https://www.youtube.com/embed/BYlv7eP9zgg
 ---
 
-While yes, Professional Scrum is the brand name of Scrum.org, there is a greater purpose behind the choice of the word "professional".
+Scrum is a Social Technology!
+
 
 > Our mission remains the same as it was when we started - to help our profession rise to the demands of an increasingly complex world that relies on increasingly complex technologies and products. Advances in materials and techniques can only succeed if we shift to a collaborative, creative approach… As we use Scrum, we continue to find new opportunities for professional improvement.\\
 > --<cite>Ken Schwaber</cite>
@@ -39,7 +40,7 @@ While yes, Professional Scrum is the brand name of Scrum.org, there is a greater
 
 ## What is Professional Scrum?
 
-Professional Scrum is a version of Scrum implemented by professionals for professional companies, in a professional mannor. 
+Professional Scrum is a version of Scrum implemented by professionals for professional companies professionally.
 
 ## First Principals of Scrum
 
@@ -50,7 +51,7 @@ Scrum Values: Without courage, openness, and respect, there is no transparency.
 
 ## Wording of the Scrum Guide
 
-The Scrum Guide is a document that uses one word when it should really use ten in an effort minimize any mandated or constraining element beyond the minimum required to deliver an empirical system.
+The Scrum Guide is a document that uses one word when it should really use ten in an effort to minimize any mandated or constraining element beyond the minimum required to deliver an empirical system.
 
 There are 9 load bearing elements of Scrum that are identified by the word "MUST", and 7 elements using the work "SHOULD". Everything else is present in service to those core elements and are open to different implementations that maintain integrity of the outcome of empiricism.
 
