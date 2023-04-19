@@ -10,7 +10,7 @@ recommendedContent:
 ---
 **WARNING: Definition of Ready can result in significant anti-patterns in teams.** 
 
-_Developers should NEVER take Backlog Item into a Sprint that they do not fully understand and agree, as a team, that there is a reasonable likelihood of being successful._
+_As a general rule Developers should not take Backlog Item into a Sprint that they do not fully understand and agree, as a team, that there is a reasonable likelihood of being successful._
 
 A Definition of Ready often results in a lack of refinement with the Scrum Team and thus a lack of understanding of the Backlog Items. Refer to the [Backlog Item Format](/Project-Management/Agile-Ways-of-Working/Complementary-Practices/Writing-Backlog-Items) that you have chosen for what might be contained within it. If you MUST have a DoR then consider:
 
