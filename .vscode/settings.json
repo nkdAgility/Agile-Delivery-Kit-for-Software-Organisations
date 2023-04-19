@@ -1,3 +1,9 @@
 {
-    "liquid.format.enable": true
+    "liquid.format.enable": true,
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file"
+        }
+    ]
 }
