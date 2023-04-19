@@ -15,12 +15,36 @@ destination: ./_site
 logo: https://nkdagility.com/wp-content/uploads/2020/11/nkdagility-with-martin-hinshelwood-dark-200.png
 permalink: pretty
 
+collections_dir: collections
+collections:
+  anti-patterns:
+    output: true
+  guides:
+    output: true
+  faq:
+    output: true
+  practices:
+    output: true
+  technologies:
+    output: true
+  workshops:
+    output: true
+  recipes:
+    output: true
+  strategies:
+    output: true
+  first-principals:
+    output: true
+
 defaults:
   - scope:
       path: ""
     values:
       image: /assets/images/naked-agility-Learn-Agile-Delivery-Kit-1600x900.jpg
       toc: true
+      pageType: article
+      pageStatus: draft
+      author: mrhinsh
 pdf: true
       
 toc:
@@ -30,8 +54,8 @@ toc:
   no_toc_section_class: no_toc_section
   list_id: toc
   list_class: section-nav bd-links-nav list-unstyled pb-1 small
-  sublist_class: ''
-  item_class: toc-entry align-items-center pb-2
+  sublist_class: list-unstyled pb-2
+  item_class: toc-entry align-items-center pb-2 ps-2
   item_prefix: toc-
 
 include:
@@ -47,6 +71,7 @@ plugins:
   # - jekyll-github-metadata
   - jekyll-optional-front-matter
   - jekyll-last-modified-at
+  - jekyll-redirect-from
 
 kramdown:
   math_engine: mathjax
@@ -55,4 +80,4 @@ kramdown:
 
 relative_links:
   enabled:     true
-  collections: false
+  collections: true
