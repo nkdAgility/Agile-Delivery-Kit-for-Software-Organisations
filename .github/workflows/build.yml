@@ -63,7 +63,7 @@ jobs:
     environment:
       name: nakedalmweb-githubSDK
     needs: [build]
-    #if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Download a single artifact
@@ -93,7 +93,7 @@ jobs:
     environment:
       name: nakedalmweb-githubSDK
     needs: [publish, build]
-    #if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -117,6 +117,3 @@ jobs:
           generateReleaseNotes: true
           draft: true
           prerelease: false
-      - name: publish
-        run: |
-          echo 'publishing'
