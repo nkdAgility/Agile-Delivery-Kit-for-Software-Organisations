@@ -31,16 +31,16 @@ recommendedVideos:
    embed: https://www.youtube.com/embed/BYlv7eP9zgg
 ---
 
-Scrum is a Social Technology!
 
-
-> Our mission remains the same as it was when we started - to help our profession rise to the demands of an increasingly complex world that relies on increasingly complex technologies and products. Advances in materials and techniques can only succeed if we shift to a collaborative, creative approach… As we use Scrum, we continue to find new opportunities for professional improvement.\\
-> --<cite>Ken Schwaber</cite>
-{: .blockquote}
+Scrum is a Social Technology to help us shift to a collaborative, creative approach that helps us deal with the increasingly complex world that relies on increasingly complex technologies and products.
 
 ## What is Professional Scrum?
 
 Professional Scrum is a version of Scrum implemented by professionals for professional companies professionally.
+
+> Our mission remains the same as it was when we started - to help our profession rise to the demands of an increasingly complex world that relies on increasingly complex technologies and products. Advances in materials and techniques can only succeed if we shift to a collaborative, creative approach… As we use Scrum, we continue to find new opportunities for professional improvement.\\
+> --<cite>Ken Schwaber</cite>
+{: .blockquote}
 
 ## First Principals of Scrum
 
