@@ -48,6 +48,9 @@ jobs:
           files: '["**/*.html"]'
           tokenPrefix: "${"
           tokenSuffix: "}"
+      - uses: igsekor/pyspelling-any@v1.0.4
+        id: spellcheck
+        name: Spellcheck
       - name: Build Jekyll
         uses: jerryjvl/jekyll-build-action@v1
       - uses: actions/upload-artifact@v3
