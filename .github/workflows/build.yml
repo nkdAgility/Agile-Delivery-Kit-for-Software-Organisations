@@ -58,10 +58,14 @@ jobs:
           name: _site
           path: ./_site/**/*
 
-    publish:
-        needs: [build]
-        if: github.ref == 'refs/heads/main'
-        runs-on: ubuntu-latest
-        steps:
-          - name: publish
-            echo 'publishing'
+  publish:
+    needs: [build]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: _site
+      - name: publish
+        echo 'publishing'
