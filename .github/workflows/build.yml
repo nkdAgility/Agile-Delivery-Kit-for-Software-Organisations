@@ -69,4 +69,4 @@ jobs:
           name: _site
       - name: publish
         run: |
-        echo 'publishing'
+          echo 'publishing'
