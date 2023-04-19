@@ -68,4 +68,5 @@ jobs:
         with:
           name: _site
       - name: publish
+        run: |
         echo 'publishing'
