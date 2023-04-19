@@ -32,7 +32,7 @@ recommendedVideos:
 ---
 
 
-Scrum is a Social Technology to help us shift to a collaborative, creative approach that helps us deal with the increasingly complex world that relies on increasingly complex technologies and products.
+Scrum is a Social Technology to enable a shift to a collaborative, creative approach that helps us deal with the increasingly complex world that relies on increasingly difficult technologies and products.
 
 ## What is Professional Scrum?
 
@@ -53,7 +53,7 @@ Scrum Values: Without courage, openness, and respect, there is no transparency.
 
 The Scrum Guide is a document that uses one word when it should really use ten in an effort to minimize any mandated or constraining element beyond the minimum required to deliver an empirical system.
 
-There are 9 load bearing elements of Scrum that are identified by the word "MUST", and 7 elements using the work "SHOULD". Everything else is present in service to those core elements and are open to different implementations that maintain integrity of the outcome of empiricism.
+There are 9 load bearing elements of Scrum that are identified by the word "MUST", and seven elements using the word "SHOULD". Everything else is present in service to those core elements and are open to different implementations that maintain the integrity of the outcome of empiricism.
 
 ### What MUST Scrum have?
 
