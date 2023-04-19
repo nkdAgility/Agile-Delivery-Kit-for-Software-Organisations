@@ -14,7 +14,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -27,6 +27,8 @@ concurrency:
 jobs:
   # Build job
   build:
+    outputs:
+      version: ${{ steps.gitversion.outputs.MajorMinorPatch }}
     environment:
       name: nakedalmweb-githubSDK
     runs-on: ubuntu-latest
@@ -84,23 +86,32 @@ jobs:
               ./_site/ => ./agile-delivery-kit
           # If true, any existing files in the remote upload directories are deleted.
           delete: true
-      # - name: Tag with v${{env.GitVersion_SemVer}}
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      #   run: |
-      #     git tag v${{env.GitVersion_SemVer}}
-      #     git push origin --tags
-      # - name: Create release
-      #   id: create_release
-      #   uses: actions/create-release@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      #   with:
-      #     tag_name: v${{env.GitVersion_SemVer}}
-      #     release_name: v${{env.GitVersion_SemVer}}
-      #     generateReleaseNotes: true
-      #     draft: true
-      #     prerelease: false
+
+
+  release:
+    environment:
+      name: nakedalmweb-githubSDK
+    needs: [publish, build]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Tag with v${{env.GitVersion_SemVer}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        run: |
+          git tag v${{env.GitVersion_SemVer}}
+          git push origin --tags
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: v${{needs.build.outputs.version}}
+          release_name: v${{needs.build.outputs.version}}
+          generateReleaseNotes: true
+          draft: true
+          prerelease: false
       - name: publish
         run: |
           echo 'publishing'
