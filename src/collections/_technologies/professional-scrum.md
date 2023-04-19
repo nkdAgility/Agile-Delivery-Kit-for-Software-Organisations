@@ -31,8 +31,7 @@ recommendedVideos:
    embed: https://www.youtube.com/embed/BYlv7eP9zgg
 ---
 
-
-Scrum is a Social Technology to enable a shift to a collaborative, creative approach that helps us deal with the increasingly complex world that relies on increasingly difficult technologies and products.
+Scrum is a Social Technology defined in the [Scrum Guide](../_guides/scrum-guide.md) to enable a shift to a collaborative, creative approach that helps us deal with the increasingly complex world that relies on increasingly difficult technologies and products.
 
 ## What is Professional Scrum?
 
@@ -44,10 +43,11 @@ Professional Scrum is a version of Scrum implemented by professionals for profes
 
 ## First Principals of Scrum
 
-- Transparency: It is the enabling principle to build trust among Scrum Team members, the stakeholders, and the organization in general. Without trust, no one can handle the complexity of product development.
-- Self-organization: Problems are best solved by those closest to it; it is key to autonomy and thus accountability and overcoming the industrial paradigm.
+- **Transparency**: It is the enabling principle to build trust among Scrum Team members, the stakeholders, and the organization in general. Without trust, no one can handle the complexity of product development.
+- **Self-organization**: Problems are best solved by those closest to it; it is key to autonomy and thus accountability and overcoming the industrial paradigm.
 Scrum Values: Without courage, openness, and respect, there is no transparency.
-- Quality: Nothing great has ever originated from substandard, mediocre work, and a lack of craftsmanship. (I consider “done” an attribute of quality.)
+- **Quality**: Nothing great has ever originated from substandard, mediocre work and a lack of craftsmanship. (I consider “done” an attribute of quality.)
+
 
 ## Wording of the Scrum Guide
 
@@ -132,9 +132,5 @@ Scrum is a lightweight framework that helps people, teams, and organizations gen
 
 ## Common failures or Anti-Patterns
 
-- Backlog Items are too Big
-- Dogmatic application of the mechanisms
-- No focus on Value
-- No sprint goals#
-- non-complex environment
+{% include content-collection.html collection = site.anti-patterns pageStatus = "published" catagory = "scrum"  %}  
 
