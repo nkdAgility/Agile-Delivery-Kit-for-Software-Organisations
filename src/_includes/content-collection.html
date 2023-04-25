@@ -7,7 +7,7 @@
 
   {% assign items = include.collection | where: "category", include.category | where: "pageStatus", filterPageStatus | sort: "importance" | reverse %}
   {% if items == empty or items == 0 %}
-  <p>No items currently published. Check drafts...</p>
+  <p>No items in {{include.pageStatus}} currently...</p>
   {% else %}
   
   <ul class="btn-toggle-nav  fw-normal pb-1 small">
