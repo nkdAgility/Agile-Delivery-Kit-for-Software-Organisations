@@ -1,9 +1,9 @@
 {% assign collection = site.collections | where: "label", include.collection | first %}
 <li class="mb-1">
-  <a  href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+  <a  href="#" class="navbar-toggler btn btn-toggle link-body-emphasis d-inline-flex text-decoration-none rounded border-0 collapsed"
               data-bs-toggle="collapse"
               data-bs-target="#{{include.collection}}-collapse"
-              aria-expanded="false"><strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">{{ include.collection | capitalize_all }}</strong></a>
+              aria-expanded="false"><strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold"><i class="fa-sharp fa-solid fa-chevron-down"></i>&nbsp; {{ include.collection | capitalize_all }}</strong></a>
     <div class="collapse" id="{{include.collection}}-collapse">
       <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
   {% assign overview = site.pages | where: "pageType", "index" | where: "indexForCollection", include.collection   | first %}
@@ -18,16 +18,12 @@
       {% if items != empty %}
                 {% for item in items %}
                   <li class="align-items-center">
-                    <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ item.title }}</a>&nbsp;<small>
-                      {% if item.pageStatus != "production" %}
-                        <i class="fa-regular {% if item.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>
-                      {% endif %}
-                    </small>
+                    <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ item.title }}</a>
                   </li>
                 {% endfor %}
       {% endif %}
   {% else %}
-    <p>No items in collection</p>
+    <li>No items in collection</li>
   {% endif %}
 </ul>
 </div>

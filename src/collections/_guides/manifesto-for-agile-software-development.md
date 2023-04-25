@@ -37,5 +37,3 @@ We follow these principles:
 - Simplicity--the art of maximizing the amount of work not done--is essential.
 - The best architectures, requirements, and designs emerge from self-organizing teams.
 - At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
-
-Find the [Agile Manifesto](https://agilemanifesto.org/) for multiple languages and a full list of contributors.

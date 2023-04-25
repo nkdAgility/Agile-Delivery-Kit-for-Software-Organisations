@@ -5,6 +5,19 @@ pageType: guide
 toc: true
 pdf: true
 pageStatus: published
+references:
+ - title: The 2020 Scrum Guide
+   url: https://scrumguides.org/scrum-guide.html
+ - title: The Nexus Guide
+   url: https://www.scrum.org/resources/online-nexus-guide
+recommendedContent:
+ - collection: practices
+   path: _practices/definition-of-done-dod.md
+ - collection: practices
+   path: _practices/definition-of-ready-dor.md
+recommendedVideos:
+ - title: Overview of The Scrum Framework with Martin Hinshelwood
+   embed: https://www.youtube.com/embed/Q2Fo3sM6BVo
 ---
 
 
@@ -17,12 +30,13 @@ Purpose of the Nexus Guide
 
 Product delivery is complex, and the integration of product development work into a valuable product requires coordinating many diverse activities. Nexus is a framework for developing and sustaining scaled product delivery initiatives. It builds upon Scrum, extending it only where absolutely necessary to minimize and manage dependencies between multiple Scrum Teams while promoting empiricism and the Scrum Values.
 
-The Nexus framework inherits the purpose and intent of the Scrum framework as documented in the Scrum Guide ([scrumguides.org](http://scrumguides.org).) Scaled Scrum is still Scrum. Nexus does not change the core design or ideas of Scrum, or leave out elements, or negate the rules of Scrum. Doing so covers up problems and limits the benefits of Scrum, potentially even rendering it useless.
+The Nexus framework inherits the purpose and intent of the Scrum framework as documented in the [Scrum Guide](../_guides/scrum-guide.md) Scaled Scrum is still Scrum. Nexus does not change the core design or ideas of Scrum, or leave out elements, or negate the rules of Scrum. Doing so covers up problems and limits the benefits of Scrum, potentially even rendering it useless.
 
 This Guide contains the definition of Nexus. Each element of the framework serves a specific purpose that is essential to help teams and organizations scale the benefits of Scrum with multiple teams working together.
 
 As organizations use Nexus, they typically discover complementary patterns, processes, and practices that help them in their application of the Nexus framework. As with Scrum, such tactics vary widely and are described elsewhere.
 
+![The Nexus Framework](../../assets/images/nexus-framework.png)
 
 Nexus Definition
 ================
