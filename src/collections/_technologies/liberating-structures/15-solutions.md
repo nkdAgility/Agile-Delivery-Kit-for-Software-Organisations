@@ -6,7 +6,9 @@ toc: true
 pdf: true
 pageStatus: preview
 category: liberating-structures
-permalink: /:collection/liberating-structures/:name
+redirect_from: 
+ - recipes/technologies/liberating-structures/15-solutions.md
+ - technologies/liberating-structures/15-solutions.html
 ---
 
 PURPOSE

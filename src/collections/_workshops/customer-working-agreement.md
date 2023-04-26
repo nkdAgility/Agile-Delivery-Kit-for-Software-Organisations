@@ -1,4 +1,6 @@
 ---
+redirect_from:
+ - workshops/Customer-Working-Agreement.html
 ---
 ## Customer Working Agreement
 

@@ -1,5 +1,4 @@
 {% if include.collection != null %}
-  
   {% if include.pageStatus == null %}
   {% assign filterPageStatus = "published" %}  
   {% else %}  
@@ -7,6 +6,10 @@
   {% endif %}  
 
   {% assign items = include.collection | where: "category", include.category | where: "pageStatus", filterPageStatus | sort: "importance" | reverse %}
+  {% if items == empty or items == 0 %}
+  <p>No items in {{include.pageStatus}} currently...</p>
+  {% else %}
+  
   <ul class="btn-toggle-nav  fw-normal pb-1 small">
     {% for item in items %}
       <li class="align-items-center">
@@ -16,6 +19,7 @@
       </li>
     {% endfor %}
   </ul>
+  {% endif %}
 {% else %}
   <p>No items in collection</p>
 {% endif %} 

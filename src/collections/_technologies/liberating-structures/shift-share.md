@@ -7,7 +7,10 @@ toc: true
 pdf: true
 pageStatus: preview
 category: liberating-structures
-permalink: /:collection/liberating-structures/:name
+redirect_from: 
+ - recipes/technologies/liberating-structures/shift-share.md
+ - technologies/liberating-structures/shift-share.html
+ - guides/Liberating-Structures/Shift-&-Share-(40).html
 ---
 
 PURPOSE

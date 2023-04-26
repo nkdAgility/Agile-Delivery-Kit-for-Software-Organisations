@@ -7,6 +7,8 @@ image: https://nkdagility.com/wp-content/uploads/2020/12/image-2.png
 toc: true
 pdf: true
 pageStatus: published
+redirect_from: 
+- /Guides/Detecting-Agile-BS.html
 references:
  - title: DIB Guide - Detecting Agile BS
    url: https://media.defense.gov/2019/May/02/2002127286/-1/-1/0/DIBGUIDEDETECTINGAGILEBS.PDF
@@ -16,6 +18,13 @@ references:
    url: https://media.defense.gov/2018/Jul/10/2001940937/-1/-1/0/DIB_METRICS_FOR_SOFTWARE_DEVELOPMENT_V0.9_2018.07.10.PDF
  - title: Defense Innovation Board Do’s and Don’ts for Software
    url: https://media.defense.gov/2018/Oct/09/2002049593/-1/-1/0/DIB_DOS_DONTS_SOFTWARE_2018.10.05.PDF
+recommendedVideos:
+ - title: stackconf 2021 | The Tyranny of Taylorism and how to spot Agile BS
+   embed: https://www.youtube.com/embed/OJ-7YVekG2s
+ - title: "stackconf online 2020 | Agile Evolution: An Enterprise transformation that shows that you can too"
+   embed: https://www.youtube.com/embed/6D7ZC5Yq8rU
+ - title: "Agile Evolution: Live Site Culture & Site Reliability at Azure DevOps"
+   embed: https://www.youtube.com/embed/5bgcpPqcGlw
 ---
 
 Agile is a buzzword of software development, and so all DoD software development projects are, almost by default, now declared to be “agile.” The purpose of this document is to provide guidance to DoD program executives and acquisition professionals on how to detect software projects that are really using agile development versus those that are simply waterfall or spiral development in agile clothing (“agile-scrum-fall”).

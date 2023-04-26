@@ -4,6 +4,8 @@ layout: default
 toc: true
 pdf: true
 pageType: anti-pattern
+catagorys: 
+ - scrum
 pageStatus: draft
 discussionId: 
 references:

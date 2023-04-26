@@ -6,6 +6,19 @@ pageType: guide
 toc: true
 pdf: true
 pageStatus: published
+redirect_from:
+ - /guides/Kanban-Guide-for-Scrum-Teams.html
+references:
+ - title: The Kanban Guide for Scrum Teams on Scrum.org
+   url: https://scrum.org/resources/kanban-guide-scrum-teams
+ - title: Work can flow across the Sprint boundary
+   url: https://nkdagility.com/blog/work-can-flow-across-sprint-boundary/
+ - title: No Estimates and is it advisable for a Scrum Team to adopt it?
+   url: https://nkdagility.com/blog/no-estimates-and-is-it-advisable-for-a-scrum-team-to-adopt-it/
+recommendedContent:
+ - collection: practices
+   path: _practices/service-level-expectation-sle.md
+recommendedVideos:
 ---
 
 The flow-based perspective of Kanban can enhance and complement the Scrum framework and its implementation. Teams can add complementary Kanban practices whether they are just starting to use Scrum or have been using it all along. The Kanban Guide for Scrum Teams is the result of a collaboration between members of the Scrum.org community and leaders of the Kanban community. Together, they stand behind The Kanban Guide for Scrum Teams. It is their shared belief that professional product development practitioners can benefit from the application of Kanban together with Scrum.
@@ -124,14 +137,3 @@ A flow-based Sprint Retrospective adds the inspection of flow metrics and analyt
 
 Scrum requires the team to create (at minimum) a valuable, useful Increment every Sprint. Scrum’s empiricism encourages the creation of multiple valuable increments during the Sprint to enable fast inspect and adapt feedback loops. Kanban helps manage the flow of these feedback loops more explicitly and allows the Scrum Team to identify bottlenecks, constraints, and impediments to enable this faster, more continuous delivery of value
 Check our blog for more details
-
-Extracted from [The Kanban Guide for Scrum Teams on Scrum.org][1]{:target="_blank"}
-
-## Resources
-
-- [Work can flow across the Sprint boundary][2]
-- [No Estimates and is it advisable for a Scrum Team to adopt it?][3]
-
-[1]: https://scrum.org/resources/kanban-guide-scrum-teams "Kanban Guide for Scrum Teams"
-[2]: https://nkdagility.com/blog/work-can-flow-across-sprint-boundary/ "Work can flow across the Sprint boundary"
-[3]: https://nkdagility.com/blog/no-estimates-and-is-it-advisable-for-a-scrum-team-to-adopt-it/ "No Estimates and is it advisable for a Scrum Team to adopt it?"

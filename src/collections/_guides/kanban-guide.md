@@ -6,6 +6,13 @@ pageType: guide
 toc: true
 pdf: true
 pageStatus: published
+references:
+ - title: The Kanban Guide
+   url: https://kanbanguides.org/english/
+recommendedContent:
+ - collection: practices
+   path: _practices/service-level-expectation-sle.md
+recommendedVideos:
 ---
 
 December 2020
@@ -24,7 +31,7 @@ Kanban comprises the following three practices working in tandem:
 - Defining and visualizing a workflow
 - Actively managing items in a workflow
 - Improving a workflow
-- 
+  
 In their implementation, these Kanban practices are collectively called a Kanban system. Those who participate in the value delivery of a Kanban system are called Kanban system members.
 
 ## Why Use Kanban?

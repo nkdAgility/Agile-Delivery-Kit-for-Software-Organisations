@@ -5,7 +5,11 @@ layout: default
 pageType: technology
 toc: true
 pdf: true
-pageStatus: preview
+pageStatus: draft
+redirect_from:
+ - guides/Liberating-Structures.html
+ - guides/Liberating-Structures/
+ - technologies/Liberating-Structures.html
 ---
 
 Liberating structures is a social technology.

@@ -6,6 +6,8 @@ pdf: true
 pageStatus: 
 pageType: overview
 discussionId: 
+redirect_from:
+ - commitments.html
 ---
 
 These commitments exist to reinforce empiricism and the Scrum values for the Scrum Team and their
