@@ -5,6 +5,8 @@ layout: default
 pageType: practice
 pageStatus: published
 recommendedContent:
+redirect_from:
+ - practices/Definition-of-Ready-DoR.html
 ---
 **WARNING: Definition of Ready can result in significant anti-patterns in teams.** 
 

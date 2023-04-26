@@ -5,6 +5,8 @@ pageType: guide
 toc: true
 pdf: true
 pageStatus: published
+redirect_from:
+ - guides/Nexus-Framework/
 references:
  - title: The 2020 Scrum Guide
    url: https://scrumguides.org/scrum-guide.html

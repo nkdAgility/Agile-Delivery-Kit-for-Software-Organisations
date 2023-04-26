@@ -6,6 +6,9 @@ toc: true
 pdf: true
 pageStatus: draft
 recommendedContent:
+redirect_from:
+ - practices/Metrics-Reports/
+ - practices/Metrics-Reports.html
 ---
 
 

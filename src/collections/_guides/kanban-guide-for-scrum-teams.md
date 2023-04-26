@@ -6,6 +6,8 @@ pageType: guide
 toc: true
 pdf: true
 pageStatus: published
+redirect_from:
+ - /guides/Kanban-Guide-for-Scrum-Teams.html
 references:
  - title: The Kanban Guide for Scrum Teams on Scrum.org
    url: https://scrum.org/resources/kanban-guide-scrum-teams

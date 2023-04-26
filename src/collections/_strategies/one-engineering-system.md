@@ -5,6 +5,9 @@ pageType: strategy
 toc: true
 pdf: true
 pageStatus: draft
+redirect_from:
+ - 1es/readme.html
+ - 1es
 ---
 
 We have a number of tools that are in use and each one is different and provides

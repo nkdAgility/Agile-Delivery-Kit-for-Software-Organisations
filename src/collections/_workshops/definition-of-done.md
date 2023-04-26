@@ -1,4 +1,6 @@
 ---
+redirect_from:
+ - workshops/Definition-Of-Done.html
 ---
 # What is the Definition of Done (DoD)
 

@@ -7,8 +7,13 @@ toc: true
 pdf: true
 pageStatus: preview
 category: liberating-structures
-permalink: /:collection/liberating-structures/:name
+redirect_from: 
+ - technologies/liberating-structures/what-so-what-now-what.html
 ---
+
+{{page.path}}
+{{page.name}}
+{{page.collection}}
 
 PURPOSE
 Together, Look Back on Progress to Date and Decide What Adjustments Are Needed
