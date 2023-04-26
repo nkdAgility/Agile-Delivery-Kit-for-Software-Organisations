@@ -11,14 +11,8 @@ references:
  - title: "Agile Evolution: Live site Culture & Site Reliability (PPT)"
    url: https://nkdagility-my.sharepoint.com/:p:/p/martin/Eb9HZA_2dsZHrt2Lu3fCcwwBTp-iO1kt8zq59UjBPR9WUQ?e=0VYjan
 recommendedContent:
- - collection: guides
-   path: _guides/manifesto-for-agile-software-development.md
- - collection: guides
-   path: _guides/kanban-guide-for-scrum-teams.md
- - collection: guides
-   path: _guides/evidence-based-management-guide.md
- - collection: practices
-   path: _practices/service-level-expectation-sle.md
+ - collection: whitepapers
+   path: _whitepapers/enterprise-evolution-that-shows-that-you-can-too.md
 recommendedVideos:
  - title: "Live Site Culture & Site Reliability at Azure DevOps - Martin Hinshelwood"
    embed: https://www.youtube.com/embed/CIDFB6XfoCg

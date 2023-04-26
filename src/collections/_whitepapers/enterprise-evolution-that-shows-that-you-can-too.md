@@ -13,16 +13,8 @@ references:
  - title: "Agile Evolution: An Enterprise transformation that shows that you can too (PPT)"
    url: https://nkdagility-my.sharepoint.com/:p:/p/martin/EaIuWbpE0x5LgNvESTeeyyQBAaS79iOV6F42NrURGBupCg?e=rarFcb
 recommendedContent:
- - collection: guides
-   path: _guides/manifesto-for-agile-software-development.md
- - collection: guides
-   path: _guides/scrum-guide.md
- - collection: guides
-   path: _guides/kanban-guide-for-scrum-teams.md
- - collection: guides
-   path: _guides/evidence-based-management-guide.md
- - collection: practices
-   path: _practices/service-level-expectation-sle.md
+ - collection: whitepapers
+   path: _whitepapers/live-site-culture-site-reliability.md
 recommendedVideos:
  - title: "Agile Evolution: An Enterprise transformation that shows that you can too - Martin Hinshelwood"
    embed: https://www.youtube.com/embed/QA2QdBG5uLE
