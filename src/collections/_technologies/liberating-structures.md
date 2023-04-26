@@ -5,7 +5,7 @@ layout: default
 pageType: technology
 toc: true
 pdf: true
-pageStatus: preview
+pageStatus: draft
 ---
 
 Liberating structures is a social technology.
