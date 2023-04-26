@@ -35,6 +35,8 @@ collections:
     output: true
   first-principals:
     output: true
+  whitepapers:
+    output: true
 
 defaults:
   - scope:
