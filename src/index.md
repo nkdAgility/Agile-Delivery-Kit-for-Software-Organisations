@@ -45,6 +45,10 @@ These core first principals, routed in empiricism, are at the heart of this docu
 
 {% include content-collection.html collection = site.first-principals %}  
 
+## Whitepapers & Presentations
+
+{% include content-collection.html collection = site.whitepapers %}  
+
 ## Reasons why agile often fails (anti-patterns)
 
 {% include content-collection.html collection = site.anti-patterns %}  
