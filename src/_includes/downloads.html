@@ -1,0 +1,11 @@
+{% assign downloads = page.downloads %}
+{% if downloads.size > 0 %}
+<div class="btn-group" role="group" aria-label="Basic example">
+  {% for item in downloads %}
+  <a class="btn btn-primary" target="_blank" href="{{item.url}}" role="button" title="{{item.title}}">{{item.name}}</a>
+  {% endfor %}
+</div>
+{% endif %}
+
+  
+  

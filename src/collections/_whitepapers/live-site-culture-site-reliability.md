@@ -2,13 +2,14 @@
 title: Live site Culture & Site Reliability
 description: Creating a live site culture with site reliability engineering and how it fits the DevOps journey of Microsoft from traditional waterfall to agile engineering.
 layout: default
-toc: true
+toc: false
 pdf: true
 pageType: presentation
 pageStatus: published
 redirect_from:
-references:
+downloads:
  - title: "Agile Evolution: Live site Culture & Site Reliability (PPT)"
+   name: PPT
    url: https://nkdagility-my.sharepoint.com/:p:/p/martin/Eb9HZA_2dsZHrt2Lu3fCcwwBTp-iO1kt8zq59UjBPR9WUQ?e=0VYjan
 recommendedContent:
  - collection: whitepapers
