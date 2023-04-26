@@ -9,6 +9,8 @@ recommendedContent:
 redirect_from:
  - practices/Metrics-Reports/
  - practices/Metrics-Reports.html
+ - metrics-reports
+ - metrics-reports.html
 ---
 
 
