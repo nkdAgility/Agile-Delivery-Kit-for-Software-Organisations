@@ -7,7 +7,7 @@ pageType: faq
 pageStatus: published
 discussionId: 
 references:
- - title: Vibhor Chandel on Scrum Master Skills | LinkedIn
+ - title: Vibhor Chandel on Scrum Master Skills with Boris Steiner reply | LinkedIn
    url: https://www.linkedin.com/posts/vibhorchandel_agile-agilecoaching-scrum-activity-7056635473774985216-Q1MI/?utm_source=share&utm_medium=member_android
 recommendedContent:
  - collection: guides
