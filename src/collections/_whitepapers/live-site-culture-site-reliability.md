@@ -8,8 +8,6 @@ pageType: presentation
 pageStatus: published
 redirect_from:
 references:
- - title: "Agile Evolution: Live site Culture & Site Reliability (PDF)"
-   url: https://nkdagility-my.sharepoint.com/:b:/p/martin/EU9_p9NRneRDjb-zitLq4O4B3SDDfmrpzPz5C-rDEYCN1A?e=7JHGhE
  - title: "Agile Evolution: Live site Culture & Site Reliability (PPT)"
    url: https://nkdagility-my.sharepoint.com/:p:/p/martin/Eb9HZA_2dsZHrt2Lu3fCcwwBTp-iO1kt8zq59UjBPR9WUQ?e=0VYjan
 recommendedContent:
