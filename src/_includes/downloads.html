@@ -1,9 +1,16 @@
 {% assign downloads = page.downloads %}
 {% if downloads.size > 0 %}
-<div class="btn-group" role="group" aria-label="Basic example">
-  {% for item in downloads %}
-  <a class="btn btn-primary" target="_blank" href="{{item.url}}" role="button" title="{{item.title}}">{{item.name}}</a>
-  {% endfor %}
+<div class="p-2">
+  <div class="card">
+      <h5 class="no_toc card-header">Downloads</h5>
+      <div class="card-body">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          {% for item in downloads %}
+          <a class="btn btn-primary" target="_blank" href="{{item.url}}" role="button" title="{{item.title}}">{{item.name}}</a>
+          {% endfor %}
+        </div>
+      </div>
+  </div>
 </div>
 {% endif %}
 
