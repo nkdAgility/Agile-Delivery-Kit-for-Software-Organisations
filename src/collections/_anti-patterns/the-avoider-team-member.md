@@ -1,11 +1,13 @@
 ---
 title: The Avoider
+description: The Avoider uses the letter of their perceived law in their defence.
 layout: default
 toc: true
 pdf: true
 pageType: anti-pattern
 catagorys: 
  - scrum
+ - five-dysfunction-of-a-team
 pageStatus: published
 discussionId: 
 references:

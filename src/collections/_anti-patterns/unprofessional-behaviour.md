@@ -1,5 +1,6 @@
 ---
 title: Unprofessional Behaviour
+description: We need to stop normalising unprofessional behaviour and call it out whenever we hear it.
 layout: default
 toc: true
 pdf: true

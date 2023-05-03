@@ -1,11 +1,13 @@
 ---
 title: The Hero
+description: The Hero takes it upon him or herself to be the saviour.
 layout: default
 toc: true
 pdf: true
 pageType: anti-pattern
 catagorys: 
  - scrum
+ - five-dysfunction-of-a-team
 pageStatus: published
 discussionId: 
 references:

@@ -1,11 +1,13 @@
 ---
 title: The Absent Product Owner
+description: The Absent Product Owner is frequently too busy to attend to their responsibilities as prescribed by Scrum.
 layout: default
 toc: true
 pdf: true
 pageType: anti-pattern
 catagorys: 
  - scrum
+ - five-dysfunction-of-a-team
 pageStatus: published
 discussionId: 
 references:

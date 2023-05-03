@@ -1,11 +1,13 @@
 ---
 title: The 90 Percenter
+description: The 90 Percenter is frequently “almost done” with whatever they are working on.
 layout: default
 toc: true
 pdf: true
 pageType: anti-pattern
 catagorys: 
  - scrum
+ - five-dysfunction-of-a-team
 pageStatus: published
 discussionId: 
 references:

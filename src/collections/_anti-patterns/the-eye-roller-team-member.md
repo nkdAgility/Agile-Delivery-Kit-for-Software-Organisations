@@ -1,11 +1,13 @@
 ---
 title: The Eye Roller
+description: The Eye Roller sees Scrum as unnecessary and vocally complains about using it, falling just short of refusing to participate.
 layout: default
 toc: true
 pdf: true
 pageType: anti-pattern
 catagorys: 
  - scrum
+ - five-dysfunction-of-a-team
 pageStatus: published
 discussionId: 
 references:
