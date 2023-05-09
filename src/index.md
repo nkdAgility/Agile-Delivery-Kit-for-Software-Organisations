@@ -43,23 +43,33 @@ he first key understanding is that there are no companies left that are in low c
 
 These core first principals, routed in empiricism, are at the heart of this document:
 
-{% include content-collection.html collection = site.first-principals %}  
+{% include content-collection.html collection = site.first-principals %}
+
+[All principals](./first-principals.md)
 
 ## Whitepapers & Presentations
 
 {% include content-collection.html collection = site.whitepapers %}  
 
+[All whitepapers](./whitepapers.md)
+
 ## Reasons why agile often fails (anti-patterns)
 
 {% include content-collection.html collection = site.anti-patterns %}  
+
+[All anti-patterns](./anti-patterns.md)
 
 ## Frequently Asked Questions
 
 {% include content-collection.html collection = site.faq  %}  
 
+[All faq](./faq.md)
+
 ## Guides
 
 {% include content-collection.html collection = site.guides  %}  
+
+[All guides](./guides.md)
 
 ## Discussions, Communities, & Contributing
 
