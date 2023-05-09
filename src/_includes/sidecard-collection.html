@@ -1,17 +1,30 @@
 {% if page.collection != null %} 
 {% assign collection = site.collections | where: "label", page.collection | first %} 
-{% assign docs = collection.docs | where: "pageStatus", "published" %} 
-{% if docs.size > 0 %}
+
+{% assign docsP = collection.docs | where: "pageStatus", "published" | where_exp: "item", "item.path != page.path"  | sort: "title"  %} 
+
 <div class="card m-2">
   <h5 class="no_toc card-header">More {{ page.collection | capitalize }}</h5>
   <div class="card-body">
     <ul id="toc" class="section-nav bd-links-nav list-unstyled pb-1 small">
-      {% for item in docs %}
+      {% for item in docsP %}
       <li class="toc-entry align-items-center pb-2 ps-2 toc-h2">
         <a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a>
       </li>
       {% endfor %}
     </ul>
+    {% assign docsD = collection.docs | where_exp: "item", "item.pageStatus != 'published'" | where_exp: "item", "item.path != page.path" | sort: "title" %} 
+    {% if docsP.size > 0 and docsD.size > 0 %}
+    <hr />
+    {% endif %}
+    <ul id="toc" class="section-nav bd-links-nav list-unstyled pb-1 small">
+      
+      {% for item in docsD %}
+      <li class="toc-entry align-items-center pb-2 ps-2 toc-h2">
+        <a href="{{ site.baseurl }}{{ item.url }}">{{item.title}}</a>{% if item.pageStatus != "published" %} [{{item.pageStatus}}]{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
-{% endif %} {% endif %}
+ {% endif %}

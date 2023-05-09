@@ -13,7 +13,7 @@ From the perspective of Scrum, the idea of Ready, as applied to a Backlog Item, 
 The danger of having a defined definition of Ready (DoR) is:
 
 - **False sense of Ready** - First that it creates a false sense of Ready that encompasses the objective points that we can focus on, but misses the subjective. This can lead to false gating, where participants hold each other accountable for failing to achieve something that was not defined in the first place.
-- **Neglecting Refinement** 
+- **Neglecting Refinement** - If things are "ready" then why would we have to understand it better!
 - **False Equivalence with DoD** - Using the DoR terminology generally leads participants to feel that the DoD and the DoR have an equivalence. This is dangerous as the DoD is an absolute boolean proposition, while the subjective nature of the DoR may lead it to be only partially implemented. If it's OK to only partially achieve the DoR, the logical fallacy is that the DoD can also be partially implemented.
 
 A solution that may enable the effective use of this practice may be to a different formula of naming to create disambiguation between the DoR and the DoD.
