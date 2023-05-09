@@ -1,53 +1,61 @@
-{% assign pages = site.pages | where: "pageType", include.pageType | where: "pageStatus", "published" | sort: "importance" | reverse %}
+{% assign pages = site.pages | where: "pageType", include.pageType | where:
+"pageStatus", "published" | sort: "importance" | reverse %}
 <li class="mb-1">
-    <a  href="#" class="navbar-toggler btn btn-toggle link-body-emphasis d-inline-flex text-decoration-none rounded border-0 collapsed"
-                data-bs-toggle="collapse"
-                data-bs-target="#{{include.collection}}-collapse"
-                aria-expanded="false">
-                <strong class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
-                    <i class="fa-sharp fa-solid fa-chevron-down"></i>&nbsp; 
-                    {{ include.title | capitalize_all }}
-                </strong>
-    </a>
-      <div class="collapse" id="{{include.collection}}-collapse">
-        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
-            {% for page in pages %}
-            <li class="align-items-center">
-                <a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
-                    {{ page.title }}
-                </a>
-            </li>
-            {% endfor %}
-    {% if collection != null %}
-      {% assign items = collection.docs | where: "category", null | where: "pageStatus", "published" | sort: "importance" | reverse %}
-        {% assign items = collection.docs | where: "pageStatus", "published" | where: "category", null | sort: "importance" | reverse %}
-        {% if items != empty %}
-                  {% for item in items %}
-                    <li class="align-items-center">
-                      <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ item.title }}</a>
-                    </li>
-                  {% endfor %}
-        {% endif %}
-    {% else %}
-      <li>No items in collection</li>
-    {% endif %}
-    {% assign pages = site.pages | where: "pageType", include.pageType  | except: "pageStatus", "published" | sort: "importance" | reverse %}
-    {% if pages != empty %}
-    <li class="align-items-center">
+  <a
+    href="#"
+    class="navbar-toggler btn btn-toggle link-body-emphasis d-inline-flex text-decoration-none rounded border-0 collapsed"
+    data-bs-toggle="collapse"
+    data-bs-target="#{{include.collection}}-collapse"
+    aria-expanded="true">
+    <strong
+      class="bd-links-heading d-flex w-100 align-items-center fw-semibold">
+      <i class="fa-sharp fa-solid fa-chevron-down"></i>&nbsp; {{ include.title |
+      capitalize_all }}
+    </strong>
+  </a>
+  <div class="collapse show" id="{{include.collection}}-collapse">
+    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
+      {% for page in pages %}
+      <li class="align-items-center">
+        <a
+          href="{{ site.baseurl }}{{ page.url }}"
+          class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+          {{ page.title }}
+        </a>
+      </li>
+      {% endfor %} {% assign pages = site.pages | where: "pageType",
+      include.pageType | except: "pageStatus", "published" | sort: "importance"
+      | reverse %} {% if pages != empty %}
+      <li class="align-items-center">
         <small>
-            <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" data-bs-toggle="collapse" data-bs-target="#{{include.pageType}}-collapse" aria-expanded="false">Draft</a>
-            <div class="collapse" id="{{include.pageType}}-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
-                {% for page in pages %}
-                <li class="align-items-center"><a href="{{ site.baseurl }}{{ page.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ page.title }}</a>&nbsp;<small>{% if page.pageStatus != "production" %}<i class="fa-regular {% if page.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i>{% endif %}</small></li>
-                {% endfor %}
-                </ul>
-            </div>
+          <a
+            href="#"
+            class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+            data-bs-toggle="collapse"
+            data-bs-target="#{{include.pageType}}-collapse"
+            aria-expanded="false"
+            >Draft</a
+          >
+          <div class="collapse" id="{{include.pageType}}-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ms-2 small">
+              {% for page in pages %}
+              <li class="align-items-center">
+                <a
+                  href="{{ site.baseurl }}{{ page.url }}"
+                  class="link-body-emphasis d-inline-flex text-decoration-none rounded"
+                  >{{ page.title }}</a
+                >&nbsp;<small
+                  >{% if page.pageStatus != "production" %}<i
+                    class="fa-regular {% if page.pageStatus == null %}fa-triangle-exclamation{% else %}fa-circle-exclamation{% endif %}"></i
+                  >{% endif %}</small
+                >
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
         </small>
-    </li>
-    {% endif %}
-  </ul>
+      </li>
+      {% endif %}
+    </ul>
   </div>
-  </li>
-
-
+</li>

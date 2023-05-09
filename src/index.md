@@ -57,6 +57,10 @@ These core first principals, routed in empiricism, are at the heart of this docu
 
 {% include content-collection.html collection = site.faq  %}  
 
+## Guides
+
+{% include content-collection.html collection = site.guides  %}  
+
 ## Discussions, Communities, & Contributing
 
 You can [create or join a discussion](https://github.com/nkdAgility/Scrum-Delivery-Kit-for-Software-Organisations/discussions) on any topic.
