@@ -6,7 +6,7 @@ pdf: true
 pageStatus: published
 discussionId: 12 
 ---
-
+ 
 This kit provides examples and suggestions  of the [strategies](./strategies/), [recipes](./recipes/). [workshops](./workshops/), [technologies](./technologies/), [practices](./practices/), and [guides](./guides/) that will help you be successful. Where posable these pages will use the terminology from the [guides](./guides/) referenced here. 
 
 To enable the offer we have use these catagories to group the relevant content:
