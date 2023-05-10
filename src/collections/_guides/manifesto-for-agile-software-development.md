@@ -6,6 +6,8 @@ pageType: guide
 toc: true
 pdf: true
 pageStatus: published
+redirect_from:
+ - guides/manifesto-for-agile-software-developmen/
 references:
  - title: Manifesto for Agile Software Development
    url: https://agilemanifesto.org/

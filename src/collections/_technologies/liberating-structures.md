@@ -10,6 +10,7 @@ redirect_from:
  - guides/Liberating-Structures.html
  - guides/Liberating-Structures/
  - technologies/Liberating-Structures.html
+ - technologies/Liberating-Structures/
 ---
 
 Liberating structures is a social technology.
