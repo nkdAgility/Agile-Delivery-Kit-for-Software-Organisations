@@ -8,6 +8,8 @@ toc: true
 pdf: true
 pageType: practice
 pageStatus: published
+redirect_from:
+ - practices/Definition-of-Done-DoD.html
 references:
  - title: Getting started with a Definition of Done (DoD)
    url: https://www.scrum.org/resources/blog/getting-started-definition-done-dod

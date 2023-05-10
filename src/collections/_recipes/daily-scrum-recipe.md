@@ -7,6 +7,8 @@ author: mrhinsh
 toc: true
 pdf: true
 pageStatus: 
+redirect_from:
+ - /recipes/Daily-Scrum-Recipe.html
 recommendedContent:
  - collection: guides
    path: _guides/manifesto-for-agile-software-development.md

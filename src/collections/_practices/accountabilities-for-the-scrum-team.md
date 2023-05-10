@@ -5,6 +5,8 @@ pageType: practice
 toc: true
 pdf: true
 pageStatus: draft
+redirect_from:
+ - practices/Accountabilities-for-the-Scrum-Team.html
 recommendedContent:
 ---
 

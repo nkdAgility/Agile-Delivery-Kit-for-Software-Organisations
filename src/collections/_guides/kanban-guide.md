@@ -6,6 +6,9 @@ pageType: guide
 toc: true
 pdf: true
 pageStatus: published
+redirect_from:
+ - guides/Kanban-Guide.html
+ - guides/Kanban-Guide/
 references:
  - title: The Kanban Guide
    url: https://kanbanguides.org/english/

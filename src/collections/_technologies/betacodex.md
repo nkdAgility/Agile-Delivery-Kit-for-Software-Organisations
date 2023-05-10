@@ -5,6 +5,8 @@ toc: true
 pdf: true
 pageType: technology
 pageStatus: draft
+redirect_from:
+ - technologies/betacodex.html
 discussionId: 
 references:
  - title: Redesigning the Future - A Systems Approach to Societal Problems - Russell Ackoff
