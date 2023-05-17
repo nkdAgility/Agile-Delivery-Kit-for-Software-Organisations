@@ -1,16 +1,24 @@
 {% assign downloads = page.downloads %}
 {% if downloads.size > 0 %}
-  <div class="card m-2">
-      <h5 class="no_toc card-header">Downloads</h5>
-      <div class="card-body">
-        <div class="btn-group" role="group" aria-label="Basic example">
-          {% for item in downloads %}
-          <a class="btn btn-primary" target="_blank" href="{{item.url}}" role="button" title="{{item.title}}">{{item.name}}</a>
-          {% endfor %}
-        </div>
-      </div>
+<div class="card m-2">
+  <h5 class="no_toc card-header">Downloads</h5>
+  <div class="card-body">
+    <ul id="toc" class="section-nav bd-links-nav list-unstyled pb-1 small">
+      {% for item in downloads %}
+      <li class="toc-entry align-items-center pb-2 ps-2 toc-h2">
+        <i class="fa-regular fa-download"></i> 
+        {% if item.url contains "://" %}
+        <a href="{{ item.url }}" target="_blank">
+        {% else %}
+        <a href="{{ site.baseurl }}{{ item.url }}" target="_blank">
+        {% endif %}
+          {{item.title}}
+        </a> ({{ item.type }})
+      </li>
+      {% endfor %}
+    </ul>
   </div>
+</div>
 {% endif %}
 
-  
-  
+

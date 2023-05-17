@@ -9,10 +9,10 @@ pageStatus: published
 redirect_from:
 downloads:
  - title: "Agile Evolution: An Enterprise transformation that shows that you can too (PDF)"
-   name: PDF
+   type: PDF
    url: https://nkdagility-my.sharepoint.com/:b:/p/martin/EU9_p9NRneRDjb-zitLq4O4B3SDDfmrpzPz5C-rDEYCN1A?e=7JHGhE
  - title: "Agile Evolution: An Enterprise transformation that shows that you can too (PPT)"
-   name: PPT
+   type: PPT
    url: https://nkdagility-my.sharepoint.com/:p:/p/martin/EaIuWbpE0x5LgNvESTeeyyQBAaS79iOV6F42NrURGBupCg?e=rarFcb
 recommendedContent:
  - collection: whitepapers
