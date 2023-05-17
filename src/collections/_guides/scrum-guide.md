@@ -10,6 +10,28 @@ redirect_from:
  - guides/Scrum-Guide/
  - guides/Scrum-Guide.html
  - guides/scrum-guide.html
+downloads:
+ - title: "Scrum Guide 2020"
+   type: pdf
+   url: /assets/attachments/Scrum-Guide-2020.pdf
+ - title: "Scrum Guide 2017"
+   type: pdf
+   url: /assets/attachments/Scrum-Guide-2017.pdf
+ - title: "Scrum Guide 2016"
+   type: pdf
+   url: /assets/attachments/Scrum-Guide-2016.pdf
+ - title: "Scrum Guide 2013"
+   type: pdf
+   url: /assets/attachments/Scrum-Guide-2013-07.pdf
+ - title: "Scrum Guide 2011 v2"
+   type: pdf
+   url: /assets/attachments/2011-07-Scrum_Guide.pdf
+ - title: "Scrum Guide 2011"
+   type: pdf
+   url: /assets/attachments/Scrum-Guide-2011-07.pdf
+ - title: "Scrum Guide 2010"
+   type: pdf
+   url: /assets/attachments/Scrum-Guide-2010-v1-Scrum-Alliance.pdf
 references:
  - title: The 2020 Scrum Guide
    url: https://scrumguides.org/scrum-guide.html

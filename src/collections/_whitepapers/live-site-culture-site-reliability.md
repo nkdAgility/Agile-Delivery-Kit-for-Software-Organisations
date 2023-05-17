@@ -9,7 +9,7 @@ pageStatus: published
 redirect_from:
 downloads:
  - title: "Agile Evolution: Live site Culture & Site Reliability (PPT)"
-   name: PPT
+   type: PPT
    url: https://nkdagility-my.sharepoint.com/:p:/p/martin/Eb9HZA_2dsZHrt2Lu3fCcwwBTp-iO1kt8zq59UjBPR9WUQ?e=0VYjan
 recommendedContent:
  - collection: whitepapers
