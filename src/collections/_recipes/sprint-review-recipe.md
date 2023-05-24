@@ -35,7 +35,7 @@ This workshop leverages a simple flow and consists of the following:
 
 The Product Owner presents the vision and goals, followed by a summary of what happened, and a review of the product increment. Update the product backlog and discuss likely release dates and budgeting. 
 
-Although Scrum Masters can certainly facilitate the Sprint Review, there is nothing holding others back from facilitating. Since the Sprint Review is particularly important for the Product Owner, as he or she will be sharing the increment with stakeholders, it makes sense for him or her to also play a role;
+Although Scrum Masters can certainly facilitate the Sprint Review, there is nothing holding others back from facilitating. Since the Sprint Review is particularly important for the Product Owner, as he or she will be sharing the increment with stakeholders, it makes sense for him or her to also play a role.
 
 ### Part 1: Product Owner Presents Product Vision and Goal [5 mins]
 
