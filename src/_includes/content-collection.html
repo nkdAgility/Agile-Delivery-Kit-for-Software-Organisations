@@ -5,18 +5,19 @@
   {% assign filterPageStatus = include.pageStatus %}  
   {% endif %}  
 
-  {% assign items = include.collection | where: "category", include.category | where: "pageStatus", filterPageStatus | sort: "importance" | reverse %}
+  {% assign items = include.collection | where: "pageStatus", filterPageStatus | sort: "importance" | reverse %}
   {% if items == empty or items == 0 %}
   <p>No items currently {% if include.pageStatus == "draft" %}in   {% endif %}{{filterPageStatus}}...</p>
   {% else %}
-  
   <ul class="btn-toggle-nav  fw-normal pb-1 small">
     {% for item in items %}
+    {% if include.category == or item.category contains include.category %}
       <li class="align-items-center">
         <a href="{{ site.baseurl }}{{ item.url }}" class="link-body-emphasis">
           {{ item.title }}
         </a>{% if item.description != null %} - {{ item.description }}{% endif %}
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
   {% endif %}
