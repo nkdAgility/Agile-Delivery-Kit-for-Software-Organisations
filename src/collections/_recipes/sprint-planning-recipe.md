@@ -6,28 +6,35 @@ image: ./../assets/images/naked-Agility-Scrum-Framework-Sprint-Planning.jpg
 author: mrhinsh
 toc: true
 pdf: true
-pageStatus: 
+pageStatus: published
 recommendedContent:
  - collection: guides
    path: _guides/manifesto-for-agile-software-development.md
  - collection: guides
    path: _guides/scrum-guide.md
+recommendedVideos:
+ - title: What is the most common mistake in sprint planning?
+   embed: https://www.youtube.com/embed/JVZzJZ5q0Hw
+ - title: What is sprint planning?
+   embed: https://www.youtube.com/embed/nMkit8zBxG0
+ - title: "What is your #1 tip for effective sprint planning?"
+   embed: https://www.youtube.com/embed/uQ786VBz3Jw
+ - title: "How does a scrum team plan and prioritize work effectively?"
+   embed: https://www.youtube.com/embed/sPmUuSy7G3I
 ---
 
 A recipe is an example flow with options for how to run different segments to get the value you should be getting from this event.
 
 # An example flow for a Sprint Planning
 
-When designing a flow, it is hugely important to be clear on the purpose. For the Sprint Planning, the purpose is to inspect the Product Backlog, taking into account your [Definition of Done](/Project-Management/Agile-Ways-of-Working/Core-Practices/Definition-of-Done-\(DoD\)) and Team History, and craft a Sprint Goal, Select backlog Items, and an implementation plan for at least the first 24h.
+When designing a flow, it is hugely important to be clear on the purpose. For the Sprint Planning, the purpose is to inspect the Product Backlog, taking into account your [Definition of Done](./../_practices/definition-of-done-dod.md) and Team History, and craft a Sprint Goal, Select backlog Items, and an implementation plan for at least the first 24h.
 
 Sprint Planning is about answering the question: “Based on the Product Goal and the current Product Backlog what can we tactically do to make progress?”. 
 
-![naked-Agility-Scrum-Framework-Sprint-Planning.jpg](/.attachments/naked-Agility-Scrum-Framework-Sprint-Planning-d4ad3a3b-3127-47e1-8abd-e64dd0cb248c.jpg =450x)
+![naked-Agility-Scrum-Framework-Sprint-Planning.jpg](./../assets/images/naked-agility-scrum-framework-sprint-planning.jpg)
 
 
-[[_TOC_]]
-
-#Overview of Flow for Sprint Planning
+# Overview of Flow for Sprint Planning
 
 This workshop leverages a simple flow and consists of the following:
 
@@ -43,14 +50,16 @@ _Although Scrum Masters can certainly facilitate the Sprint Planning, there is n
 
 ### Part 1: Product Owner Presents Product Vision, Product Goal, and possible Sprint Goals [~5 mins]
 
+This sets the scene and focuses the Scrum Team on the purpose of the event.
+
 ### Part 2: Create a Sprint Goal [~5 mins]
 
-Use the Sprint Planning to make the Sprint Goal clear with “[Nine Whys](/Guides/Liberating-Structures/Nine-Whys-\(30\))”. Sentences that help write clear purpose statements are “This Sprint exists in order to”, or “This Sprint exists to stop…”, or “When we achieve this Sprint Goal, what has clearly changed or improved from the perspective of stakeholders?”.
+Use the Sprint Planning to make the Sprint Goal clear with "[Nine Whys](./../_technologies/liberating-structures/nine-whys.md)". Sentences that help write clear purpose statements are "This Sprint exists in order to", or “This Sprint exists to stop…”, or “When we achieve this Sprint Goal, what has clearly changed or improved from the perspective of stakeholders?”.
 
 #### Facilitation Options
 
 - Discuss and Agree on a Sprint Goal [5 min]
-- [Nine Whys](/Guides/Liberating-Structures/Nine-Whys-\(30\)) [30 min]
+- [Nine Whys](./../_technologies/liberating-structures/nine-whys.md) [30 min]
 
 ### Part 3: Select Backlog Items [~60 mins]
 
@@ -73,5 +82,3 @@ This is where the Scrum Team creates their actionable plan for at least the firs
 
 - Create a Plan [120 min]
 
-#Reference
-[References](https://dev.azure.com/newsigcode/NewSignature.UKProfessionalServices/_wiki/wikis/NewSignature.UKProfessionalServices.wiki?wikiVersion=GBwikiMaster&_a=edit&pagePath=%2FProject%20Management%2FAgile%20Ways%20of%20Working%2FCore%20Practices&pageId=5053&anchor=reference)
