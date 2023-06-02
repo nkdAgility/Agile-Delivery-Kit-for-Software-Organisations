@@ -5,12 +5,15 @@ layout: default
 pageType: technology
 toc: true
 pdf: true
-pageStatus: draft
+pageStatus: published
 redirect_from:
  - guides/Liberating-Structures.html
  - guides/Liberating-Structures/
  - technologies/Liberating-Structures.html
  - technologies/Liberating-Structures/
+references:
+ - title: Liberating Structures
+   url: https://www.liberatingstructures.com/
 ---
 
 Liberating structures is a social technology.
@@ -19,12 +22,8 @@ Use these structures on their own, or string them together, to create engaging e
 
 ## Liberating Structures
 
-{% include content-collection.html collection = site.technologies category = "liberating-structures" %}   
+{% include content-collection.html collection = site.technologies category = "liberating-structures" %}
 
 ## Drafts
 
-{% include content-collection.html collection = site.technologies category = "liberating-structures" pageStatus = "draft"  %}   
-
-
-MORE
-http://liberatingstructures.com/
+{% include content-collection.html collection = site.technologies category = "liberating-structures" pageStatus = "draft"  %}

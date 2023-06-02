@@ -26,6 +26,8 @@ recommendedVideos:
    embed: https://www.youtube.com/embed/1-W64WdSbF4
 ---
 
+While this workshop can be used on its own, it was designed to be used as part of the [Sprint Review Recipe](../_recipes/sprint-review-recipe.md).
+
 # Duration
 
 160 Minutes

@@ -21,6 +21,11 @@ recommendedContent:
    path: _technologies/liberating-structures/what-so-what-now-what.md
  - collection: workshops
    path: _workshops/sprint-review-1.md
+recommendedVideos:
+ - title: Overview of The Scrum Framework
+   embed: https://www.youtube.com/embed/Q2Fo3sM6BVo
+ - title: Free Workshop 4 Introduction to Sprint Review! [Audio-Fixed]
+   embed: https://www.youtube.com/embed/1-W64WdSbF4
 ---
 
 When designing a flow for an event, it is hugely important to be clear on the purpose. For the Sprint Review, the purpose is to inspect the increment that was created during the Sprint as well as to adapt the Product Backlog based on new insights, ideas, and changes that result from this inspection. The Sprint Review is about answering the question: “Based on what we learned this Sprint, what are the next steps?”. This provides valuable input for Sprint Planning.

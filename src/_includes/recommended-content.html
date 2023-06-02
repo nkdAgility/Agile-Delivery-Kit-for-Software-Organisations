@@ -9,7 +9,7 @@
     {% if foundDoc != null %}
     <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
       <div class="ms-2 me-auto">
-        <div class="fw-bold"><a href="{{ site.baseurl }}{{ foundDoc.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ foundDoc.title }}</a></div>
+        <div class="fw-bold"><a href="{{ site.baseurl }}{{ foundDoc.url }}" class="link-body-emphasis d-inline-flex text-decoration-none rounded">{{ foundDoc.title }}</a> ({{ foundDoc.pageType | capitalize }})</div>
         {{ foundDoc.description }}
       </div>
       
