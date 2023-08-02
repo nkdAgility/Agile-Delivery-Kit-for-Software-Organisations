@@ -25,9 +25,9 @@ recommendedVideos:
    embed: https://www.youtube.com/embed/sPmUuSy7G3I
 ---
 
-The purpose of [Sprint Planning](./../_guides/scrum-guide.md#sprint-planning) is to create a plan for the Sprint. The entire Scrum Team attends as well as anyone they deem necessary to help them. While there is a maximum of 8h for this event the greater the degree of understanding tha the Scrum Team has going in the shorter it will be. That is, if the Product Backlog is well understood, and the Product Goal is clear, then the Sprint Planning will be short. If the Product Backlog is not well understood, or the Product Goal is not clear, then the Sprint Planning will be longer.
+The purpose of [Sprint Planning](./../_guides/scrum-guide.md#sprint-planning) is to create a plan for the Sprint. The entire Scrum Team attends as well as anyone they deem necessary to help them. While there is a maximum of 8h for this event, the greater the degree of understanding that the Scrum Team has going in, the shorter it will be. That is, if the Product Backlog is well understood and the Product Goal is clear, then the Sprint Planning will be short. If the Product Backlog is not well understood or the Product Goal is not clear, then the Sprint Planning will be longer.
 
-I would expect a typical Sprint Planning to take from 30-120 minutes is there is clear undersatandng.
+I would expect a typical Sprint Planning to take from 30-120 minutes if there is a clear understanding.
 
 See [Professional Sprint Planning](../_practices/professional-sprint-planning-event.md) for a more detailed description of the practice.
 
