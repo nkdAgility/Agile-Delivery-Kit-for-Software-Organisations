@@ -4,13 +4,15 @@
 <h2>Recommended Videos</h2>
 <div class="row">
     {% for item in videos %}
+    {% assign youtubecode = item.embed | replace_regex: '^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(-nocookie)?\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|live\/|v\/)?)([\w\-]+)(\S+)?$', '\6' %}
     <div class="col-12 col-lg-6 col-xl-6 d-flex p-3">
         <div class="card">
+          
             <div class="card-img-top ratio ratio-16x9">
-                <iframe src="{{item.embed}}" title="{{item.title}}" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/{{youtubecode}}" title="{{item.title}}" allowfullscreen></iframe>
             </div>
             <div class="card-body">
-              <h5 class="card-title">{{item.title}}</h5>
+              <h5 class="card-title"><a href="https://youtu.be/{{youtubecode}}" target="_blank">{{item.title}}</a></h5>
             </div>
           </div>        
     </div>
