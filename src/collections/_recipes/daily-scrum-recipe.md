@@ -26,6 +26,8 @@ references:
    url: https://www.scrum.org/resources/what-is-a-daily-scrum
  - title: Avoid the Bug as Task anti-pattern in Azure DevOps
    url: https://nkdagility.com/blog/avoid-bug-task-anti-pattern-azure-devops
+ - title: Scrum with Azure DevOps
+   url: https://learn.microsoft.com/en-us/azure/devops/boards/sprints/best-practices-scrum
 
 ---
 
@@ -49,8 +51,6 @@ today? Are there any impediments in my way?—provide a structure, they shouldn'
 become a monotonous routine. Developers should not feel compelled to answer
 these questions robotically or feel the unnecessary pressure for everyone to
 speak. The focus should be on meaningful conversation and collaboration.
-
-### Beyond the Three Questions
 
 Rather than discussing every item, the team should concentrate on elements in
 the Sprint Backlog that require intervention or are at risk. By honing in on
@@ -104,6 +104,8 @@ most valuable conversations requires that we maintain transparency of the Sprint
 Backlog so that we can easily see what is going on. We can then visualise that
 data in ways that allow us to identify those interesting items.
 
+Any impediments that are identified should be captured and shared with the nessesary people.
+
 #### Facilitation Options
 
 You can use the following visualisations:
@@ -142,12 +144,9 @@ represent the most essential work to get to the Sprint Goal?
 
 We should leave the Daily Scrum with a plan for the next 24 hours!
 
+
 #### Facilitation Options
 
--   Create a Plan [10 min]
+- **Create a Plan** - This can be as simple as a discussion on what needs to happen.
 
-# Some Common Anti-patterns
 
-![image.png](/.attachments/image-61d227be-fe84-4577-860b-179b95e3a3d3.png)
-
-# Reference

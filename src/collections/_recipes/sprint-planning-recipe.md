@@ -57,6 +57,18 @@ Once the Scrum Team has a Sprint Backlog they should ask themselves **"Do they f
 
 _Although Scrum Masters can certainly facilitate the Sprint Planning, there is nothing holding others back from facilitating. Since Sprint Planning is particularly important for the Developers, as they will be doing the work, it makes sense for them to also play a role;_
 
+### Take more than the Sprint Goal into Account
+
+While the Sprint Goal is the primary focus of the Daily Scrum, it's not the only work that needs done within a Sprint. We want to maximise the focus of the team with the Sprint Goal, but we still need to make progress on:
+
+- Refigning upcomming work
+- Paying back technical debt
+- Improving the team's way of working
+- Fixing any bugs that are found from previous work
+- Any other work that the team needs to do to be effective
+
+Filling the Sprint with the Sprint Goal is a recipe for disaster. We need to ensure that we are leaving enough space for the team to do the other work that they need to do.
+
 ### Suggested Flow Steps
 
 ### Part 1: Product Owner Presents Product Vision, Product Goal, and possible Sprint Goals [~5 mins]
